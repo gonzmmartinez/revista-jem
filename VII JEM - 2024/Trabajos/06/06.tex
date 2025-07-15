@@ -1,0 +1,64 @@
+%-------------------------------------------------------------------------
+% INFORMACIÓN DEL ARTÍCULO
+\thispagestyle{portadapage}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{actividad}{0}
+\setcounter{actividad_previa}{0}
+\setcounter{actividad_entre}{0}
+\renewcommand{\articulotipo}{Comunicación breve}
+\renewcommand{\articulotitulo}{Ecuaciones diferenciales y GeoGebra: un viaje visual por la carga y descarga de un capacitor en un circuito RC}
+\phantomsection
+\stepcounter{section}
+\addcontentsline{toc}{section}{\protect\numberline{\thesection} \articulotitulo}
+\desctotoc{Chocobar, E. F.}
+
+\begin{center}
+	\setstretch{1.5}
+	{\Huge \scshape 
+		\articulotitulo
+	}
+\end{center}
+
+\noindent\rule{\linewidth}{2pt}
+
+\vspace{0.25cm}
+
+\begin{flushright}
+	{\Large \scshape
+		Ezequiel Francisco Chocobar
+	}\\
+	{\large \itshape
+		Facultad de Ciencias Exactas - Universidad Nacional de Salta
+	}\\
+	{\ttfamily \small
+		ezequiel.chocobar@exa.unsa.edu.ar
+	}\\
+\end{flushright}
+
+\vspace{0.5cm}
+
+\begin{center}
+	\begin{minipage}{0.75\linewidth} \small
+		\textsc{Resumen}. ~
+		Esta comunicación se basará en una aplicación de Ecuaciones Diferenciales aplicado a Circuitos Eléctricos. Para este caso será con el circuito R-C (Resistor - Capacitor) cuyo modelo es $R \cdot q' + (\nicefrac{1}{C}) \cdot q = E (t)$ (la entrada simbolizada como $E(t)$ que representará como varía la diferencia de potencial en función del tiempo). Si $E(t)$ distinto de 0 representa la carga de un capacitor $C$, si $E(t)$ es igual a 0 representará la descarga del capacitor. La solución de la EDO (Ecuación Diferencial Ordinaria) con condición inicial será $q(t)$ (será la carga en función del tiempo $t$) expresada en Coulombs. Se mostrará la resolución de la ecuación mediante el uso de GeoGebra con valores particulares $R = 200 \Omega$, $100 \mu\text{F}$, $E(t) = 20\text{V}$, y luego con la herramienta deslizador en GeoGebra se hará variar los parámetros $R$ y $C$ para visualizar cómo va cambiando la función de salida, y hacer algunas interpretaciones físicas de lo que sucederá, con respecto a la cantidad de carga, constante de tiempo, curvas y asíntotas, etc. También se aplicará la función derivada a la misma función $q(t)$ para obtener la intensidad de corriente eléctrica i(t) expresada en Ampere. Es una buena aplicación del software para utilizar en contexto de aprendizaje de Física General.
+	\end{minipage}
+\end{center}
+%-------------------------------------------------------------------------
+
+\subsection{Introducción}
+
+La propuesta tendrá una impronta tecnológica-didáctica. Debería estar incluida esta comunicación ya que el GeoGebra es uno de los software más utilizados en los cursos de Análisis Matemático, Física General, etc. Al trabajar ecuaciones diferenciales, es muy importante entender el método de resolución para poder utilizarlo pero también sería interesante que los alumnos puedan aprender en algún curso de ecuaciones diferenciales o de circuitos eléctricos, estas herramientas para poder modelizar de acuerdo a sus intereses y a sus conveniencias en el contacto con las funciones exponenciales que serán la salida de la ecuación diferencial. El circuito R-C (Resistor - Capacitor) cuyo modelo es $R \cdot q' + \nicefrac{1}{C} \cdot q = E(t)$ será tratada mediante ese software. 
+
+\subsection{Requisitos previos}
+
+Está destinado a docentes y estudiantes del nivel superior que trabajan en cursos de Análisis Matemático y Física General.
+
+\subsection{Desarrollo}
+
+Los temas que se tratarán en la comunicación serán la presentación de la modelización del circuito R-C mediante el uso de ecuaciones diferenciales de primer orden. Luego se ejemplificará con valores particulares $R = 200 \Omega$, $C = 100 \mu \text{F}$, $E(t) = 20 \text{V}$ para simular la carga de un capacitor $200 \cdot q' + \nicefrac{1}{10^{-4}} \cdot q = 20$ con condición inicial $q(0) = 0$ y luego $E(t) = 0\text{V}$ para la descarga del capacitor, $200 \cdot q' + \nicefrac{1}{10^{-4}} \cdot q = 0$ con condición inicial $q(0) = 0.002$. Eso se colocará en el software GeoGebra en la Vista Cálculo Simbólico (CAS): $\text{ResuelveEDO}[200y'+10000y=20,(0,0)]$. Cuya solución será: $y(t) = \nicefrac{1}{500} \cdot e^{-50t}$. Luego se colocará $\text{ResuelveEDO}[R*y'+\frac{1}{C}*y=20,(0,0)]$, se aplicará con la herramienta “deslizador” para $R$ y $C$, por ende se colocará un incremento de $100 \Omega$, con lo cual se aumentará o disminuirá la resistencia y también la del capacitor, y por último se hablará de la constante de tiempo $\tau = RC$. Se hará la interpretación física, de que si la constante de tiempo es relativamente grande es porque la resistencia es muy grande. El circuito cargará con más rapidez si se utiliza una resistencia más pequeña. Y también si a mayor capacitancia mayor carga tendrá el capacitor. Y si hay mayor resistencia habrá un retardo en la carga. 
+
+\subsection{Bibliografía}
+
+\nocite{*}
+\printbibliography[keyword={06}]

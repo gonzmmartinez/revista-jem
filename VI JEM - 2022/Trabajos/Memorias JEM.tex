@@ -1,0 +1,166 @@
+\documentclass[oneside,10pt]{article}
+\usepackage{pdfpages}
+\usepackage[spanish]{babel}
+\usepackage[a4paper]{geometry}
+\usepackage{lipsum}
+\usepackage{blindtext}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tcolorbox}
+\usepackage{multicol}
+
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+
+\usepackage{fancyhdr}
+
+%----------------------------------------------------------
+% Esto modifica el índice para que figuren los autores
+
+\newcommand{\desctotoc}[1]{%
+	\addtocontents{toc}{\hspace*{1em}\medskip\detokenize{\textit{#1}}\leavevmode\par\medskip\vspace{-1.5em}}
+}
+
+\makeatletter
+\let\latexl@section\l@section
+\def\l@section#1#2{\begingroup\let\numberline\@gobble\latexl@section{#1}{#2}\endgroup}
+\makeatother
+%----------------------------------------------------------
+
+%----------------------------------------------------------
+% Geometría
+
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2.5cm,rmargin=2.5cm}
+%----------------------------------------------------------
+
+\begin{document}
+	
+	%------------------------------------------------------------------------------------------------------------
+	% Toda la primer parte
+	\includepdf{Portada.pdf}
+	
+	\clearpage
+	
+	\thispagestyle{empty}
+	\input{Informacion.tex}
+	
+	\clearpage
+	
+	\thispagestyle{empty}
+	\input{Autoridades.tex}
+	
+	\clearpage
+	
+	\thispagestyle{empty}
+	\input{Equipo.tex}
+	
+	\clearpage
+	
+	\input{Prologo.tex}
+	
+	\clearpage
+	
+	\tableofcontents
+	
+	\clearpage
+	%------------------------------------------------------------------------------------------------------------
+	
+	%------------------------------------------------------------------------------------------------------------
+	% Talleres
+	\clearpage
+	\vspace*{\fill}
+	\begin{center}
+		\sffamily \scshape \bfseries \LARGE I
+		
+		\Huge Talleres
+	\end{center}
+	\vspace*{\fill}
+	\addcontentsline{toc}{part}{I \hspace*{1em} Talleres}
+	\clearpage
+	
+	\fancyhead[C]{\small \scshape Memorias de las VI JEM}
+	\fancyhead[R]{}
+	\fancyfoot[C]{\thepage}
+	
+	\includepdf[addtotoc={1,section,1,
+		{Ampliando Modelos de Geometría}, p1},pages={-},pagecommand={\thispagestyle{fancy}}]{Tall-01/Tall01.pdf}
+	\desctotoc{Ruiz, P. A., Sángari, A. N.}
+	
+	\clearpage
+	
+	\includepdf[addtotoc={1,section,1,
+		{Comprensión de algunas nociones básicas de  trigonometría enfatizando la  visualización y uso de registros semióticos de representación}, p2},pages={-},pagecommand={\thispagestyle{fancy}}]{Tall-02/Tall02.pdf}
+	\desctotoc{Alvarez, D.B., Chorolque, E. M., Villagra, C. E., Miguez, I. H.}
+		
+	\clearpage
+	
+	\includepdf[addtotoc={1,section,1,
+		{Funciones polinómicas y GeoGebra}, p3},pages={-},pagecommand={\thispagestyle{fancy}}]{Tall-03/Tall03.pdf}
+	\desctotoc{Paz, N. P., Fuentes, J. L., Solaliga, C. C., Fadon, M.}
+	
+	\clearpage
+	%------------------------------------------------------------------------------------------------------------
+	
+	%------------------------------------------------------------------------------------------------------------
+	% Comunicaciones breves
+	\clearpage
+	\vspace*{\fill}
+	\begin{center}
+		\sffamily \scshape \bfseries \LARGE II
+		
+		\Huge Comunicaciones breves
+	\end{center}
+	\vspace*{\fill}
+	\addcontentsline{toc}{part}{II \hspace*{1em} Comunicaciones breves}
+	\clearpage
+	
+	\includepdf[addtotoc={1,section,1,
+		{Tratamiento de conceptos matemáticos iluminados por tecnologías digitales en la formación de profesores en matemática}, p4},pages={-},pagecommand={\thispagestyle{fancy}}]{Com-01/Com01.pdf}
+	\desctotoc{Mántica, A. M., Götte, M.}
+	
+	\clearpage
+	
+	\includepdf[addtotoc={1,section,1,
+		{Una propuesta de enseñanza de temas relativos a test de hipótesis con el uso de dispositivos móviles}, p5},pages={-},pagecommand={\thispagestyle{fancy}}]{Com-02/Com02.pdf}
+	\desctotoc{Calandra, M. V., D'Urzo, P., Di Paolantonio, A., De Cortazar, C.}
+	
+	\clearpage
+	
+	\includepdf[addtotoc={1,section,1,
+		{Una propuesta de integrar procesos de generalización en Matemática Discreta}, p6},pages={-},pagecommand={\thispagestyle{fancy}}]{Com-03/Com03.pdf}
+	\desctotoc{Oliva, E., Diaz Ogas, M., Molina, A. L., Oliva, L.}
+	
+	\clearpage
+	
+	\includepdf[addtotoc={1,section,1,
+		{Análisis del debate de estudiantes de profesorado en matemática en el caso de poliedro regular}, p7},pages={-},pagecommand={\thispagestyle{fancy}}]{Com-04/Com04.pdf}
+	\desctotoc{Gottig, D. C., Mántica, A. M., Freyre, N.}
+	
+	\clearpage
+	
+	\includepdf[addtotoc={1,section,1,
+		{Implementación del modelo pedagógico flipped classroom o metodología del aula invertida}, p8},pages={-},pagecommand={\thispagestyle{fancy}}]{Com-05/Com05.pdf}
+	\desctotoc{Orazzi, P.}
+	
+	\clearpage
+	
+	\includepdf[addtotoc={1,section,1,
+		{Las Prácticas educativas en la construcción de un campo de identidad profesional en el Profesorado en Matemática}, p9},pages={-},pagecommand={\thispagestyle{fancy}}]{Com-06/Com06.pdf}
+	\desctotoc{Di Franco, N., Ferreyra, N. C.}
+		
+	\clearpage
+	
+	\includepdf[addtotoc={1,section,1,
+		{Identificación de herramientas de GeoGebra empleadas en construcciones de rectángulo}, p10},pages={-},pagecommand={\thispagestyle{fancy}}]{Com-07/Com07.pdf}
+	\desctotoc{Freyre, M., Götte, M., Mántica, A. M.}
+	
+	\clearpage
+	
+	\includepdf[addtotoc={1,section,1,
+		{Problemas con los Problemas}, p11},pages={-},pagecommand={\thispagestyle{fancy}}]{Com-08/Com08.pdf}
+	\desctotoc{Aliendro, E. S., Carmoona, A., Sánchez Arroyo, C.}
+	
+	\clearpage
+	%------------------------------------------------------------------------------------------------------------
+	
+	\includepdf{Contraportada.pdf}
+\end{document}

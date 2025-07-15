@@ -1,0 +1,14 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'Com08.blg'
+[162] biber-MSWIN32:340> INFO - === 
+[218] Biber.pm:418> INFO - Reading 'Com08.bcf'
+[395] Biber.pm:975> INFO - Using all citekeys in bib section 0
+[419] Biber.pm:4401> INFO - Processing section 0
+[438] Biber.pm:4592> INFO - Looking for bibtex file 'refs-com08.bib' for section 0
+[572] bibtex.pm:1713> INFO - LaTeX decoding ...
+[622] bibtex.pm:1518> INFO - Found BibTeX data source 'refs-com08.bib'
+[714] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[714] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[715] Biber.pm:4221> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'es-ES'
+[724] bbl.pm:654> INFO - Writing 'Com08.bbl' with encoding 'UTF-8'
+[729] bbl.pm:757> INFO - Output to Com08.bbl

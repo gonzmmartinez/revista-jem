@@ -1,0 +1,25 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {part}{I \hspace *{1em} Talleres}{7}{section*.2}%
+\contentsline {section}{\numberline {1}\ignorespaces {Ampliando Modelos de Geometría}}{8}{section.1}%
+\hspace *{1em}\vspace \medskipamount \textit {Ruiz, P. A., Sángari, A. N.}\unhbox \voidb@x \par \vspace \medskipamount \vspace {-1.5em}
+\contentsline {section}{\numberline {2}\ignorespaces {Comprensión de algunas nociones básicas de trigonometría enfatizando la visualización y uso de registros semióticos de representación}}{12}{section.2}%
+\hspace *{1em}\vspace \medskipamount \textit {Alvarez, D.B., Chorolque, E. M., Villagra, C. E., Miguez, I. H.}\unhbox \voidb@x \par \vspace \medskipamount \vspace {-1.5em}
+\contentsline {section}{\numberline {3}\ignorespaces {Funciones polinómicas y GeoGebra}}{16}{section.3}%
+\hspace *{1em}\vspace \medskipamount \textit {Paz, N. P., Fuentes, J. L., Solaliga, C. C., Fadon, M.}\unhbox \voidb@x \par \vspace \medskipamount \vspace {-1.5em}
+\contentsline {part}{II \hspace *{1em} Comunicaciones breves}{21}{section.3}%
+\contentsline {section}{\numberline {4}\ignorespaces {Tratamiento de conceptos matemáticos iluminados por tecnologías digitales en la formación de profesores en matemática}}{22}{section.4}%
+\hspace *{1em}\vspace \medskipamount \textit {Mántica, A. M., Götte, M.}\unhbox \voidb@x \par \vspace \medskipamount \vspace {-1.5em}
+\contentsline {section}{\numberline {5}\ignorespaces {Una propuesta de enseñanza de temas relativos a test de hipótesis con el uso de dispositivos móviles}}{25}{section.5}%
+\hspace *{1em}\vspace \medskipamount \textit {Calandra, M. V., D'Urzo, P., Di Paolantonio, A., De Cortazar, C.}\unhbox \voidb@x \par \vspace \medskipamount \vspace {-1.5em}
+\contentsline {section}{\numberline {6}\ignorespaces {Una propuesta de integrar procesos de generalización en Matemática Discreta}}{32}{section.6}%
+\hspace *{1em}\vspace \medskipamount \textit {Oliva, E., Diaz Ogas, M., Molina, A. L., Oliva, L.}\unhbox \voidb@x \par \vspace \medskipamount \vspace {-1.5em}
+\contentsline {section}{\numberline {7}\ignorespaces {Análisis del debate de estudiantes de profesorado en matemática en el caso de poliedro regular}}{38}{section.7}%
+\hspace *{1em}\vspace \medskipamount \textit {Gottig, D. C., Mántica, A. M., Freyre, N.}\unhbox \voidb@x \par \vspace \medskipamount \vspace {-1.5em}
+\contentsline {section}{\numberline {8}\ignorespaces {Implementación del modelo pedagógico flipped classroom o metodología del aula invertida}}{42}{section.8}%
+\hspace *{1em}\vspace \medskipamount \textit {Orazzi, P.}\unhbox \voidb@x \par \vspace \medskipamount \vspace {-1.5em}
+\contentsline {section}{\numberline {9}\ignorespaces {Las Prácticas educativas en la construcción de un campo de identidad profesional en el Profesorado en Matemática}}{47}{section.9}%
+\hspace *{1em}\vspace \medskipamount \textit {Di Franco, N., Ferreyra, N. C.}\unhbox \voidb@x \par \vspace \medskipamount \vspace {-1.5em}
+\contentsline {section}{\numberline {10}\ignorespaces {Identificación de herramientas de GeoGebra empleadas en construcciones de rectángulo}}{54}{section.10}%
+\hspace *{1em}\vspace \medskipamount \textit {Freyre, M., Götte, M., Mántica, A. M.}\unhbox \voidb@x \par \vspace \medskipamount \vspace {-1.5em}
+\contentsline {section}{\numberline {11}\ignorespaces {Problemas con los Problemas}}{57}{section.11}%
+\hspace *{1em}\vspace \medskipamount \textit {Aliendro, E. S., Carmoona, A., Sánchez Arroyo, C.}\unhbox \voidb@x \par \vspace \medskipamount \vspace {-1.5em}

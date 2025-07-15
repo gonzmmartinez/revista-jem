@@ -1,0 +1,195 @@
+\documentclass[oneside,spanish]{amsart}
+\usepackage[T1]{fontenc} % Tipo de fuente
+\usepackage[utf8]{inputenc} % Archivo UTF-8
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=3cm,rmargin=2.5cm} % Tamaño
+\usepackage{amsthm} 
+%\usepackage{amsaddr} % Para modificar la posición de address
+\usepackage[spanish]{babel} % Idioma español
+\usepackage[backend=biber,style=alphabetic,natbib,maxalphanames=1]{biblatex} % Compilar bibliografía con BibLaTeX (no BibTeX)
+\usepackage[shortlabels]{enumitem} % Mejora el entorno enumerate
+\usepackage{graphicx} % Colocar imágenes
+\usepackage[hidelinks]{hyperref} % Vínculos y referencias interactivas
+\usepackage[skip=3pt]{caption} % Permite modificar el espacio entre el caption y la imagen
+\usepackage{multicol} % Entornos de múltiples columnas
+
+%-------------------------------------------------------------------------
+% Configuraciones iniciales
+\makeatletter
+%Numeración
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\newlength{\lyxlabelwidth}      % Longitud auxiliar
+\makeatother
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Bibliografía
+\defbibheading{bibliography}[\refname]{}
+\addbibresource{refs-com08.bib}
+
+\renewcommand*{\labelalphaothers}{}
+
+\DeclareLabelalphaTemplate{
+	\labelelement{
+		\field[final]{shorthand}
+		\field{labelname}
+		\field{label}
+	}
+	\labelelement{
+		\literal{,\addhighpenspace}
+	}
+	\labelelement{
+		\field{year}
+	}
+}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Otras configuraciones
+%\pagestyle{plain} % Para que el encabezado esté vacío
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\figurename}{Figura}}
+
+\theoremstyle{definition}
+\newtheorem{problema}{\normalfont PROBLEMA}
+%-------------------------------------------------------------------------
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\scriptsize\MakeUppercase\shorttitle}
+
+%-------------------------------------------------------------------------
+
+% Y acá comienza el documento
+
+\begin{document}
+	
+%-------------------------------------------------------------------------
+% Datos del artículo
+\title{Problemas con los Problemas\vspace{-2ex}}
+\author[1]{Estela Sonia Aliendro\textsuperscript{1}}
+\author[2]{Abel Carmoona\textsuperscript{2}}
+\author[3]{Ceferina Sánchez Arroyo}
+\address[2]{Universidad Nacional de Salta}
+\email[corresponding author]{\textsuperscript{1}estelasoniaaliendro@gmail.com}
+%-------------------------------------------------------------------------
+
+\begin{abstract}
+	La presentación que realizamos en esta ocasión es una reflexión de la que derivamos --a modo de ejemplo-- una pequeña propuesta para la enseñanza y el aprendizaje de la Matemática en la escuela primaria. Dicha reflexión se origina en reiteradas  experiencias de consultoría que nos vinculan directamente con las prácticas docentes usadas en muchas de las instituciones responsables de la primera enseñanza.
+	  
+	Hemos podido advertir que, a pesar de la bibliografía didáctica actualizada para docentes, las recomendaciones metodológicas emanadas de las autoridades educativas y las capacitaciones para la enseñanza y el aprendizaje de la Matemática por medio de la resolución de problemas, no se ha logrado modificar --en la mayoría de las aulas-- la práctica docente tradicional. Las causas son diversas porque el modelo tradicional es el que el docente ha experimentado en su época de aprendiz y trata de imitar a sus propios enseñantes y porque la resolución de problemas (como disparadores de la construcción del conocimiento matemático) toma mucho tiempo. También se confunde a menudo, el término problema con  una formulación que no es otra cosa que un ejercicio con enunciado. 
+\end{abstract}
+
+\maketitle
+\thispagestyle{empty}
+
+\section{Introducción}
+
+Desde que la humanidad descubrió su potencialidad para coadyuvar al desarrollo científico y tecnológico de la civilización, la enseñanza y el aprendizaje de la Matemática en la educación sistematizada ha estado presente en la historia de la educación. Y ello no es algo de los últimos siglos sino que ya en la vieja Babilonia esta presencia ha quedado registrada en algunas tablillas que muestran series de ejercicios destinados a los aprendices de escribas. A partir de allí, los diferentes registros históricos evidencian a la ejercitación en las distintas ramas de la disciplina como medio de aprendizaje. Y en los manuales y textos actuales también la encontramos.
+
+En contraposición observamos que como ciencia, la Matemática -–al igual que cualquier otra disciplina-- ha seguido desde sus inicios, una evolución nunca detenida. Los diferentes documentos históricos así lo demuestran. 
+
+¿Es que la didáctica de la matemática no ha evolucionado? Por supuesto que sí y muchas disciplinas en relación con las teorías de aprendizaje, del desarrollo de la psiquis humana y la historia de la educación, han permitido significativos avances en la didáctica de la matemática,especialmente en las últimas décadas. Incluso esta evolución ha generado una importante  influencia en las didácticas de otras disciplinas. El constructivismo y el cognitivismo han impulsado la resolución de problemas como metodología adecuada para la enseñanza y aprendizaje de la Matemática. No se trata sólo de una propuesta de los didactas sino que los lineamientos de la bibliografía destinada a docentes y estudiantes y las recomendaciones que aparecen en las bases curriculares ministeriales, la recomiendan específicamente. También la encontramos en los proyectos áulicos que elaboran los docentes.
+
+Pero la situación de la enseñanza y el aprendizaje en nuestro medio no parece haber evolucionado sino más bien percibimos una manifiesta involución. Nuestra reflexión, en esta oportunidad, nos ha llevado a considerar que existen problemas con los problemas.
+
+\section{Requisitos previos}
+
+La comunicación está dirigida a todos los asistentes que tengan interés en el tema.
+
+\section{Desarrollo}
+
+En primer lugar recurrimos al Diccionario de la Real Academia Española para leer el significado de la palabra \textit{problema}. Y hemos encontrado distintas acepciones, entre ellas la que nos dice que se trata del “planteamiento de una situación cuya respuesta desconocida debe obtenerse a través de métodos científicos” que se aproxima adecuadamente al contexto en que trabajamos. Esto es, la enseñanza de la matemática a través de la resolución de problemas.
+
+La palabra \textit{problema} como tantas otras de la lengua (que se considera viva) ha evolucionado. Lo ha hecho en la sociedad y particularmente, para el tema de nuestro interés, lo generaron los grandes teóricos de la didáctica de la matemática.  Con sólo, considerar la definición de Regine Douady, sabemos que en la clase de matemática un problema se caracteriza por reunir varias condiciones:
+\begin{enumerate}[a)]
+	\item El enunciado \underline{\textit{tiene sentido}} en el campo de conocimientos del alumno. 
+	\item El alumno debe \underline{\textit{poder considerar lo que puede ser una respuesta}} al problema. 
+	\item Teniendo en cuenta sus conocimientos, el alumno puede emprender un procedimiento. Pero \underline{\textit{la respuesta no es evidente}}.\label{itemc}
+	\item \underline{\textit{El problema es rico}}. Lo que significa que la red de los conceptos implicados es bastante importante, pero no demasiado para que el alumno pueda administrar su complejidad.\label{itemd}
+	\item \underline{\textit{El problema está abierto}} por la diversidad de preguntas que el alumno puede plantear o por la variedad de estrategias que puede poner en marcha y por la incertidumbre que se desprende con respecto al alumno.\label{iteme}
+\end{enumerate}
+
+Las condiciones \ref{itemc}, \ref{itemd}, \ref{iteme}, \underline{\textit{eliminan un recorte del problema en preguntas demasiado pequeñas}}.
+
+\begin{enumerate}[a),resume]
+	\item \underline{\textit{El problema puede formularse, por lo menos, en dos marcos diferentes}}.
+	\item El conocimiento buscado por el aprendizaje es el medio científico de responder eficazmente al problema. \underline{\textit{Es un instrumento adaptado}}.
+\end{enumerate}
+
+Nuestros docentes han asistido a numerosas capacitaciones en las que los conceptos involucrados en la caracterización precedente han sido trabajados. Y la pregunta es si al interior de la clase de matemática la noción de problema ha manifestado la evolución según la teoría didáctica de la matemática. Estamos convencidos de que -en general- no ha sido así. ¿Cómo lo sabemos? Simple y sencillamente por las numerosas consultas que recibimos de los estudiantes y sus progenitores o tutores. Y también por nuestra experiencia como formadores de profesores para la enseñanza primaria en particular. Como bien sabemos, los futuros profesores deben hacer una residencia en la cual deben dar clases y muchos de los profesores a cargo de las aulas han resistido la aplicación de metodologías innovadoras, en particular la de construcción de conocimientos matemáticos por medio la resolución de problemas. Se aferran a los métodos tradicionales. 
+
+Además percibimos que en las aulas la expresión \textit{problema} tiene el mismo significado que hemos vivenciado en nuestras épocas escolares. En nuestro tránsito escolar nos enseñaban conceptos y sus propiedades, los que eran enunciados y ejemplificados por nuestros enseñantes. Luego nos proponían ejercicios y problemas de aplicación de esos conceptos y propiedades, para fijar los procedimientos adecuados. Dichos problemas no involucraban las características antes descriptas sino sólo pedían utilizar adecuadamente los datos numéricos para usar los algoritmos y lograr un resultado que era la solución del problema. O sea que no era un problema sino un ejercicio más solamente que con un enunciado. 
+
+En las teorías didácticas actuales se supone que la solución al problema (que el aprendiz encuentra por su propia búsqueda de estrategias adecuadas) es el conocimiento que se pretende enseñar.
+
+¿Por qué nuestros enseñantes no aplican la estrategia didáctica de construcción del conocimiento por medio de la resolución de problemas? Hay muchas respuestas. Pero destacamos las siguientes.
+
+\begin{itemize}
+	\item En primer lugar, porque no han experimentado el aprendizaje de la matemática de manera constructivista.
+	
+	\item En segundo lugar, porque repiten las prácticas áulicas de sus propios docentes.
+	
+	\item En tercer lugar, porque lleva demasiado tiempo en la clase. Y esto nos recuerda que socialmente se reconoce como estudiante destacado de matemática al que es capaz de calcular con rapidez. La habilidad de calcular con eficiencia no es, actualmente, una habilidad matemática importante porque la evolución tecnológica nos ha liberado de la responsabilidad de convertirnos en calculadores eficientes. La sociedad requiere en nuestros tiempos, resolvedores eficientes de problemas.
+\end{itemize}
+
+¿Cómo lograr que las situaciones problemáticas lleguen a las aulas para superar la mera ejercitación? Tal vez lo mejor sea reemplazar la palabra problema por la expresión desafío, de modo que el estudiante encuentre una respuesta sin tener una “receta previa”.
+
+A continuación proponemos ejemplos, con contenidos de aritmética y de geometría.
+
+\subsection{Ejemplo de desafío en aritmética: factores y múltiplos}
+
+Para poder distinguirlo de la enseñanza tradicional, recordemos que en ella el docente define y ejemplifica los conceptos de factor (o divisor) y de múltiplo de un número. Los problemas que se proponen son al estilo de los siguientes:
+\begin{enumerate}[a)]
+	\item ¿Cuáles son los factores de 72?
+	\item Mi hermano dice que 8 es un divisor común de 24 y 36? ¿Es verdad?
+	\item ¿Entre cuantas personas se pueden repartir 84 caramelos?
+\end{enumerate}
+
+\paragraph{\bfseries Desafío}
+
+No se cita ningún tema que ponga en evidencia que el enseñante se propone dar una clase de matemática. Sólo se requiere que los estudiantes sepan sumar, restar, multiplicar y dividir. El material adecuado podría ser una bolsa que contiene bolillas numeradas (como las de la lotería) o simplemente papelitos con los números del 1 al 90.
+
+Cada aprendiz extrae de la bolsa una bolilla numerada. El número indica la cantidad de piedritas o porotos o maíces con los cuales debe armar grupos que tengan la misma cantidad de elementos. Habrá dos tipos de ganadores: uno, el que pueda generar la mayor cantidad de diferentes agrupaciones; el otro, el que solamente pueda generar dos agrupaciones. 
+
+De hecho, después de experimentar y realizar cálculos (algunos que sirvan y otros que no) cada estudiante obtendrá respuestas diferentes. Todas serán discutibles y defendibles. Cada uno de los resultados logrados son los divisores o factores del número extraído de la bolsa y que recién el enseñante nombrará como tales. Y también podrá decir que el número extraído de la bolsa es múltiplo de los factores correspondientes. Respecto de los otros posibles ganadores (los que solamente pudieron encontrar dos tipos de agrupaciones) los resultados obtenidos corresponden a los números primos, los que serán definidos recién en este momento.
+
+\subsection{Ejemplo de desafío geométrico}
+
+\paragraph{\bfseries Geometría con cuadriláteros}
+
+Tradicionalmente este tema comienza con la definición de cuadrilátero (siempre convexo) y sus elementos. Luego se trabaja con la clasificación (paralelogramos y no paralelogramos, con sus distintos tipos) y las correspondientes propiedades de los elementos de cada tipo. Todo esto para ser memorizado. La ejercitación se vincula generalmente con las construcciones. Y los ejercicios propuestos son del estilo:
+\begin{enumerate}[a)]
+	\item ¿Cuáles son las propiedades del rectángulo, del rombo, del cuadrado, …?
+	\item Construir un cuadrado con útiles de geometría a partir del lado o de una diagonal.
+\end{enumerate}
+
+\paragraph{\bfseries Desafío}
+
+Supuesto que los estudiantes conozcan la clasificación y elementos de los cuadriláteros, se puede pensar en el siguiente desafío para descubrir propiedades de las diagonales. No conocen las propiedades de ángulos interiores ni de diagonales. 
+
+Dividir la clase en grupos  y entregar a cada grupo dos varillas o tiras que corresponderán a las diagonales de un cuadrilátero. Para algunos grupos esas varillas o tiras tendrán diferentes medidas y para los restantes, la medida será la misma. El desafío será preguntar sobre cómo se deben acomodar dichas varillas para que correspondan a las diagonales de cada tipo de cuadrilátero. Descubrirán que con diagonales del mismo tamaño no es posible generar, por ejemplo romboides. Sí será posible obtener rectángulos o trapecios, entre otros. Y enunciarán las condiciones necesarias para cada caso. Lo mismo ocurrirá con varillas de distinto tamaño: habrá soluciones posibles para algunos cuadriláteros, como el rombo pero no para el cuadrado. También lograrán describir las condiciones para obtener cada figura. Esta descripción permitirá al docente formalizar las propiedades de cada tipo de cuadrilátero
+
+Se puede ir más allá: preguntar si existe algún tipo de cuadrilátero en el cual las diagonales no se corten mutuamente y cómo sería una representación del mismo.
+
+\subsection{Ejemplo de desafío con fracciones}
+
+En la enseñanza tradicional, un cuadrado se divide, ya sea por sus bases medias o por sus diagonales en partes iguales. Ellas generan subdivisiones cuyas cantidades corresponden a fracciones cuyos denominadores son las potencias de dos. 
+
+\paragraph{\bfseries Desafío}
+
+Encontrar subdivisiones de un cuadrado que también sean cuadrados (o cuadrados y rectángulos, o cuadrados, rectángulos y triángulos, pero que no todos iguales). También las fracciones correspondientes a cada subdivisión tienen como denominador una potencia de dos pero puede haber varias diferentes. Ello permite dar un primer paso para la comparación de fracciones y sus equivalencias.
+
+\section{Conclusiones}
+
+Según hemos podido observar, a pesar de la bibliografía didáctica para docentes, las recomendaciones metodológicas y las capacitaciones, la enseñanza y el aprendizaje de la Matemática por medio de la resolución de problemas no se ha logrado implementar en la mayoría de las aulas. Sus causas son diversas porque se sigue aplicando el modelo tradicional que es el que el docente ha experimentado en su época de aprendiz, porque se copia ese modelo que usaron los enseñantes de los actuales profesores y porque se confunde a menudo, el término problema con la expresión ejercicio con enunciado. Por ello proponemos favorecer al cambio de las prácticas docentes por un modelo que centre la enseñanza y el aprendizaje de la Matemática en la propuesta de desafíos que convoquen al estudiante a desentrañarlos.
+
+\section{Bibliografía}
+
+\nocite{*}
+\printbibliography
+
+\end{document}

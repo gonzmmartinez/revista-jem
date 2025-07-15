@@ -1,0 +1,1291 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/apasortcite//global/global}
+    \entry{margaris1968}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f175c3b99be53e0734d44a87dfc41388}{%
+           family={Margaris},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Dover Publications}%
+      }
+      \strng{namehash}{f175c3b99be53e0734d44a87dfc41388}
+      \strng{fullhash}{f175c3b99be53e0734d44a87dfc41388}
+      \strng{bibnamehash}{f175c3b99be53e0734d44a87dfc41388}
+      \strng{authorbibnamehash}{f175c3b99be53e0734d44a87dfc41388}
+      \strng{authornamehash}{f175c3b99be53e0734d44a87dfc41388}
+      \strng{authorfullhash}{f175c3b99be53e0734d44a87dfc41388}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{First Order Mathematical Logic}
+      \field{year}{1968}
+      \keyw{01}
+    \endentry
+    \entry{polya1945}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e9a767ed110b365a759ff07b80d7c153}{%
+           family={Polya},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{fullhash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{bibnamehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{authorbibnamehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{authornamehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{authorfullhash}{e9a767ed110b365a759ff07b80d7c153}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Solve It: A New Aspect of Mathematical Method}
+      \field{year}{1945}
+      \keyw{01}
+    \endentry
+    \entry{larson1983}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71d23f6d47ed10f3d36da0fad3c256f6}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={L.\bibnamedelimi C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \strng{fullhash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \strng{bibnamehash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \strng{authorbibnamehash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \strng{authornamehash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \strng{authorfullhash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Problem-Solving Through Problems}
+      \field{year}{1983}
+      \keyw{01}
+    \endentry
+    \entry{araujo2020a}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5adcc4f27502fdcfbd0c1c69215ebc60}{%
+           family={Araujo},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ade778d653b606b03e84af4e923ef82a}{%
+           family={Keilhauer},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d543b3f75d16b7e8d62745d6f08bd1f0}{%
+           family={Pietrocola},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Red Olímpica}%
+      }
+      \strng{namehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{fullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{bibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authorbibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authornamehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{authorfullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Orientaciones en la Geometría Elemental Tomo I}
+      \field{year}{2020}
+      \keyw{01}
+    \endentry
+    \entry{araujo2020b}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5adcc4f27502fdcfbd0c1c69215ebc60}{%
+           family={Araujo},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ade778d653b606b03e84af4e923ef82a}{%
+           family={Keilhauer},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d543b3f75d16b7e8d62745d6f08bd1f0}{%
+           family={Pietrocola},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Red Olímpica}%
+      }
+      \strng{namehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{fullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{bibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authorbibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authornamehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{authorfullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Orientaciones en la Geometría Elemental Tomo II}
+      \field{year}{2020}
+      \keyw{01}
+    \endentry
+    \entry{araujo2020c}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5adcc4f27502fdcfbd0c1c69215ebc60}{%
+           family={Araujo},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ade778d653b606b03e84af4e923ef82a}{%
+           family={Keilhauer},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d543b3f75d16b7e8d62745d6f08bd1f0}{%
+           family={Pietrocola},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Red Olímpica}%
+      }
+      \strng{namehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{fullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{bibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authorbibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authornamehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{authorfullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Orientaciones en la Geometría Elemental, Tomo I y II}
+      \field{year}{2020}
+      \keyw{01}
+    \endentry
+    \entry{fauring2000}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cf3c7ff5db76718d167c864d22489203}{%
+           family={Fauring},
+           familyi={F\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7ba51d754d6543a9a3cf4e67974d3e6}{%
+           family={Gutiérrez},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5194e139b8bf5d1c1bc31a98fdc913d9}{%
+           family={Pedraza},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Red Olímpica}%
+      }
+      \strng{namehash}{f082967df13bb702c6da297b68d5b6d4}
+      \strng{fullhash}{41eca70b9a7460ad7ab0226bf52b2ab7}
+      \strng{bibnamehash}{41eca70b9a7460ad7ab0226bf52b2ab7}
+      \strng{authorbibnamehash}{41eca70b9a7460ad7ab0226bf52b2ab7}
+      \strng{authornamehash}{f082967df13bb702c6da297b68d5b6d4}
+      \strng{authorfullhash}{41eca70b9a7460ad7ab0226bf52b2ab7}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Olimpiadas Internacionales de Matemática, Problemas de Entrenamiento, Red Olímpica 2000}
+      \field{year}{2000}
+      \keyw{01}
+    \endentry
+    \entry{fauring2023}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cf3c7ff5db76718d167c864d22489203}{%
+           family={Fauring},
+           familyi={F\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7ba51d754d6543a9a3cf4e67974d3e6}{%
+           family={Gutiérrez},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e72f65528ff3ee137272584b2bf85ca0}{%
+           family={Saucedo},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Red Olímpica}%
+      }
+      \strng{namehash}{f082967df13bb702c6da297b68d5b6d4}
+      \strng{fullhash}{55a2cb9ea0995d398b68154fe22d8e1a}
+      \strng{bibnamehash}{55a2cb9ea0995d398b68154fe22d8e1a}
+      \strng{authorbibnamehash}{55a2cb9ea0995d398b68154fe22d8e1a}
+      \strng{authornamehash}{f082967df13bb702c6da297b68d5b6d4}
+      \strng{authorfullhash}{55a2cb9ea0995d398b68154fe22d8e1a}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Problemas 31 OMA}
+      \field{year}{2023}
+      \keyw{01}
+    \endentry
+    \entry{aristizabal2016}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b1e8196940785f5d9fe3e601134e5d4}{%
+           family={Aristizabal},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \strng{fullhash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \strng{bibnamehash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \strng{authorbibnamehash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \strng{authornamehash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \strng{authorfullhash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Rev. Gestión de la Educación}
+      \field{number}{2}
+      \field{title}{Analítica de datos de aprendizaje (ADA) y gestión educativa}
+      \field{volume}{6}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{149\bibrangedash 168}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://doi.org/10.15517/rge.v1i2.25499
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.15517/rge.v1i2.25499
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{barragan2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=101d85f96e00f03403c71ab0665a9f02}{%
+           family={Barragán\bibnamedelima Pazmiño},
+           familyi={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=078af3f5db14ec3c23d97c3ec7422ecd}{%
+           family={Pazmiño\bibnamedelima Maji},
+           familyi={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cac1668f6212246f405980c5290fc783}
+      \strng{fullhash}{cac1668f6212246f405980c5290fc783}
+      \strng{bibnamehash}{cac1668f6212246f405980c5290fc783}
+      \strng{authorbibnamehash}{cac1668f6212246f405980c5290fc783}
+      \strng{authornamehash}{cac1668f6212246f405980c5290fc783}
+      \strng{authorfullhash}{cac1668f6212246f405980c5290fc783}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ciencia Digital}
+      \field{number}{4.1}
+      \field{title}{Literatura científica sobre análisis estadístico implicativo: un mapeo sistemático de la década que transcurre}
+      \field{volume}{2}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{55\bibrangedash 69}
+      \range{pages}{15}
+      \verb{urlraw}
+      \verb https://doi.org/10.33262/cienciadigital.v2i4.1..190
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.33262/cienciadigital.v2i4.1..190
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{carranza2024}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=097eef4ca8d52d32cbd6ce323cb86d45}{%
+           family={Carranza},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbb2d6d7a78026512472ed0c5a96710f}{%
+           family={Vasches},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=004dfded38285212ba5ee6dd9506ddd7}{%
+           family={Gamoneda},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f40210399b3634560d6eb64a55162a2}{%
+           family={Cardieri},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c22cc3ffb8053c416935b14f323e54e2}{%
+           family={Benzaquén},
+           familyi={B\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5ed99af1ee10299aa2bca8615c99e1f}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d00e019bb8113b226739db5bf8da24ff}
+      \strng{fullhash}{1abb236e9855c35947c806c95ac7885c}
+      \strng{bibnamehash}{1abb236e9855c35947c806c95ac7885c}
+      \strng{authorbibnamehash}{1abb236e9855c35947c806c95ac7885c}
+      \strng{authornamehash}{d00e019bb8113b226739db5bf8da24ff}
+      \strng{authorfullhash}{1abb236e9855c35947c806c95ac7885c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Estudio sobre violencia en relaciones sexoafectivas de jóvenes de la provincia de Neuquén, Argentina mediante A.S.I.}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://rid.unrn.edu.ar/handle/20.500.12049/8919
+      \endverb
+      \verb{url}
+      \verb http://rid.unrn.edu.ar/handle/20.500.12049/8919
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{carranza2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=097eef4ca8d52d32cbd6ce323cb86d45}{%
+           family={Carranza},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \strng{fullhash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \strng{bibnamehash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \strng{authorbibnamehash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \strng{authornamehash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \strng{authorfullhash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educ. Matem. Pesq., São Paulo}
+      \field{note}{Especial ASI}
+      \field{number}{3}
+      \field{title}{Presencia de interpretaciones bayesiana y frecuentista de la probabilidad en libros de estudio en Francia}
+      \field{volume}{16}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{1071\bibrangedash 1087}
+      \range{pages}{17}
+      \keyw{02}
+    \endentry
+    \entry{fajardo2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b67c8832de1af03c6e88933a4729b351}{%
+           family={Fajardo\bibnamedelima Ibarra},
+           familyi={F\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b6d8fe168abdb88ee258ce25ae8294b}{%
+           family={González\bibnamedelima Zúñiga},
+           familyi={G\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6496aae6f106f5720c420dffacb06669}
+      \strng{fullhash}{6496aae6f106f5720c420dffacb06669}
+      \strng{bibnamehash}{6496aae6f106f5720c420dffacb06669}
+      \strng{authorbibnamehash}{6496aae6f106f5720c420dffacb06669}
+      \strng{authornamehash}{6496aae6f106f5720c420dffacb06669}
+      \strng{authorfullhash}{6496aae6f106f5720c420dffacb06669}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Innovación Educativa}
+      \field{number}{74}
+      \field{title}{El impacto de los videojuegos en la inteligencia: Una revisión de la literatura}
+      \field{volume}{17}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{131\bibrangedash 149}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb https://doi.org/10.22458/ie.v17i74.25499
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.22458/ie.v17i74.25499
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{gamez2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=799b82c0976415f6ec1fa394c79f5d4d}{%
+           family={Gámez\bibnamedelima Jara},
+           familyi={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f785a32bfaeffd4ff9321e8125099374}{%
+           family={Rodríguez\bibnamedelima Martínez},
+           familyi={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \strng{fullhash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \strng{bibnamehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \strng{authorbibnamehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \strng{authornamehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \strng{authorfullhash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Latinoamericana de Tecnología Educativa}
+      \field{number}{2}
+      \field{title}{La influencia de la tecnología en el rendimiento académico de los estudiantes de secundaria}
+      \field{volume}{15}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{30\bibrangedash 50}
+      \range{pages}{21}
+      \verb{urlraw}
+      \verb https://doi.org/10.22458/rte.v15i2.25499
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.22458/rte.v15i2.25499
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{morduchowicz2006}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=744bb210cd127b83b5dbfd9b36bb060f}{%
+           family={Morduchowicz},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \strng{fullhash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \strng{bibnamehash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \strng{authorbibnamehash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \strng{authornamehash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \strng{authorfullhash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Los indicadores educativos y las dimensiones que los integran}
+      \field{year}{2006}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://biblioteca.udgvirtual.udg.mx/jspui/handle/123456789/198
+      \endverb
+      \verb{url}
+      \verb http://biblioteca.udgvirtual.udg.mx/jspui/handle/123456789/198
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{unesco2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22cf95cca2d5609836bd913ea4f7f83c}{%
+           family={{UNESCO IIEP Learning Portal}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IIEP Learning Portal}%
+      }
+      \strng{namehash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \strng{fullhash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \strng{bibnamehash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \strng{authorbibnamehash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \strng{authornamehash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \strng{authorfullhash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Usar datos para mejorar la calidad}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://learningportal.iiep.unesco.org/es/fichas-praticas/monitorear-el-aprendizaje/usar-datos-para-mejorar-la-calidad
+      \endverb
+      \verb{url}
+      \verb https://learningportal.iiep.unesco.org/es/fichas-praticas/monitorear-el-aprendizaje/usar-datos-para-mejorar-la-calidad
+      \endverb
+      \keyw{02}
+    \endentry
+  \enddatalist
+  \datalist[entry]{none/global//global/global}
+    \entry{margaris1968}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f175c3b99be53e0734d44a87dfc41388}{%
+           family={Margaris},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Dover Publications}%
+      }
+      \strng{namehash}{f175c3b99be53e0734d44a87dfc41388}
+      \strng{fullhash}{f175c3b99be53e0734d44a87dfc41388}
+      \strng{bibnamehash}{f175c3b99be53e0734d44a87dfc41388}
+      \strng{authorbibnamehash}{f175c3b99be53e0734d44a87dfc41388}
+      \strng{authornamehash}{f175c3b99be53e0734d44a87dfc41388}
+      \strng{authorfullhash}{f175c3b99be53e0734d44a87dfc41388}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{First Order Mathematical Logic}
+      \field{year}{1968}
+      \keyw{01}
+    \endentry
+    \entry{polya1945}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e9a767ed110b365a759ff07b80d7c153}{%
+           family={Polya},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{fullhash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{bibnamehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{authorbibnamehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{authornamehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{authorfullhash}{e9a767ed110b365a759ff07b80d7c153}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Solve It: A New Aspect of Mathematical Method}
+      \field{year}{1945}
+      \keyw{01}
+    \endentry
+    \entry{larson1983}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71d23f6d47ed10f3d36da0fad3c256f6}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={L.\bibnamedelimi C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \strng{fullhash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \strng{bibnamehash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \strng{authorbibnamehash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \strng{authornamehash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \strng{authorfullhash}{71d23f6d47ed10f3d36da0fad3c256f6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Problem-Solving Through Problems}
+      \field{year}{1983}
+      \keyw{01}
+    \endentry
+    \entry{araujo2020a}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5adcc4f27502fdcfbd0c1c69215ebc60}{%
+           family={Araujo},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ade778d653b606b03e84af4e923ef82a}{%
+           family={Keilhauer},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d543b3f75d16b7e8d62745d6f08bd1f0}{%
+           family={Pietrocola},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Red Olímpica}%
+      }
+      \strng{namehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{fullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{bibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authorbibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authornamehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{authorfullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Orientaciones en la Geometría Elemental Tomo I}
+      \field{year}{2020}
+      \keyw{01}
+    \endentry
+    \entry{araujo2020b}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5adcc4f27502fdcfbd0c1c69215ebc60}{%
+           family={Araujo},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ade778d653b606b03e84af4e923ef82a}{%
+           family={Keilhauer},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d543b3f75d16b7e8d62745d6f08bd1f0}{%
+           family={Pietrocola},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Red Olímpica}%
+      }
+      \strng{namehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{fullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{bibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authorbibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authornamehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{authorfullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Orientaciones en la Geometría Elemental Tomo II}
+      \field{year}{2020}
+      \keyw{01}
+    \endentry
+    \entry{araujo2020c}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5adcc4f27502fdcfbd0c1c69215ebc60}{%
+           family={Araujo},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ade778d653b606b03e84af4e923ef82a}{%
+           family={Keilhauer},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d543b3f75d16b7e8d62745d6f08bd1f0}{%
+           family={Pietrocola},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Red Olímpica}%
+      }
+      \strng{namehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{fullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{bibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authorbibnamehash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \strng{authornamehash}{482a47b31a15980f3cb56c330becbfce}
+      \strng{authorfullhash}{b81f4f4f930d9bba1fe61ba7bf825cb0}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Orientaciones en la Geometría Elemental, Tomo I y II}
+      \field{year}{2020}
+      \keyw{01}
+    \endentry
+    \entry{fauring2000}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cf3c7ff5db76718d167c864d22489203}{%
+           family={Fauring},
+           familyi={F\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7ba51d754d6543a9a3cf4e67974d3e6}{%
+           family={Gutiérrez},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5194e139b8bf5d1c1bc31a98fdc913d9}{%
+           family={Pedraza},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Red Olímpica}%
+      }
+      \strng{namehash}{f082967df13bb702c6da297b68d5b6d4}
+      \strng{fullhash}{41eca70b9a7460ad7ab0226bf52b2ab7}
+      \strng{bibnamehash}{41eca70b9a7460ad7ab0226bf52b2ab7}
+      \strng{authorbibnamehash}{41eca70b9a7460ad7ab0226bf52b2ab7}
+      \strng{authornamehash}{f082967df13bb702c6da297b68d5b6d4}
+      \strng{authorfullhash}{41eca70b9a7460ad7ab0226bf52b2ab7}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Olimpiadas Internacionales de Matemática, Problemas de Entrenamiento, Red Olímpica 2000}
+      \field{year}{2000}
+      \keyw{01}
+    \endentry
+    \entry{fauring2023}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cf3c7ff5db76718d167c864d22489203}{%
+           family={Fauring},
+           familyi={F\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7ba51d754d6543a9a3cf4e67974d3e6}{%
+           family={Gutiérrez},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e72f65528ff3ee137272584b2bf85ca0}{%
+           family={Saucedo},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Red Olímpica}%
+      }
+      \strng{namehash}{f082967df13bb702c6da297b68d5b6d4}
+      \strng{fullhash}{55a2cb9ea0995d398b68154fe22d8e1a}
+      \strng{bibnamehash}{55a2cb9ea0995d398b68154fe22d8e1a}
+      \strng{authorbibnamehash}{55a2cb9ea0995d398b68154fe22d8e1a}
+      \strng{authornamehash}{f082967df13bb702c6da297b68d5b6d4}
+      \strng{authorfullhash}{55a2cb9ea0995d398b68154fe22d8e1a}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Problemas 31 OMA}
+      \field{year}{2023}
+      \keyw{01}
+    \endentry
+    \entry{aristizabal2016}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b1e8196940785f5d9fe3e601134e5d4}{%
+           family={Aristizabal},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \strng{fullhash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \strng{bibnamehash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \strng{authorbibnamehash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \strng{authornamehash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \strng{authorfullhash}{8b1e8196940785f5d9fe3e601134e5d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Rev. Gestión de la Educación}
+      \field{number}{2}
+      \field{title}{Analítica de datos de aprendizaje (ADA) y gestión educativa}
+      \field{volume}{6}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{149\bibrangedash 168}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://doi.org/10.15517/rge.v1i2.25499
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.15517/rge.v1i2.25499
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{barragan2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=101d85f96e00f03403c71ab0665a9f02}{%
+           family={Barragán\bibnamedelima Pazmiño},
+           familyi={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=078af3f5db14ec3c23d97c3ec7422ecd}{%
+           family={Pazmiño\bibnamedelima Maji},
+           familyi={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cac1668f6212246f405980c5290fc783}
+      \strng{fullhash}{cac1668f6212246f405980c5290fc783}
+      \strng{bibnamehash}{cac1668f6212246f405980c5290fc783}
+      \strng{authorbibnamehash}{cac1668f6212246f405980c5290fc783}
+      \strng{authornamehash}{cac1668f6212246f405980c5290fc783}
+      \strng{authorfullhash}{cac1668f6212246f405980c5290fc783}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ciencia Digital}
+      \field{number}{4.1}
+      \field{title}{Literatura científica sobre análisis estadístico implicativo: un mapeo sistemático de la década que transcurre}
+      \field{volume}{2}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{55\bibrangedash 69}
+      \range{pages}{15}
+      \verb{urlraw}
+      \verb https://doi.org/10.33262/cienciadigital.v2i4.1..190
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.33262/cienciadigital.v2i4.1..190
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{carranza2024}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=097eef4ca8d52d32cbd6ce323cb86d45}{%
+           family={Carranza},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbb2d6d7a78026512472ed0c5a96710f}{%
+           family={Vasches},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=004dfded38285212ba5ee6dd9506ddd7}{%
+           family={Gamoneda},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f40210399b3634560d6eb64a55162a2}{%
+           family={Cardieri},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c22cc3ffb8053c416935b14f323e54e2}{%
+           family={Benzaquén},
+           familyi={B\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5ed99af1ee10299aa2bca8615c99e1f}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d00e019bb8113b226739db5bf8da24ff}
+      \strng{fullhash}{1abb236e9855c35947c806c95ac7885c}
+      \strng{bibnamehash}{1abb236e9855c35947c806c95ac7885c}
+      \strng{authorbibnamehash}{1abb236e9855c35947c806c95ac7885c}
+      \strng{authornamehash}{d00e019bb8113b226739db5bf8da24ff}
+      \strng{authorfullhash}{1abb236e9855c35947c806c95ac7885c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Estudio sobre violencia en relaciones sexoafectivas de jóvenes de la provincia de Neuquén, Argentina mediante A.S.I.}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://rid.unrn.edu.ar/handle/20.500.12049/8919
+      \endverb
+      \verb{url}
+      \verb http://rid.unrn.edu.ar/handle/20.500.12049/8919
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{carranza2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=097eef4ca8d52d32cbd6ce323cb86d45}{%
+           family={Carranza},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \strng{fullhash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \strng{bibnamehash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \strng{authorbibnamehash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \strng{authornamehash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \strng{authorfullhash}{097eef4ca8d52d32cbd6ce323cb86d45}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educ. Matem. Pesq., São Paulo}
+      \field{note}{Especial ASI}
+      \field{number}{3}
+      \field{title}{Presencia de interpretaciones bayesiana y frecuentista de la probabilidad en libros de estudio en Francia}
+      \field{volume}{16}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{1071\bibrangedash 1087}
+      \range{pages}{17}
+      \keyw{02}
+    \endentry
+    \entry{fajardo2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b67c8832de1af03c6e88933a4729b351}{%
+           family={Fajardo\bibnamedelima Ibarra},
+           familyi={F\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b6d8fe168abdb88ee258ce25ae8294b}{%
+           family={González\bibnamedelima Zúñiga},
+           familyi={G\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6496aae6f106f5720c420dffacb06669}
+      \strng{fullhash}{6496aae6f106f5720c420dffacb06669}
+      \strng{bibnamehash}{6496aae6f106f5720c420dffacb06669}
+      \strng{authorbibnamehash}{6496aae6f106f5720c420dffacb06669}
+      \strng{authornamehash}{6496aae6f106f5720c420dffacb06669}
+      \strng{authorfullhash}{6496aae6f106f5720c420dffacb06669}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Innovación Educativa}
+      \field{number}{74}
+      \field{title}{El impacto de los videojuegos en la inteligencia: Una revisión de la literatura}
+      \field{volume}{17}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{131\bibrangedash 149}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb https://doi.org/10.22458/ie.v17i74.25499
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.22458/ie.v17i74.25499
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{gamez2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=799b82c0976415f6ec1fa394c79f5d4d}{%
+           family={Gámez\bibnamedelima Jara},
+           familyi={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f785a32bfaeffd4ff9321e8125099374}{%
+           family={Rodríguez\bibnamedelima Martínez},
+           familyi={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \strng{fullhash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \strng{bibnamehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \strng{authorbibnamehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \strng{authornamehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \strng{authorfullhash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Latinoamericana de Tecnología Educativa}
+      \field{number}{2}
+      \field{title}{La influencia de la tecnología en el rendimiento académico de los estudiantes de secundaria}
+      \field{volume}{15}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{30\bibrangedash 50}
+      \range{pages}{21}
+      \verb{urlraw}
+      \verb https://doi.org/10.22458/rte.v15i2.25499
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.22458/rte.v15i2.25499
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{morduchowicz2006}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=744bb210cd127b83b5dbfd9b36bb060f}{%
+           family={Morduchowicz},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \strng{fullhash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \strng{bibnamehash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \strng{authorbibnamehash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \strng{authornamehash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \strng{authorfullhash}{744bb210cd127b83b5dbfd9b36bb060f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Los indicadores educativos y las dimensiones que los integran}
+      \field{year}{2006}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://biblioteca.udgvirtual.udg.mx/jspui/handle/123456789/198
+      \endverb
+      \verb{url}
+      \verb http://biblioteca.udgvirtual.udg.mx/jspui/handle/123456789/198
+      \endverb
+      \keyw{02}
+    \endentry
+    \entry{unesco2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22cf95cca2d5609836bd913ea4f7f83c}{%
+           family={{UNESCO IIEP Learning Portal}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IIEP Learning Portal}%
+      }
+      \strng{namehash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \strng{fullhash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \strng{bibnamehash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \strng{authorbibnamehash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \strng{authornamehash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \strng{authorfullhash}{22cf95cca2d5609836bd913ea4f7f83c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Usar datos para mejorar la calidad}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://learningportal.iiep.unesco.org/es/fichas-praticas/monitorear-el-aprendizaje/usar-datos-para-mejorar-la-calidad
+      \endverb
+      \verb{url}
+      \verb https://learningportal.iiep.unesco.org/es/fichas-praticas/monitorear-el-aprendizaje/usar-datos-para-mejorar-la-calidad
+      \endverb
+      \keyw{02}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,214 @@
+%-------------------------------------------------------------------------
+% INFORMACIÓN DEL ARTÍCULO
+\thispagestyle{portadapage}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{actividad}{0}
+\setcounter{actividad_previa}{0}
+\setcounter{actividad_entre}{0}
+\renewcommand{\articulotipo}{Taller}
+\renewcommand{\articulotitulo}{Datos educativos: producción y uso de herramientas de procesamiento de información con asistencia de la IA para la toma de decisiones}
+\phantomsection
+\stepcounter{section}
+\addcontentsline{toc}{section}{\protect\numberline{\thesection} \articulotitulo}
+\desctotoc{Villagra, C. E.; Miguez, I. H; Acosta, R. N.; Chorolque, E. M.}
+
+\begin{center}
+	\setstretch{1.5}
+	{\Huge \scshape 
+		\articulotitulo
+	}
+\end{center}
+
+\noindent\rule{\linewidth}{2pt}
+
+\vspace{0.25cm}
+
+\begin{flushright}
+	{\Large \scshape
+		Fernando Jorge Bifano
+	}\\
+	{\large \itshape
+		Facultad de Ciencias Exactas y Naturales — Universidad de Buenos Aires
+	}\\
+	{\ttfamily \small
+		fjbifano@ccpems.exactas.uba.ar
+	}\\
+	\vspace{1em}
+	{\Large \scshape
+		Pablo Fabián Carranza
+	}\\
+	{\large \itshape
+		Universidad Nacional de Río Negro
+	}\\
+	\vspace{1em}
+\end{flushright}
+
+\vspace{0.5cm}
+
+\begin{center}
+	\begin{minipage}{0.75\linewidth} \small
+		\textsc{Resumen}. ~
+		La generación y uso de datos es actualmente uno de los nuevos emergentes que impactan en las diferentes esferas de la sociedad y por tanto, la educación se ve tensionada por las demandas que ello conlleva. En ese sentido, surgen nuevas vacancias para la formación docente y se vuelve necesario ofrecer instancias que permitan a quienes enseñan contar con herramientas para la comprensión, uso y toma de decisiones fundadas y sostenidas en la interpretación de la información. Este taller ofrece la posibilidad de familiarizarse con herramientas básicas que brindan los softwares para el procesamiento de la información y que con la asistencia de las IA se ven potenciados en sus aplicaciones. A partir del trabajo con distintos tipos de bases de datos educativos, propondremos un recorrido que aborda algunas herramientas de representación gráfica de la información en lenguaje de programación Python asistido por medio de inteligencias artificiales tales como ChatGPT y Gemini. Se analizarán las potencialidades de estrategias tales como clustering y árboles de decisión para la caracterización de grupos de estudiantes.
+	\end{minipage}
+	
+	\vspace{0.5em}
+	
+	\begin{minipage}{0.75\linewidth} \small
+		\textsc{Palabras clave} --- Datos educativos, IA, Python, Procesamiento de la información.
+	\end{minipage}
+\end{center}
+%-------------------------------------------------------------------------
+
+\subsection{Introducción}
+
+El análisis de datos es una disciplina que ha visto incrementado su desarrollo recientemente por varios factores vinculados entre sí. Entre ellos destacamos:
+
+\begin{itemize}
+	\item Disponibilidad de herramientas de procesamiento de datos en computadoras de escritorio.
+	\item Crecimiento de librerías de libre acceso en lenguaje Python.
+	\item Desarrollo de nuevos métodos de análisis de datos, llegando incluso a herramientas vinculadas a la inteligencia artificial.
+	\item Existencia de volúmenes de datos.
+\end{itemize}
+
+Estos elementos combinados permiten la aplicación de herramientas que facilitan la comprensión de fenómenos complejos y la toma de decisiones basadas en información.
+
+Las instituciones educativas no escapan a estos avances. En efecto, los datos disponibles o factibles de ser obtenidos permiten una mejor interpretación de fenómenos del ecosistema educativo y el desarrollo de acciones basadas en información. A modo de ejemplo citamos:
+
+\begin{itemize}
+	\item análisis de desempeño integral de estudiantes
+	\item relaciones entre estrategias de estudio y calificaciones
+	\item relaciones entre proyectos de vida, resiliencia y retención universitaria
+	\item sistemas de alerta temprana de abandono
+	\item caracterización de grupos de estudiantes por técnicas de clustering
+\end{itemize}
+
+El análisis de datos, entonces, resulta una herramienta que permite extraer información para la comprensión de fenómenos que acontecen en la institución educativa y así tomar decisiones basadas en información precisa y contextualizada.
+
+Estas herramientas pueden ser utilizadas tanto por los equipos de conducción como por los docentes en la aulas; en contextos presenciales o virtuales. En esta propuesta nos centraremos en algunas herramientas de análisis de datos que resultan de interés a docentes tanto sea al interior de una cátedra como para el análisis interdisciplinario del desempeño de estudiantes. Las mismas son también de gran interés para la gestión de la institución, facilitando la comprensión de la dinámica de la misma y brindando fundamentos para la toma de decisiones.
+
+\subsection{Contenidos}
+
+Se abordarán algunas herramientas de representación gráfica de la información en lenguaje de programación Python asistido por medio de inteligencias artificiales tales como ChatGPT y Gemini. Se analizarán las potencialidades de herramientas tales como clustering y árboles de decisión para la caracterización de grupos de estudiantes. Más precisamente se proponen los siguientes módulos:
+
+\subsubsection{Actividades previas}
+
+\begin{enumerate}[a)]
+	\item Introducción a lenguaje de programación Python en Jupyter	Notebook
+	
+	El análisis de datos se realizará en el entorno llamado Jupyter Notebook, herramienta accesible desde el software Anaconda (gratuito).
+	
+	\item Abrir una base de datos en formatos xlsx o csv en Jupyter	Notebook con Python
+	
+	Los datos serán analizados en python, por lo que el primer paso será subir la base de datos al entorno Jupyter Notebook para poder tratar la base de datos	en el lenguaje python.
+\end{enumerate}
+
+\subsubsection{Módulo 1}
+
+En este módulo se abordarán los conceptos básicos de programación en Python en Jupyter Notebook para un primer tratamiento de datos educativos. En esta primera etapa, se trabajará con datos numéricos reales anonimizados de alumnos de escuelas secundarias de Argentina. Entre otros, serán tratados temas tales como:
+
+\begin{enumerate}[a)]
+	\item primera exploración de la base de datos
+	\item representación gráfica de variables
+	\item correlaciones
+	\item normalización o estandarización
+	\item clustering por método k-nn
+	\item árboles de decisión
+\end{enumerate}
+
+Todos los métodos serán considerados como herramientas de síntesis para la extracción de información de los datos. En todas las instancias se accederá al uso de IA generativas como asistentes a la programación en Python.
+
+En este módulo se debatirá sobre las condiciones del trabajo final del taller, consistente en una presentación por dupla de un análisis de datos propios. Más precisamente, se consagrarán los últimos minutos a establecer las características que deben reunir los datos para un análisis acorde a las posibilidades del taller.
+
+\subsubsection{Módulo 2}
+
+En este módulo se abordará el tratamiento de datos categóricos en escala de likert, muy frecuentes en contextos educativos. Se tratarán en principio con los mismos métodos abordados en el módulo 1. Se integrarán también con datos de origen numérico para posibles extracciones de información de tales cruzamientos.
+
+Se dedicarán los últimos minutos a terminar de definir las características de la presentación que cada dupla hará sobre el análisis de datos propios como trabajo final.
+
+\subsubsection{Módulo 3}
+
+Este módulo se consagrará enteramente a las presentaciones que cada dupla haya podido realizar sobre el análisis de datos educativos propios. Se realizarán también devoluciones y comentarios de parte de todos los participantes a las diferentes presentaciones.
+
+\subsection{Requisitos previos}
+
+Este taller está destinado a docentes que enseñan matemáticas en los niveles medio y superior. Se requiere conocimientos mínimos en el área de la estadística descriptiva. Así mismo resulta deseable que los asistentes cuenten con cierta familiaridad en relación con el uso de herramientas tecnológicas tales como Excel. El manejo de lenguaje de programación previo no es excluyente y se espera que sea una de las capacidades a desarrollar en los asistentes.
+
+\subsection{Objetivos}
+
+En este taller, nos proponemos alcanzar los siguientes objetivos:
+\begin{itemize}
+	\item Favorecer la reflexión crítica sobre la producción y el uso de datos 	educativos para la toma de decisiones fundamentadas.
+	\item Introducir en el uso de los rudimentos básicos de la programación en Python para el análisis de datos.
+	\item Utilizar herramientas tecnológicas, especialmente con la asistencia de la IA, para potenciar el análisis de la información educativa para la toma de decisiones.
+	\item Desarrollar habilidades básicas en el tratamiento de bases de datos para el análisis estadístico.
+\end{itemize}
+
+\subsection{Actividades}
+
+\subsubsection{Actividades previas}
+
+Para poder participar plenamente del taller, les proponemos a los cursantes que como actividades previas se familiaricen con algunos softwares y/o herramientas que utilizaremos durante el desarrollo del mismo. Específicamente les proponemos:
+
+\begin{itemize}
+	\item Para una introducción al tema sugerimos seguir las propuestas detalladas en los siguientes vídeos:
+	
+	Descargar Anaconda: \url{https://www.anaconda.com/download}
+	
+	Vídeos de primeros pasos de Python en Jupyter Notebook:
+	\begin{itemize}
+		\item \url{https://www.youtube.com/watch?v=81-AyuxjdBo}
+		\item \url{https://www.youtube.com/watch?v=cp5gUF1D0nQ\&list=PLMUoURdFUxkkHw8tVweJi8YAZcZHDjYou}
+	\end{itemize}
+	
+	\item Para una introducción a la etapa de acceso a una base de datos desde Jupyter notebook, los participantes pueden acceder al siguiente vídeo:
+	\begin{itemize}
+		\item \url{https://www.youtube.com/watch?v=dbEQtzObsQw}
+	\end{itemize}
+	
+	Los enlaces no son excluyentes, los participantes encontrarán muchos otros en la web.
+\end{itemize}
+
+\subsubsection{Primera hora y media sincrónica}\label{primera-hora-y-media-sincronica}
+
+A lo largo de la primera etapa sincrónica, le propondremos a los cursantes, el análisis de una base de datos anonimizada basada en resultados de rendimiento académico (módulo 1) —provista por los profesores a cargo del taller— que se centrará en aspectos tales como: representación gráfica de datos, correlaciones, clustering, entre otros.
+\begin{itemize}
+	\item Exploración de base de datos.
+	\item Representación gráfica de distribuciones de variables.
+	\item Establecimiento de posibles relaciones entre variables.
+	\item Utilización de métodos de machine learning tales como clustering y árboles de decisión.
+\end{itemize}
+
+\subsubsection{Primeras tres horas entre clases}\label{primeras-tres-horas-entre-clases}
+
+Como parte de la primera sección entre clases, los estudiantes en grupos deberán producir un breve informe con los principales hallazgos obtenidos a partir del análisis estadístico efectuado en la sección \ref{primera-hora-y-media-sincronica}. Las características del mismo son:
+\begin{itemize}
+	\item Una extensión máxima de 5 carillas incluyendo gráfico y/o anexos.
+	\item Expresar clara y fundadamente, los principales resultados que surgen del análisis estadístico de la base de datos estudiada.
+\end{itemize}
+
+\subsubsection{Segundas hora y media sincrónicas}\label{segundas-hora-y-media-sincronicas}
+
+La primera parte de la sesión estará abierta a compartir algunos de los principales resultados producidos en los informes grupales como fruto de la etapa \ref{primeras-tres-horas-entre-clases}. En una segunda parte, análogamente a lo descrito en la sección \ref{primera-hora-y-media-sincronica}, los profesores del taller ofreceremos a los cursantes una base de datos educativos relacionados con el abandono escolar para su análisis (módulo 2).
+
+\subsubsection{Segundas tres horas entre clases}\label{segundas-tres-horas-entre-clases}
+
+Este espacio es análogo al descrito en la sección \ref{primeras-tres-horas-entre-clases}. La diferencia fundamental radica en que se les propondrá a los cursantes del taller, la búsqueda y/o elaboración de información que pueda ser un insumo para la construcción de una base de datos propia que les permita hacer un estudio de alguna problemática relacionada con las instituciones escolares en la que se desempeñan. Esto será el insumo fundamental para la producción final.
+
+\subsubsection{Terceras hora y media sincrónicas}
+
+Este espacio es análogo al descrito en la sección \ref{segundas-hora-y-media-sincronicas}. A diferencia de la etapa referenciada, dedicaremos una primera parte de la sesión a que los estudiantes compartan los datos recogidos en la etapa \ref{segundas-tres-horas-entre-clases}. a los fines de discutir la viabilidad de su estudio para la producción final (módulo 3).
+
+\subsubsection{Evaluación final}
+
+Como parte de la evaluación final del curso, propondremos a los cursantes las siguientes actividades:
+\begin{itemize}
+	\item Elaboración de un proyecto final aplicando los conocimientos adquiridos. Más precisiones sobre el mismo se ofrecerán oportunamente a través de la plataforma de la facultad.
+	\item Cuestionario final que aborde los principales temas del taller a modo de autoevaluación del taller.
+	\item Reflexión escrita sobre la experiencia del taller y el aprendizaje obtenido dando cuenta de los principales obstáculos superados a lo largo de la experiencia.
+\end{itemize}
+
+\subsection{Bibliografía}
+
+\nocite{*}
+\printbibliography[keyword={02}]

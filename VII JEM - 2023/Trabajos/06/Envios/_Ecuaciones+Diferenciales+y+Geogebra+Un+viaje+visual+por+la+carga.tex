@@ -1,0 +1,110 @@
+%% LyX 2.3.6.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[spanish,english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+\begin{document}
+\title{Ecuaciones Diferenciales y Geogebra: Un viaje visual por la carga
+y descarga de un capacitor en circuito RC}
+\maketitle
+
+\section*{Resumen}
+
+Esta comunicación se basará en una aplicacin de Ecuaciones Diferenciales
+aplicado a Circuitos Eléctricos. Para este caso será con el circuito
+R-C (Resistor - Capacitor) cuyo modelo es $R*q'+\frac{1}{C}*q=E(t)$
+(la entrada simbolizada como $E(t)$ que representará como varáa la
+diferencia de potencial en función del tiempo). Si $E(t)\neq0$ representa
+la carga de un capacitor C, si fuera $E(t)=0$ representará la descarga
+del capacitor. La solución de la EDO con condición inicial será $q(t)$
+(será la carga en función del tiempo q(t) (expresada en Coulombs)).
+Se mostrará la resolución de la ecuación mediante el uso de GeoGebra
+con valores particulares $R=200\varOmega,$$C=100\mu F,$$E(t)=20V$
+y luego con la herramienta \textquotedblleft deslizador\textquotedblright{}
+en GeoGebra se hará variar los parámetros R y C para visualizar cómo
+va cambiando la función de salida, y hacer algunas interpretaciones
+físicas de lo que sucederá, con respecto a la cantidad de carga, constante
+de tiempo, curvas y asíntotas, etc. También se aplicará la función
+derivada a la misma función $q(t)$ para obtener la intensidad de
+corriente eléctrica $i(t)$ expresada en Ampere. Es una buena aplicación
+del software para utilizar en contexto de aprendizaje de Física General. 
+
+\section*{Introducción}
+
+La propuesta tendrá una impronta tecnológica-didáctica. Debería estar
+incluida esta comunicación ya que el GeoGebra es uno de los software
+más utilizados en los cursos de Análisis Matemático, Física General,
+etc. Al trabajar ecuaciones diferenciales, es muy importante entender
+el método de resolución para poder utilizarlo pero también sería interesante
+que los alumnos puedan aprender en algún curso de ecuaciones diferenciales
+o de circuitos eléctricos, estas herramientas para poder modelizar
+de acuerdo a sus intereses y a sus conveniencias en el contacto con
+las funciones exponenciales que serían la salida de la ecuación diferencial.
+El circuito R-C (Resistor - Capacitor) cuyo modelo es $R*q'+\frac{1}{C}*q=E(t)$
+será tratada mediante ese software. 
+
+\section*{Requisitos previos}
+
+Está destinado a docentes y estudiantes del nivel superior que trabajan
+en cursos de Análisis Matemático y Física General.
+
+\section*{Desarrollo}
+
+Los temas que se tratará en la comunicación será la presentación de
+la modelización del circuito R-C mediante el uso de ecuaciones diferenciales
+de primer orden. Luego se ejemplificará con valores partículares $R=200\varOmega,C=100\mu F,E(t)=20V$
+para simular la carga de un capacitor $200*q'+\frac{1}{10^{-4}}*q=20$
+con condición inicial $q(0)=0$ y luego $E(t)=0V$ para la descarga
+del capacitor, $200*q'+\frac{1}{10^{-4}}*q=0$ con condición inicial
+$q(0)=0.002$. Eso se colocará en el software GeoGebra en la Vista
+Cálculo Simbólico (CAS) $ResuelveEDO[200y'+10000y=20,(0,0)]$. Cuya
+solución será: $y(t)=\frac{1}{500}*e^{-50t}.$ Luego se colocará $ResuelveEDO[R*y'+\frac{1}{C}*y=20,(0,0)]$
+se aplicará con la herramienta ``deslizador'' para $R$ y $C$,
+por ende se colocará un incremento de $100\varOmega$, con lo cual
+se aumentará o disminuirá la resistencia y también la del capacitor,
+y por último se hablará de la constante de tiempo $\tau=RC$. Se hará
+la interpretación física, de que si la constante de tiempo es relativamente
+grande es porque la resistencia es muy grande. El circuito cargará
+con más rapidez si se utiliza una resistencia más pequeña. Y también
+si a mayor capacitancia mayor carga tendrá el capacitor. Y si hay
+mayor resistencia habrá un retardo en la carga. 
+\begin{figure}
+
+\caption{\protect\includegraphics[scale=0.6]{\string"Circuito RC carga capacitor\string".png}}
+
+\end{figure}
+
+\begin{figure}
+
+\caption{\protect\includegraphics[scale=0.6]{\string"Circuito RC descarga capacitor\string".png}}
+
+\end{figure}
+
+
+\section*{Bibliografía}
+
+\selectlanguage{spanish}%
+- Kreyszig E. (2011), \textquotedblleft Advanced Engineering Mathematics\textquotedblright{}
+-- Ed. Wiley -- Boston -- Estados Unidos
+
+- Young, Hugh; Freedman, Roger (2009), \textquotedblleft Física universitaria
+volumen 1\textquotedblright{} -- Ed. Pearson -- Naucalpán de Juarez
+-- México.
+
+- Zill, Denis; Cullen, Michael (2008), <<Matemáticas avanzadas para
+ingeniería, vol. 1: ecuaciones diferenciales>> - Ed. McGraw-Hill
+Interamericana - México D.F
+
+- Giancoli, Douglas (2009), <<Física para ciencias e ingeniería con
+física moderna>> - 4ta Edición - Pearson Educación - México D.F
+
+- Luna, Maritza; Requjo, Elton; Villogas, Edwin, ``Resolución de
+problemas de ecuaciones diferenciales utilizando geometría dinámica''
+- Grupo de Investigación TecVEM-IREM PUCP, Perú . \selectlanguage{english}%
+
+\end{document}

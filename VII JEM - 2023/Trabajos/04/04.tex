@@ -1,0 +1,145 @@
+%-------------------------------------------------------------------------
+% INFORMACIÓN DEL ARTÍCULO
+\thispagestyle{portadapage}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{actividad}{0}
+\setcounter{actividad_previa}{0}
+\setcounter{actividad_entre}{0}
+\renewcommand{\articulotipo}{Taller}
+\renewcommand{\articulotitulo}{De la ecuación cuadrática a la cúbica: una introducción a los números complejos}
+\phantomsection
+\stepcounter{section}
+\addcontentsline{toc}{section}{\protect\numberline{\thesection} \articulotitulo}
+\desctotoc{Chañi, M. D.; Romero, S. N.; Gutierrez, M. D.; Velasquez, N. A. M.}
+
+\begin{center}
+	\setstretch{1.5}
+	{\Huge \scshape 
+		\articulotitulo
+	}
+\end{center}
+
+\noindent\rule{\linewidth}{2pt}
+
+\vspace{0.25cm}
+
+\begin{flushright}
+	{\Large \scshape
+		Marcos Darío Chañi
+	}\\
+	{\large \itshape
+		Universidad Nacional de Salta. Instituto Jean Piaget
+	}\\
+	{\ttfamily \small
+		mat.marcos2.0@gmail.com
+	}\\
+	\vspace{1em}
+	{\Large \scshape
+		Silvia Noemí Romero
+	}\\
+	{\large \itshape
+		Universidad Nacional de Salta
+	}\\
+	\vspace{1em}
+	{\Large \scshape
+		Marcela Daniela Gutierrez
+	}\\
+	{\large \itshape
+		Universidad Nacional de Salta
+	}\\
+	\vspace{1em}
+	{\Large \scshape
+		Noelia Adriana Melisa Velasquez
+	}\\
+	{\large \itshape
+		Universidad Nacional de Salta
+	}\\
+\end{flushright}
+
+\vspace{0.5cm}
+
+\begin{center}
+	\begin{minipage}{0.75\linewidth} \small
+		\textsc{Resumen}. ~
+		Las matemáticas comenzaron como una forma de cuantificar nuestro mundo: medir el terreno, predecir el movimiento de los planetas, registrar el comercio, etc. Pero en un momento de la historia se planteo un problema irresoluble: la resolución a la ecuación cúbica. El problema central del taller se plantea a partir de la resolución de un tipo especial de ecuación cúbica, mediante la resolución de ecuaciones cuadráticas. Para esto se plantea un estudio de esta solución deteniéndonos en las sustituciones que allí se presentan para así dotar de sentidos los procesos inmersos en esta y así elaborar los significados. Se pretende plantear un conjunto de estrategias en el proceso de resolver un problema para lo cual nos centraremos en un principio en un marco geométrico, así un individuo puede explotar analogías, introducir elementos auxiliares en el problema o trabajar problemas auxiliares, descomponer o combinar algunos elementos del problema, dibujar figuras, variar el problema o trabajar en casos específicos, para luego abandonar el marco geométrico que lo generó y poder llevar el problema a un nuevo marcó algebraico. Es aquí donde se tendrá la necesidad de la creación de nuevos números los que conocemos como números complejos.
+	\end{minipage}\\
+	
+	\vspace{0.5em}
+	
+	\begin{minipage}{0.75\linewidth} \small
+		\textsc{Palabras clave} --- Ecuación cuadrática, Ecuación cúbica, Marco geométrico, Marco algebraico, Historia.
+	\end{minipage}
+\end{center}
+%-------------------------------------------------------------------------
+
+\subsection{Introducción}
+
+\subsubsection{Importancia del Taller}
+
+Las matemáticas comenzaron como una forma de cuantificar nuestro mundo: medir el terreno, predecir el movimiento de los planetas, registrar el comercio, etc. Pero en un momento de la historia se planteo un problema irresoluble: la resolución a la ecuación cúbica. El problema central del taller se plantea a partir de la resolución de un tipo especial de ecuación cúbica, mediante la resolución de ecuaciones cuadráticas. Para esto se plantea un estudio de esta solución deteniéndonos en las sustituciones que allí se presentan para así dotar de sentidos los procesos inmersos en esta y así elaborar los significados. Se pretende plantear un conjunto de estrategias en el proceso de resolver un problema para lo cual nos centraremos en un principio en un marco geométrico, así un individuo puede explotar analogías, introducir elementos auxiliares en el problema o trabajar problemas auxiliares, descomponer o combinar algunos elementos del problema, dibujar figuras, variar el problema o trabajar en casos específicos, para luego abandonar el marco geométrico que lo generó y poder llevar el problema a un nuevo marcó algebraico. Es aquí donde se tendrá la necesidad de la creación de nuevos números los que conocemos como números complejos. 
+
+\subsubsection{Fundamentos}
+
+En ocasiones, el estudio de un determinado tema aparece disgregado en distintos lugares en los que se abordan diferentes aspectos del mismo, por ello es conveniente realizar una síntesis posterior para adquirir una visión más completa del problema y de sus resultados. Se trata, pues, de un mismo capítulo en la historia de la matemática pero que, por diversas razones, se aborda de manera fraccionada y que requiere por tanto volver a contemplar conjuntamente. Un ejemplo de lo anterior sucede con las ecuaciones aparece
+\begin{itemize}
+	\item por un lado la resolución de ecuaciones de primer y segundo grado
+	\item por otro, la factorización de polinomios
+	\item y en un lugar distinto los números complejos, que suelen introducirse de manera que se menciona el enunciado del teorema funda- mental del álgebra y algunas propiedades en relación con las raíces imaginarias. 
+\end{itemize}
+
+Otras veces se presenta, sin embargo, una situación en cierto modo inversa de la anterior, que tiene lugar cuando unidades temáticas independientes, pertenecientes incluso a distintas ramas de la matemática, se utilizan para intentar resolver un mismo problema. Donde la geometría, y el análisis, son útiles para ello. Como es sabido, efectivamente la geometría ha estado presente en la resolución de ecuaciones frecuentemente. Basta con citar al matemático árabe Al-Khuwarizmi, quien resuelve geométricamente ecuaciones de segundo grado, como aparece en su obra \textit{Sobre el cálculo mediante la reducción y la restauración}, \textcite{boyer1986}, o tener en cuenta que las identidades algebraicas que utiliza Cardano para la resolución de la ecuación cúbica están basadas en razonamientos geométricos, como así mismo ha sucedido durante muchos siglos con otras identidades. 
+
+En la línea de lo anterior hay que destacar también la importante contribución de Descartes, quien en su trabajo se ocupa de «cómo el cálculo de la aritmética se relaciona con las operaciones de la geometría». Es decir, se unifica el álgebra con la geometría, dando lugar al nacimiento de la geometría analítica. De esta manera, y mediante el empleo de coordenadas, se pueden trasladar determinados problemas geométricos al terreno algebraico y recíprocamente, identificándose ecuaciones a formas geométricas. En la resolución de ecuaciones nos referimos a los trastornos que ocasiona en los alumnos el <<automatismo>> en la resolución de problemas, en nuestro caso, en lo que afecta al dibujo de una construcción geométrica, su discusión, su generalización, etc. 
+
+Entendemos que el pensamiento es sobre todo una forma de reflexión activa sobre el mundo, mediatizada por artefactos, el cuerpo (a través de la percepción, gestos, movimientos, etc.), el lenguaje, los signos, etc. Así el aprendizaje es visto como la actividad a través de la cual los individuos entran en relación no solamente con el mundo de los objetos culturales, sino con otros individuos y adquieren, en el seguimiento común del objetivo y en el uso social de signos y artefactos, la experiencia humana.
+
+\subsection{Contenidos}
+
+Resolución de ecuación cúbica. Introducción a los números complejos. 
+
+\subsection{Requisitos Previos}
+
+Resolución de ecuación cuadrática. Resolución de ecuaciones bicuadráticas. Resolución de sistemas de ecuaciones mixtos. Nociones de geometría básica.
+
+\subsection{Objetivos}
+\begin{itemize}
+	\item Valorizar y resignificar la resolución de ecuaciones cuadráticas, mediante la utilización de un marco geométrico.
+	\item Utilizar la resolución de ecuaciones cuadráticas para la resolución de ecuaciones cúbicas mediante la generalización del método geométrico.
+	\item Generar la importancia en la necesidad de definir e introducir los números complejos, para la resolución de ecuaciones.
+\end{itemize}
+
+\subsection{Actividades}
+
+\subsubsection{Actividades previas}
+
+Lectura del material bibliográfico histórico sobre el tema <<Ecuación cuadrática>>, <<Introducción histórica sobre la resolución de ecuaciones cuadráticas>>. Se espera que mediante las actividades los participantes refresquen dichos contenidos que fueron impartidos en un curso de álgebra e historia de la matemática.
+
+\subsubsection{Primera hora y media presenciales}\label{subsec:Primeras-dos-sinc-04}
+
+En este espacio en un principio se les planteará a los cursantes del taller en un principio resolver una ecuación cuadrática por el método que consideren más conocido o más relevante. Para luego dar a conocer en forma de debate general las diferentes formas de resolución de la ecuación, encontrando diferencias y semejanzas entre las diferentes resoluciones. En forma posterior se les pedirá resolver la misma ecuación mediante el método de <<completar cuadrados>>, para luego nuevamente poner en debate el procedimiento realizado. Por último se les brindará a los participantes material de manipulación (cartulinas con determinadas formas) para que expliquen de manera geométrica en qué se basa o sustenta el método de resolución anterior (completar cuadrados). 
+
+\subsubsection{Primeras dos horas entre clases}\label{subsec:Primeras-dos-EC-04}
+
+Lectura del material bibliográfico histórico sobre el tema <<Ecuación cúbica>>, <<Introducción histórica sobre la resolución de cúbicas>>.
+
+\subsubsection{Segundas dos horas presenciales}
+
+En este espacio se pretende trabajar con la resolución de las ecuaciones cúbicas reducidas de la forma $x^{3} + a x = b$, para ello se explora el planteo de completar cuadrados en tres dimensiones. De manera que en lugar de completar el cuadrado, los cursantes deberán completar el cubo apoyados nuevamente en un marco geométrico en tres dimensiones. Es aquí donde entra en juego la resolución de sistemas de ecuaciones. Lo cual llevará a los participantes a plantear una ecuación bicuadrática, que a su vez impulsa la resolución de una ecuación cuadrática. Ver sección \ref{subsec:Primeras-dos-sinc-04}.
+
+\subsubsection{Segundas dos horas entre clases}
+
+Se les pedirá a los participantes de taller, la resolución de una ecuación cúbica reducida como así también material bibliográfico histórico sobre la generalización del método de resolución Cardano de ecuaciones cúbicas no reducidas, es decir de la forma $a x^{3} + b x^{2} + c x + d = 0$. Ver sección \ref{subsec:Primeras-dos-EC-04}.
+
+\subsubsection{Terceras dos horas presenciales}
+
+Este espacio se abordarán ecuaciones cúbicas que no pueden resolverse fácilmente de la forma usual. En donde al aplicar el algoritmo del método Cardano y realizar planteo geométrico del problema se obtienen raíces cuadradas de números negativos. Donde si bien la derivación y el armado del cubo funciona parcialmente, la ecuación cuadrática resultante no brinda solución. Es así que los participantes tendrán la necesidad de impulsar la creación de un nuevo conjunto numérico (el conjunto de los números complejos), lo cual nos brinda la solución de la ecuación la cual para nuestra sorpresa es real. Donde el método Cardano funciona, pero se debe abandonar la prueba geométrica que la generó en un principio, así los números complejos deben existir como un recurso intermedio para la solución real. Ver sección \ref{subsec:Primeras-dos-sinc-04}.
+
+\subsubsection{Evaluación final}
+
+Se les presentará a los participantes realizar un resumen de lo trabajado en el taller y una ecuación cúbica para la resolución de la misma, utilizando todo lo trabajado en el taller.
+
+\subsection{Bibliografía}
+
+\nocite{*}
+\printbibliography[keyword={04}]

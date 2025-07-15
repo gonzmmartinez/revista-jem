@@ -1,0 +1,149 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{introduccion-polinomios}{book}{}
+      \name{author}{5}{}{%
+        {{hash=59a5095cc9ffe45e9493a444f5c7eb86}{%
+           family={Andrés},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0d4972e060ade5f3db120c68b7f43694}{%
+           family={Fioriti},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=914bf50a1a823904347c297f4b1f4a65}{%
+           family={Murua},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f5cda1dcf9b39123ce126ff88cabe96f}{%
+           family={Sessa},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3a55b686cea34a8923b6ea395549772e}{%
+           family={otros},
+           familyi={o\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Unipe Editorial Universitaria}%
+      }
+      \strng{namehash}{14f6eb527718cea81771f623145fd7fb}
+      \strng{fullhash}{83803a183527fbda71f5d0696b2bbee1}
+      \strng{bibnamehash}{14f6eb527718cea81771f623145fd7fb}
+      \strng{authorbibnamehash}{14f6eb527718cea81771f623145fd7fb}
+      \strng{authornamehash}{14f6eb527718cea81771f623145fd7fb}
+      \strng{authorfullhash}{83803a183527fbda71f5d0696b2bbee1}
+      \field{labelalpha}{Andrés,\addhighpenspace2012}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introducción al trabajo con polinomios y funciones polinómicas. Incorporación del programa Geogebra al trabajo matemático en el aula}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{llanos-v}{article}{}
+      \name{author}{3}{}{%
+        {{hash=66a15b03a87dc66e9a3ce9f26ed3079b}{%
+           family={Llanos},
+           familyi={L\bibinitperiod},
+           given={V.\bibnamedelimi C.},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=76c25e2e1a566e4f513f74ac5d2899cb}{%
+           family={Otero},
+           familyi={O\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=9ebc0858b0ccff847a067fcb50180915}{%
+           family={Bilbao},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \strng{fullhash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \strng{bibnamehash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \strng{authorbibnamehash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \strng{authornamehash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \strng{authorfullhash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \field{extraname}{1}
+      \field{labelalpha}{Llanos,\addhighpenspace2011}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Electrónica de Investigación en Educación en Ciencias (REIEC). Año 6 Nº1}
+      \field{title}{Funciones Polinómicas en la Secundaria: primeros resultados de una Actividad de Estudio y de Investigación (AEI)}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{pp. 102\bibrangedash 112}
+      \range{pages}{-1}
+    \endentry
+    \entry{conf-llanos-v}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=66a15b03a87dc66e9a3ce9f26ed3079b}{%
+           family={Llanos},
+           familyi={L\bibinitperiod},
+           given={V.\bibnamedelimi C.},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=76c25e2e1a566e4f513f74ac5d2899cb}{%
+           family={Otero},
+           familyi={O\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=9ebc0858b0ccff847a067fcb50180915}{%
+           family={Bilbao},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {NIECyT, F. de Cs. Exactas, UNCPBA, Tandil}%
+      }
+      \strng{namehash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \strng{fullhash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \strng{bibnamehash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \strng{authorbibnamehash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \strng{authornamehash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \strng{authorfullhash}{082b4515f0e1e71ea0f5f0e8ac62b0e0}
+      \field{extraname}{2}
+      \field{labelalpha}{Llanos,\addhighpenspace2011}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Actas del I Congreso Internacional de Enseñanza de las Ciencias y la Matemática (I CIECyM) y II Encuentro Nacional de Enseñanza de la Matemática (II ENEM)}
+      \field{month}{11}
+      \field{title}{Implementación de una AEI relativa al campo conceptual de las funciones polinómicas en la escuela secundaria: perspectiva didáctica y cognitiva}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{pp. 486\bibrangedash 492}
+      \range{pages}{-1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

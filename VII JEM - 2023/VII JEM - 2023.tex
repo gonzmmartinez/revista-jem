@@ -1,0 +1,177 @@
+\documentclass[oneside,spanish,10pt]{amsart}
+\usepackage[T1]{fontenc} % Tipo de fuente
+\usepackage[utf8]{inputenc} % Archivo UTF-8
+\usepackage{mathpazo}
+\usepackage{domitian}
+\usepackage{setspace}
+\let\oldstylenums\oldstyle
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2.5cm,rmargin=2.5cm,footskip=1cm,includefoot,headsep=1cm,includehead} % Tamaño
+\usepackage{amsthm}
+\usepackage[spanish]{babel} % Idioma español
+\usepackage[shortlabels]{enumitem} % Mejora el entorno enumerate
+\usepackage{graphicx} % Colocar imágenes
+\usepackage[hidelinks]{hyperref} % Vínculos y referencias interactivas
+\usepackage{xurl}
+\usepackage[skip=3pt]{caption} % Permite modificar el espacio entre el caption y la imagen
+\usepackage{multicol} % Entornos de múltiples columnas
+\usepackage{nicefrac}
+\usepackage{tikz}
+\usepackage[center]{titlesec}
+\usepackage{pdfpages}
+\usepackage{tcolorbox}
+
+%-------------------------------------------------------------------------
+% Configuraciones iniciales
+\makeatletter
+%Numeración
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\newlength{\lyxlabelwidth}      % Longitud auxiliar
+\makeatother
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% FUENTE SANS-SERIF
+\usepackage[medium]{inter}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Bibliografía
+\usepackage[%
+backend=biber,
+bibstyle=apa,
+citestyle=numeric,
+sorting=none,
+block=none,
+maxbibnames=99
+]{biblatex}
+
+\defbibheading{bibliography}[\refname]{}
+
+\renewcommand*{\labelalphaothers}{}
+
+\makeatletter
+\RequireBibliographyStyle{numeric}
+\makeatother
+
+%-------------------------------------------------------------------------
+% ARCHIVOS DE BIBLIOGRAFÍAS
+\addbibresource{Trabajos/01/refs-01.bib}
+\addbibresource{Trabajos/02/refs-02.bib}
+\addbibresource{Trabajos/03/refs-03.bib}
+\addbibresource{Trabajos/04/refs-04.bib}
+\addbibresource{Trabajos/05/refs-05.bib}
+\addbibresource{Trabajos/06/refs-06.bib}
+\addbibresource{Trabajos/07/refs-07.bib}
+\addbibresource{Trabajos/08/refs-08.bib}
+\addbibresource{Trabajos/09/refs-09.bib}
+\addbibresource{Trabajos/11/refs-11.bib}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Otras configuraciones
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\figurename}{Figura}}
+
+\theoremstyle{definition}
+\newtheorem{actividad_previa}{\normalfont ACTIVIDAD PREVIA}
+\newtheorem{actividad}{\normalfont ACTIVIDAD}
+\newtheorem{actividad_entre}{\normalfont ACTIVIDAD ENTRE CLASES}
+\newtheorem*{evaluacion}{\normalfont EVALUACIÓN}
+\newtheorem*{observacion}{Observacion}
+\newtheorem*{teorema}{Teorema}
+%-------------------------------------------------------------------------
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\scshape Memorias de las VII JEM - 2023\\ \vspace{1mm} \hrule \vspace{1mm}
+	\scshape\scriptsize \articulotitulo}
+\fancyhead[L]{}
+\fancyhead[R]{\vspace{1em}\small\scshape\articulotipo}
+\fancyfoot[C]{\small \thepage}
+
+\fancypagestyle{portadapage}{
+	\fancyhf{}
+	\renewcommand{\headrulewidth}{0pt}
+	\fancyhead[C]{\scshape Memorias de las VII JEM - 2023}
+	\fancyhead[R]{\small\scshape\articulotipo}
+	\fancyfoot[C]{\small \thepage}
+}
+
+%-------------------------------------------------------------------------
+% TABLA DE CONTENIDOS
+\setcounter{tocdepth}{1}
+\newcommand{\desctotoc}[1]{%
+	\addtocontents{toc}{\hspace*{3em}\medskip\detokenize{\textit{#1}}\leavevmode\par\medskip}
+}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% TÍTULOS DE SECCIONES
+\setcounter{secnumdepth}{4}
+\titleformat{\subsection}{\centering\scshape}{\arabic{subsection}.}{1em}{\LARGE}
+\titleformat{\subsubsection}{\normalfont\bfseries}{\arabic{subsection}.\arabic{subsubsection}}{1em}{\large}
+\titleformat{\paragraph}{\normalfont\bfseries}{\arabic{subsection}.\arabic{subsubsection}.\arabic{paragraph}}{1em}{\large}
+\titlespacing*{\paragraph}{0pt}{1em}{1em}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% QUOTING
+\let\oldquote\quote \renewcommand\quote{\oldquote\small}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% DOCUMENTO
+
+\title{}
+\author{}
+\date{}
+\newcommand{\articulotitulo}{}
+\newcommand{\articulotipo}{}
+
+\begin{document}
+	
+	% Toda la primer parte
+	\includepdf{Trabajos/Portada.pdf}
+	\clearpage
+	\input{Trabajos/Informacion.tex}
+	\clearpage
+	\input{Trabajos/Autoridades.tex}
+	\clearpage
+	\input{Trabajos/Equipo.tex}
+	\clearpage
+	\input{Trabajos/Prologo.tex}
+	\clearpage
+	\input{Trabajos/Indice.tex}
+	\clearpage
+	\input{Trabajos/PortadaTalleres.tex}
+	\clearpage
+	\input{Trabajos/01/01.tex}
+	\clearpage
+	\input{Trabajos/02/02.tex}
+	\clearpage
+	\input{Trabajos/03/03.tex}
+	\clearpage
+	\input{Trabajos/04/04.tex}
+	\clearpage
+	\input{Trabajos/05/05.tex}
+	\clearpage
+	\input{Trabajos/PortadaComunicaciones.tex}
+	\clearpage
+	\input{Trabajos/06/06.tex}
+	\clearpage
+	\input{Trabajos/07/07.tex}
+	\clearpage
+	\input{Trabajos/08/08.tex}
+	\clearpage
+	\input{Trabajos/09/09.tex}
+	\clearpage
+	\input{Trabajos/10/10.tex}
+	\clearpage
+	\input{Trabajos/11/11.tex}
+	\clearpage
+	\includepdf{Trabajos/Contraportada.pdf}
+
+\end{document}

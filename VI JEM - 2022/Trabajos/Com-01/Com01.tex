@@ -1,0 +1,126 @@
+\documentclass[oneside,spanish]{amsart}
+\usepackage[T1]{fontenc} % Tipo de fuente
+\usepackage[utf8]{inputenc} % Archivo UTF-8
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=3cm,rmargin=2.5cm} % Tamaño
+\usepackage{amsthm} 
+%\usepackage{amsaddr} % Para modificar la posición de address
+\usepackage[spanish]{babel} % Idioma español
+\usepackage[backend=biber,style=alphabetic,natbib,maxalphanames=1]{biblatex} % Compilar bibliografía con BibLaTeX (no BibTeX)
+\usepackage[shortlabels]{enumitem} % Mejora el entorno enumerate
+\usepackage{graphicx} % Colocar imágenes
+\usepackage[hidelinks]{hyperref} % Vínculos y referencias interactivas
+\usepackage[skip=3pt]{caption} % Permite modificar el espacio entre el caption y la imagen
+\usepackage{multicol} % Entornos de múltiples columnas
+
+%-------------------------------------------------------------------------
+% Configuraciones iniciales
+\makeatletter
+%Numeración
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\newlength{\lyxlabelwidth}      % Longitud auxiliar
+\makeatother
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Bibliografía
+\defbibheading{bibliography}[\refname]{}
+\addbibresource{refs-com01.bib}
+
+\renewcommand*{\labelalphaothers}{}
+
+\DeclareLabelalphaTemplate{
+	\labelelement{
+		\field[final]{shorthand}
+		\field{labelname}
+		\field{label}
+	}
+	\labelelement{
+		\literal{,\addhighpenspace}
+	}
+	\labelelement{
+		\field{year}
+	}
+}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Otras configuraciones
+%\pagestyle{plain} % Para que el encabezado esté vacío
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\figurename}{Figura}}
+
+\theoremstyle{definition}
+\newtheorem{problema}{\normalfont PROBLEMA}
+%-------------------------------------------------------------------------
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\scriptsize\MakeUppercase\shorttitle}
+
+%-------------------------------------------------------------------------
+
+% Y acá comienza el documento
+
+\begin{document}
+	
+%-------------------------------------------------------------------------
+% Datos del artículo
+\title[Tratamiento de conceptos matemáticos iluminados por tecnologías digitales en la formación de profesores en matemática]{Tratamiento de conceptos matemáticos iluminados por tecnologías digitales en la formación de profesores en matemática\vspace{-2ex}}
+\author[1]{Ana María Mántica\textsuperscript{1}}
+\author[2]{Marcela Götte}
+\email[corresponding author]{\textsuperscript{1}ana.mantica@gmail.com}
+%-------------------------------------------------------------------------
+
+\begin{abstract}
+	Las Tecnologías Digitales por si solas no generan un cambio en la educación, sino que son los actores quienes pueden transformarla aprovechando sus propiedades innovadoras a través de diseños adecuados. Se presenta una investigación cualitativa cuyo interés es estudiar la producción de conceptos del currículum de matemática cuando se emplean Tecnologías Digitales. Se diseñan y analizan propuestas para el abordaje de conceptos del currículum de matemática mediados por tecnologías y se estudian producciones de docentes en su formación inicial y continua a la luz de las tecnologías utilizadas que versan en aplicaciones, software específicos y videotutoriales, entre otros.  
+\end{abstract}
+
+\maketitle
+\thispagestyle{empty}
+
+\section{Introducción}
+
+En este estudio se diseñan o rediseñan problemas potentes para la producción de conceptos que requieran de las tecnologías digitales (TD) para resolverse. Se pretende estudiar qué tipo de TD emplean docentes y futuros docentes en el aula de matemática, qué problemas se emplean en el aula para la producción de conceptos prescriptos en el currículum y cómo pueden potenciarse utilizando las TD disponibles. También se propone identificar y analizar interacciones en el aula de matemática que favorecen u obstaculizan la construcción de conceptos cuando se emplean estos medios, detallando los rasgos importantes de estos fenómenos. 
+
+Numerosas investigaciones se ocupan del lugar que asumen las tecnologías en el aula y cómo esto modifica el modo de trabajo que atraviesan las formas de producción del conocimiento y por tanto su inclusión en las prácticas de enseñanza encontrando un sentido pedagógico y didáctico potente. Esto atraviesa las maneras de conocer y aprender y genera en los docentes el compromiso de producir “propuestas didácticas que alienten a sus alumnos a aprender de modos enriquecidos y valiosos” (\citet[p. 14]{maggio12}).
+
+Por su parte \citet{palmas18}, recuperando estudios anteriores, señala la diferencia entre los términos tecnologías digitales (TD) y tecnologías de la información y la comunicación (TIC). Considera que el término TIC refleja “que la tecnología se debería centrar en la recopilación y almacenamiento de datos más que en su aprovechamiento para el bienestar común” (p. 117). En disonancia con lo que sostiene acerca de las TIC, “surge el término TD para poner de presente que el foco de las tecnologías radica en la relación entre estas y el modo en que las personas las usan, y no en su potencial “informativo” o “comunicativo”” (p. 117). Asimismo sostiene que las TD, por si solas, no generan un cambio en la educación más allá de ciertos aspectos formales. Son los actores los que pueden transformar la educación, aprovechando las propiedades innovadoras de las dichas tecnologías, siempre y cuando existan diseños adecuados y que resuelvan sus necesidades educativas. La tecnología puede ser concebida como herramienta o como medio. Si se concibe como herramienta se incorpora como algo ajeno a lo cotidiano, como instrumentos posibles de ser usados. En cambio, como medio hace que se tengan en cuenta sus posibilidades didácticas, dando lugar, por ejemplo, a analizar cómo el alumno puede confrontar sus saberes matemáticos previos y cómo puede funcionar la acción de retroalimentación del medio hacia el estudiante.
+
+Particularmente en la enseñanza de la matemática los entornos dinámicos han tomado un papel protagónico por las potencialidades que ofrecen y las nuevas formas que requieren en el diseño de propuestas de enseñanza. Existen muchos estudios (\citet{arcavi08}, \citet{laborde15}, \citet{shahmohammadi19}, entre otros) en relación con sus usos en el aula y las formas de aprender y construir conocimientos. 
+
+Muchos de los investigadores mencionados refieren al papel en la resolución de problemas de los entornos dinámicos, particularmente con Software de Geometría Dinámica (SGD). \citet{laborde15} plantea dos características importantes de estos entornos informáticos: la coexistencia de primitivas de dibujo puro y primitivas geométricas, y la manipulación directa del dibujo por parte de los estudiantes para la formulación y validación de conjeturas. Por su parte \citet{shahmohammadi19} considera que una de las mayores fortalezas potenciales del software dinámico es que permite involucrarse en el reconocimiento de relaciones de similitud y distintas formas de representación del mismo concepto, cuestión que favorece la comprensión más profunda del concepto involucrado. Sostiene que no se debe subestimar el papel crucial que juegan las actividades bien diseñadas, así como los roles de los docentes para dirigir adecuadamente a los estudiantes en el uso del software.
+
+\section{Requisitos previos}
+
+La temática que se aborda en este trabajo es de interés para docentes en matemática e investigadores en educación matemática. Se considera que las Tecnologías Digitales por si solas no generan un cambio en la educación, sino que son los actores quienes pueden transformarla aprovechando sus propiedades innovadoras a través de diseños de propuestas adecuados. Es por eso que se pretende investigar acerca de la importancia de las TD en los procesos de enseñanza y de aprendizaje de la matemática en la formación inicial y continua de profesores en Matemática. 
+
+El enfoque de esta investigación es cualitativo según \citet{mcmillan05}. Los investigadores interpretan los fenómenos según los valores que los involucrados suministran, en este caso profesores en formación y en ejercicio. El interés se centra en el estudio de las estrategias empleadas por los futuros profesores y profesores en ejercicio para construir, dar sentido y significado a sus prácticas. Las acciones se explican en el contexto dentro del cual tienen lugar. Entre los métodos de recolección de datos mencionamos la observación, entrevistas, artefactos escritos, archivos de resoluciones en software o protocolos de construcción y grabaciones en audio y en video. Entre los métodos de análisis de datos mencionamos la codificación y el análisis de contenido (\citet{mcknight00}).
+
+\section{Desarrollo}
+
+Los estudios realizados hasta el momento permiten mencionar los siguientes resultados:
+
+Respecto al tipo de TD que emplean docentes y futuros docentes de matemática se destacan particularmente videos que presentan el desarrollo de determinados conceptos, en general utilizados por los estudiantes con el objetivo de aclarar dudas.
+
+El empleo por parte de los docentes de software específico para el tratamiento de temas determinados como también el uso de aplicaciones del teléfono celular permiten potenciar conceptos tales como la simetría plana y tridimensional. 
+
+La influencia de GeoGebra en la construcción del concepto de rombo y rectángulo permite evidenciar la potencialidad de sus herramientas para determinar propiedades. 
+
+El diseño de propuestas para el tratamiento de temas de geometría 3D, tal como la formación del concepto de poliedro regular y la obtención de la fórmula del volumen de la esfera, a través de construcciones que soportan el arrastre y requieren de un análisis de la definición del respectivo concepto permite a docentes y futuros docentes de matemática revisar el conjunto de imágenes asociadas a estos conceptos.
+
+El diseño y análisis de propuestas para el abordaje de clasificación de cuadriláteros y congruencia de triángulos para ser implementadas por docentes de matemática con empleo de TD evidencia la importancia de estas en la construcción de concepto y en la formulación y validación de conjeturas. 
+
+Las TD, sus entornos virtuales, usos, representaciones y herramientas pueden colaborar en la reflexión de ideas matemáticas poderosas tanto a nivel macro (institucional y social) como micro (didáctico y cognitivo) (\citet{palmas18}).
+
+Se espera continuar con estos estudios profundizando los análisis y reformulando las propuestas como también profundizar el análisis de las TD que los docentes implementan en el aula después de la inclusión inmediata y forzada originada por la pandemia ocasionada por el Covid-19. Como sostiene \citet{shahmohammadi19} los docentes juegan un papel importante en el establecimiento del contrato didáctico y son la principal fuente de retroalimentación para los estudiantes, para estimular su reflexión sobre el trabajo al plantear los temas claves, hacer sugerencias e impulsar el debate de toda la clase.
+
+\section{Bibliografía}
+
+\nocite{*}
+\printbibliography
+
+\end{document}

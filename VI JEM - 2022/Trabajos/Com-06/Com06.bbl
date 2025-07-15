@@ -1,0 +1,565 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{bernstein89}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2aaa2e6816f61c76ed6a7eb5792425f7}{%
+           family={Bernstein},
+           familyi={B\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Morata}%
+      }
+      \strng{namehash}{2aaa2e6816f61c76ed6a7eb5792425f7}
+      \strng{fullhash}{2aaa2e6816f61c76ed6a7eb5792425f7}
+      \strng{bibnamehash}{2aaa2e6816f61c76ed6a7eb5792425f7}
+      \strng{authorbibnamehash}{2aaa2e6816f61c76ed6a7eb5792425f7}
+      \strng{authornamehash}{2aaa2e6816f61c76ed6a7eb5792425f7}
+      \strng{authorfullhash}{2aaa2e6816f61c76ed6a7eb5792425f7}
+      \field{labelalpha}{Bernstein,\addhighpenspace1989}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Clases, código y control}
+      \field{year}{1989}
+    \endentry
+    \entry{laville04}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cb636638b840b4491c53ea74812f0acd}{%
+           family={Blanchard\bibnamedelima Laville},
+           familyi={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {UBA y Ediciones Novedades Educativas}%
+      }
+      \strng{namehash}{cb636638b840b4491c53ea74812f0acd}
+      \strng{fullhash}{cb636638b840b4491c53ea74812f0acd}
+      \strng{bibnamehash}{cb636638b840b4491c53ea74812f0acd}
+      \strng{authorbibnamehash}{cb636638b840b4491c53ea74812f0acd}
+      \strng{authornamehash}{cb636638b840b4491c53ea74812f0acd}
+      \strng{authorfullhash}{cb636638b840b4491c53ea74812f0acd}
+      \field{labelalpha}{Blanchard Laville,\addhighpenspace2004}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Saber y relación pedagógica}
+      \field{year}{2004}
+    \endentry
+    \entry{ce856}{data}{}
+      \name{author}{1}{}{%
+        {{hash=dd58aad9dc686d949d6f0729a50b06f4}{%
+           family={Consejo\bibnamedelimb Interuniversitario\bibnamedelima Nacional},
+           familyi={C\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Comité\bibnamedelima Ejecutivo},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           prefix={del},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd58aad9dc686d949d6f0729a50b06f4}
+      \strng{fullhash}{dd58aad9dc686d949d6f0729a50b06f4}
+      \strng{bibnamehash}{dd58aad9dc686d949d6f0729a50b06f4}
+      \strng{authorbibnamehash}{dd58aad9dc686d949d6f0729a50b06f4}
+      \strng{authornamehash}{dd58aad9dc686d949d6f0729a50b06f4}
+      \strng{authorfullhash}{dd58aad9dc686d949d6f0729a50b06f4}
+      \field{labelalpha}{C.E. del C.I.N., 2013}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{shorthand}{C.E. del C.I.N., 2013}
+      \field{title}{CE 856-13 Asuntos Académicos. Profesorados Universitarios}
+      \field{type}{Resolución}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{canada19}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=28b02006d89e26d76fb291649ba9d544}{%
+           family={Cañada},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Universidad Nacional de La Pampa}%
+      }
+      \strng{namehash}{28b02006d89e26d76fb291649ba9d544}
+      \strng{fullhash}{28b02006d89e26d76fb291649ba9d544}
+      \strng{bibnamehash}{28b02006d89e26d76fb291649ba9d544}
+      \strng{authorbibnamehash}{28b02006d89e26d76fb291649ba9d544}
+      \strng{authornamehash}{28b02006d89e26d76fb291649ba9d544}
+      \strng{authorfullhash}{28b02006d89e26d76fb291649ba9d544}
+      \field{labelalpha}{Cañada,\addhighpenspace2019}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{XXIV Jornadas de Investigación de la Facultad de Ciencias Humanas}
+      \field{month}{10}
+      \field{title}{Las posibilidades relacionales con el conocimiento en prácticas educativas mediadas por juegos}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{cucen18}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=7b145e970ea45ebe19ae0164da4ec74a}{%
+           family={CUCEN},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Universidad Nacional de San Luis}%
+      }
+      \strng{namehash}{7b145e970ea45ebe19ae0164da4ec74a}
+      \strng{fullhash}{7b145e970ea45ebe19ae0164da4ec74a}
+      \strng{bibnamehash}{7b145e970ea45ebe19ae0164da4ec74a}
+      \strng{authorbibnamehash}{7b145e970ea45ebe19ae0164da4ec74a}
+      \strng{authornamehash}{7b145e970ea45ebe19ae0164da4ec74a}
+      \strng{authorfullhash}{7b145e970ea45ebe19ae0164da4ec74a}
+      \field{labelalpha}{CUCEN,\addhighpenspace2018}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Libro de resúmenes}
+      \field{title}{Taller sobre Formación Disciplinar Específica y PPD en los Profesorados Universitarios de Ciencias Exactas y Naturales}
+      \field{year}{2018}
+    \endentry
+    \entry{difranco11}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6feb21623066e3526de77ed190743072}{%
+           family={Di\bibnamedelima Franco},
+           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={M.G.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0740fafdf99d68cfd5cc7bbf3a4ef5ec}{%
+           family={Siderac},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=809c1fd0c9d326200505ff32c76d0bc7}{%
+           family={Di\bibnamedelima Franco},
+           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={N.\bibnamedelimi B.},
+           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {FCH–UNLPam}%
+      }
+      \strng{namehash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \strng{fullhash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \strng{bibnamehash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \strng{authorbibnamehash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \strng{authornamehash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \strng{authorfullhash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \field{extraname}{1}
+      \field{labelalpha}{Di Franco,\addhighpenspace2011}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{II Jornadas Internacionales: Fronteras, Ciudadanía y Conformación de Espacios en el Cono Sur}
+      \field{note}{Universidad Nacional de Río Cuarto}
+      \field{title}{El Campo de las Prácticas Docentes como una experiencia de praxis prefigurativa}
+      \field{year}{2011}
+    \endentry
+    \entry{difranco18}{book}{}
+      \name{author}{1}{}{%
+        {{hash=084ea2ec4f47c0da08d127f6bf2b728c}{%
+           family={Di\bibnamedelima Franco},
+           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EdUNLPam}%
+      }
+      \strng{namehash}{084ea2ec4f47c0da08d127f6bf2b728c}
+      \strng{fullhash}{084ea2ec4f47c0da08d127f6bf2b728c}
+      \strng{bibnamehash}{084ea2ec4f47c0da08d127f6bf2b728c}
+      \strng{authorbibnamehash}{084ea2ec4f47c0da08d127f6bf2b728c}
+      \strng{authornamehash}{084ea2ec4f47c0da08d127f6bf2b728c}
+      \strng{authorfullhash}{084ea2ec4f47c0da08d127f6bf2b728c}
+      \field{labelalpha}{Di Franco,\addhighpenspace2018}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-950-863-346-0}
+      \field{title}{Relaciones con el saber en las prácticas de formación del Profesorado de Matemática}
+      \field{year}{2018}
+    \endentry
+    \entry{difrancosiderac20}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6feb21623066e3526de77ed190743072}{%
+           family={Di\bibnamedelima Franco},
+           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={M.G.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0740fafdf99d68cfd5cc7bbf3a4ef5ec}{%
+           family={Siderac},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=809c1fd0c9d326200505ff32c76d0bc7}{%
+           family={Di\bibnamedelima Franco},
+           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={N.\bibnamedelimi B.},
+           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EdUNLPam}%
+      }
+      \strng{namehash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \strng{fullhash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \strng{bibnamehash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \strng{authorbibnamehash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \strng{authornamehash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \strng{authorfullhash}{07bc554f575bc3ec4313c39dafc1cfff}
+      \field{extraname}{2}
+      \field{labelalpha}{Di Franco,\addhighpenspace2020}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2314-3983}
+      \field{journaltitle}{Anuario de la Facultad de Ciencias Humanas UNLPam, Vol. 16, Núm. 16 (2019)}
+      \field{title}{El currículum universitario como proyecto político para una mayor justicia entre saberes}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 19}
+      \range{pages}{19}
+    \endentry
+    \entry{difranco20}{article}{}
+      \name{author}{3}{}{%
+        {{hash=084ea2ec4f47c0da08d127f6bf2b728c}{%
+           family={Di\bibnamedelima Franco},
+           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d0ee43a2c9f93bd2f86bb8054cf65e61}{%
+           family={Ferreyra},
+           familyi={F\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0534cb7fe6b528dc25b4cac7ea6a25fc}{%
+           family={Uribe},
+           familyi={U\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{26997ae9e5048791d320c7b333a146b5}
+      \strng{fullhash}{26997ae9e5048791d320c7b333a146b5}
+      \strng{bibnamehash}{26997ae9e5048791d320c7b333a146b5}
+      \strng{authorbibnamehash}{26997ae9e5048791d320c7b333a146b5}
+      \strng{authornamehash}{26997ae9e5048791d320c7b333a146b5}
+      \strng{authorfullhash}{26997ae9e5048791d320c7b333a146b5}
+      \field{labelalpha}{Di Franco,\addhighpenspace2020}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2448‐6469}
+      \field{journaltitle}{Acta Latinoamericana de Matemática Educativa, ALME 33}
+      \field{note}{Comité Latinoamericano de Matemática Educativa A. C., México, D.F.}
+      \field{title}{Prácticas de Saber, una configuración topológica singular de contratransferencia}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{653\bibrangedash 662}
+      \range{pages}{10}
+    \endentry
+    \entry{gallardo21}{article}{}
+      \name{author}{2}{}{%
+        {{hash=197faab0ec8117e1707cd1d9ce04d74e}{%
+           family={Gallardo},
+           familyi={G\bibinitperiod},
+           given={E.\bibnamedelimi C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=294239ad546f840d4bb96c6694a0faad}{%
+           family={Landeros},
+           familyi={L\bibinitperiod},
+           given={R.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d97a99801753d7ad1d8609b319fa2aa9}
+      \strng{fullhash}{d97a99801753d7ad1d8609b319fa2aa9}
+      \strng{bibnamehash}{d97a99801753d7ad1d8609b319fa2aa9}
+      \strng{authorbibnamehash}{d97a99801753d7ad1d8609b319fa2aa9}
+      \strng{authornamehash}{d97a99801753d7ad1d8609b319fa2aa9}
+      \strng{authorfullhash}{d97a99801753d7ad1d8609b319fa2aa9}
+      \field{labelalpha}{Gallardo,\addhighpenspace2021}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dialogía: revista de lingüística, literatura y cultura}
+      \field{number}{15}
+      \field{title}{La identidad heteroglósica como herramienta verbal-ideológica de análisis del discurso dialógico}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{33\bibrangedash 18}
+      \range{pages}{-14}
+    \endentry
+    \entry{laborda20}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1c91f229bb77521897c70c9a57b404d6}{%
+           family={Laborda\bibnamedelima Caffarone},
+           familyi={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c91f229bb77521897c70c9a57b404d6}
+      \strng{fullhash}{1c91f229bb77521897c70c9a57b404d6}
+      \strng{bibnamehash}{1c91f229bb77521897c70c9a57b404d6}
+      \strng{authorbibnamehash}{1c91f229bb77521897c70c9a57b404d6}
+      \strng{authornamehash}{1c91f229bb77521897c70c9a57b404d6}
+      \strng{authorfullhash}{1c91f229bb77521897c70c9a57b404d6}
+      \field{extraname}{1}
+      \field{labelalpha}{Laborda Caffarone,\addhighpenspace2020}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{VII Jornadas del Campo de las Prácticas de los Profesorados de Ciencias Exactas y Naturales, UNLPam}
+      \field{note}{UNLPam}
+      \field{title}{La tecnología en las relaciones con el saber matemático en las prácticas educativas del profesorado}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{laborda21}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1c91f229bb77521897c70c9a57b404d6}{%
+           family={Laborda\bibnamedelima Caffarone},
+           familyi={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c91f229bb77521897c70c9a57b404d6}
+      \strng{fullhash}{1c91f229bb77521897c70c9a57b404d6}
+      \strng{bibnamehash}{1c91f229bb77521897c70c9a57b404d6}
+      \strng{authorbibnamehash}{1c91f229bb77521897c70c9a57b404d6}
+      \strng{authornamehash}{1c91f229bb77521897c70c9a57b404d6}
+      \strng{authorfullhash}{1c91f229bb77521897c70c9a57b404d6}
+      \field{extraname}{2}
+      \field{labelalpha}{Laborda Caffarone,\addhighpenspace2021}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{II Simposio de Educación Matemática Virtual –II SEM V–}
+      \field{note}{Departamento de Ciencias Básicas de la Universidad Nacional de Luján}
+      \field{title}{El impacto de la tecnología en la Enseñanza y el Aprendizaje de la Matemática}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{lapasta18}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f3d04dbe1672eeaefac7fa4d17a7fb95}{%
+           family={Lapasta},
+           familyi={L\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f3d04dbe1672eeaefac7fa4d17a7fb95}
+      \strng{fullhash}{f3d04dbe1672eeaefac7fa4d17a7fb95}
+      \strng{bibnamehash}{f3d04dbe1672eeaefac7fa4d17a7fb95}
+      \strng{authorbibnamehash}{f3d04dbe1672eeaefac7fa4d17a7fb95}
+      \strng{authornamehash}{f3d04dbe1672eeaefac7fa4d17a7fb95}
+      \strng{authorfullhash}{f3d04dbe1672eeaefac7fa4d17a7fb95}
+      \field{labelalpha}{Lapasta,\addhighpenspace2018}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Taller sobre Formación Disciplinar Específica y PPD en los Profesorados Universitarios de Ciencias Exactas y Naturales}
+      \field{note}{CUCEN. Universidad Nacional de San Luis}
+      \field{title}{Experiencias Curriculares y extracurriculares para la construcción de la Práctica Profesional Docente en la formación de profesores universitarios de Ciencias Exactas y Naturales}
+      \field{year}{2018}
+    \endentry
+    \entry{mendoza20}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=72ecc04f3a9c9194031daf8d75e8718d}{%
+           family={Mendoza\bibnamedelima Virgili},
+           familyi={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Amerindia}%
+      }
+      \strng{namehash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \strng{fullhash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \strng{bibnamehash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \strng{authorbibnamehash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \strng{authornamehash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \strng{authorfullhash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \field{extraname}{1}
+      \field{labelalpha}{Mendoza Virgili,\addhighpenspace2020}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Los sentidos de las mediaciones lúdicas, tecnológicas y experimentales en las Prácticas Educativas en Matemática: entre las herramientas, las prácticas de inercia y las innovaciones declarativas}
+      \field{isbn}{978-987-1082-93-3}
+      \field{title}{Los juegos en entornos virtuales en las Prácticas Educativas de Matemática}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{232\bibrangedash 253}
+      \range{pages}{22}
+    \endentry
+    \entry{mendoza20b}{article}{}
+      \name{author}{1}{}{%
+        {{hash=72ecc04f3a9c9194031daf8d75e8718d}{%
+           family={Mendoza\bibnamedelima Virgili},
+           familyi={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \strng{fullhash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \strng{bibnamehash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \strng{authorbibnamehash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \strng{authornamehash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \strng{authorfullhash}{72ecc04f3a9c9194031daf8d75e8718d}
+      \field{extraname}{2}
+      \field{labelalpha}{Mendoza Virgili,\addhighpenspace2020}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{XLIII Reunión de Educación Matemática de la Reunión Anual de la Unión Matemática Argentina -virtUMA 2020-}
+      \field{title}{Los sentidos de las prácticas educativas en contextos de enseñanza remota (a veces virtual) en matemática}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{ouvina11}{article}{}
+      \name{author}{1}{}{%
+        {{hash=570f7b8e9ba76afd6532b004a9cb9a68}{%
+           family={Ouviña},
+           familyi={O\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{570f7b8e9ba76afd6532b004a9cb9a68}
+      \strng{fullhash}{570f7b8e9ba76afd6532b004a9cb9a68}
+      \strng{bibnamehash}{570f7b8e9ba76afd6532b004a9cb9a68}
+      \strng{authorbibnamehash}{570f7b8e9ba76afd6532b004a9cb9a68}
+      \strng{authornamehash}{570f7b8e9ba76afd6532b004a9cb9a68}
+      \strng{authorfullhash}{570f7b8e9ba76afd6532b004a9cb9a68}
+      \field{labelalpha}{Ouviña,\addhighpenspace2011}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gramsci y la educación: pedagogía de la praxis y políticas culturales en América Latina}
+      \field{note}{Noveduc}
+      \field{title}{La pedagogía prefigurativa en el joven Gramsci. Una aproximación a la teoría y práctica de la educación futura}
+      \field{year}{2011}
+    \endentry
+    \entry{planas11}{article}{}
+      \name{author}{1}{}{%
+        {{hash=daaf83e27d5d163db678a24cb3b55471}{%
+           family={Planas},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{daaf83e27d5d163db678a24cb3b55471}
+      \strng{fullhash}{daaf83e27d5d163db678a24cb3b55471}
+      \strng{bibnamehash}{daaf83e27d5d163db678a24cb3b55471}
+      \strng{authorbibnamehash}{daaf83e27d5d163db678a24cb3b55471}
+      \strng{authornamehash}{daaf83e27d5d163db678a24cb3b55471}
+      \strng{authorfullhash}{daaf83e27d5d163db678a24cb3b55471}
+      \field{labelalpha}{Planas,\addhighpenspace2011}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. M. Goñi (Coord.). Matemáticas. Investigación, innovación y buenas prácticas}
+      \field{note}{Graó}
+      \field{title}{Buenas Prácticas en la enseñanza de las Matemáticas en secundaria y bachillerato}
+      \field{year}{2011}
+      \field{pages}{57\bibrangedash 157}
+      \range{pages}{101}
+    \endentry
+    \entry{sousa06}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d099821e7e80c91d47cefa9114abe003}{%
+           family={Sousa\bibnamedelima Santos},
+           familyi={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d099821e7e80c91d47cefa9114abe003}
+      \strng{fullhash}{d099821e7e80c91d47cefa9114abe003}
+      \strng{bibnamehash}{d099821e7e80c91d47cefa9114abe003}
+      \strng{authorbibnamehash}{d099821e7e80c91d47cefa9114abe003}
+      \strng{authornamehash}{d099821e7e80c91d47cefa9114abe003}
+      \strng{authorfullhash}{d099821e7e80c91d47cefa9114abe003}
+      \field{extraname}{1}
+      \field{labelalpha}{Sousa Santos,\addhighpenspace2006}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{CLACSO}
+      \field{title}{Renovar la teoría crítica y reinventar la emancipación social}
+      \field{year}{2006}
+    \endentry
+    \entry{sousa18}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d099821e7e80c91d47cefa9114abe003}{%
+           family={Sousa\bibnamedelima Santos},
+           familyi={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d099821e7e80c91d47cefa9114abe003}
+      \strng{fullhash}{d099821e7e80c91d47cefa9114abe003}
+      \strng{bibnamehash}{d099821e7e80c91d47cefa9114abe003}
+      \strng{authorbibnamehash}{d099821e7e80c91d47cefa9114abe003}
+      \strng{authornamehash}{d099821e7e80c91d47cefa9114abe003}
+      \strng{authorfullhash}{d099821e7e80c91d47cefa9114abe003}
+      \field{extraname}{2}
+      \field{labelalpha}{Sousa Santos,\addhighpenspace2018}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Menesses, M.P. Bidaseca, K.(coords.) Epistemologías del Sur}
+      \field{note}{CLACSO/Coímbra: CES}
+      \field{title}{Introducción a las Epistemologías del Sur}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

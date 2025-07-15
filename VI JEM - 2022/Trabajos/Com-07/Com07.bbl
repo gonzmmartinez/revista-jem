@@ -1,0 +1,218 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{horzum17}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2f16471ed2b3a72451c8288427b36766}{%
+           family={Horzum},
+           familyi={H\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a8f24ccfcecd2a4ef9a740fa9d90a4fc}{%
+           family={Ünlü},
+           familyi={Ü\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b18bf403ee45ff57c8f52473e874abe1}
+      \strng{fullhash}{b18bf403ee45ff57c8f52473e874abe1}
+      \strng{bibnamehash}{b18bf403ee45ff57c8f52473e874abe1}
+      \strng{authorbibnamehash}{b18bf403ee45ff57c8f52473e874abe1}
+      \strng{authornamehash}{b18bf403ee45ff57c8f52473e874abe1}
+      \strng{authorfullhash}{b18bf403ee45ff57c8f52473e874abe1}
+      \field{labelalpha}{Horzum,\addhighpenspace2017}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Didáctica Napocensia}
+      \field{number}{3}
+      \field{title}{Pre-service mathematics teachers' views about GeoGebra and its use}
+      \field{volume}{10}
+      \field{year}{2017}
+      \field{pages}{77\bibrangedash 89}
+      \range{pages}{13}
+    \endentry
+    \entry{itzcovich16}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6e02c99e6e3981ddb50062ebad2d0c2b}{%
+           family={Itzcovich},
+           familyi={I\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2aefb041bb3ffef0cf7c35635c14021f}{%
+           family={Murúa},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5060c4a1f41d56de9b7a393ae79a287}
+      \strng{fullhash}{b5060c4a1f41d56de9b7a393ae79a287}
+      \strng{bibnamehash}{b5060c4a1f41d56de9b7a393ae79a287}
+      \strng{authorbibnamehash}{b5060c4a1f41d56de9b7a393ae79a287}
+      \strng{authornamehash}{b5060c4a1f41d56de9b7a393ae79a287}
+      \strng{authorfullhash}{b5060c4a1f41d56de9b7a393ae79a287}
+      \field{labelalpha}{Itzcovich,\addhighpenspace2016}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Yupana}
+      \field{title}{GeoGebra: nuevas preguntas sobre viejas tareas}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{pages}{71\bibrangedash 85}
+      \range{pages}{15}
+    \endentry
+    \entry{itzcovich20}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6e02c99e6e3981ddb50062ebad2d0c2b}{%
+           family={Itzcovich},
+           familyi={I\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Departamento de Matemática - UNS}%
+      }
+      \strng{namehash}{6e02c99e6e3981ddb50062ebad2d0c2b}
+      \strng{fullhash}{6e02c99e6e3981ddb50062ebad2d0c2b}
+      \strng{bibnamehash}{6e02c99e6e3981ddb50062ebad2d0c2b}
+      \strng{authorbibnamehash}{6e02c99e6e3981ddb50062ebad2d0c2b}
+      \strng{authornamehash}{6e02c99e6e3981ddb50062ebad2d0c2b}
+      \strng{authorfullhash}{6e02c99e6e3981ddb50062ebad2d0c2b}
+      \field{labelalpha}{Itzcovich,\addhighpenspace2020}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Archivo de video}
+      \field{title}{Taller Esp. Horacio Itzcovich}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=5a1Y4Aj7fdM
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=5a1Y4Aj7fdM
+      \endverb
+    \endentry
+    \entry{mcmillan05}{book}{}
+      \name{author}{2}{}{%
+        {{hash=704e91ea4fa857bf3565c970f4d93f7e}{%
+           family={McMillan},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=628fccebb4020bba8053543e3e397c51}{%
+           family={Schumacher},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson. Addison Wesley, Madrid.}%
+      }
+      \strng{namehash}{a631f47d13e1e7f7073be4b93030508a}
+      \strng{fullhash}{a631f47d13e1e7f7073be4b93030508a}
+      \strng{bibnamehash}{a631f47d13e1e7f7073be4b93030508a}
+      \strng{authorbibnamehash}{a631f47d13e1e7f7073be4b93030508a}
+      \strng{authornamehash}{a631f47d13e1e7f7073be4b93030508a}
+      \strng{authorfullhash}{a631f47d13e1e7f7073be4b93030508a}
+      \field{labelalpha}{McMillan,\addhighpenspace2005}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Investigación educativa. 5° edición.}
+      \field{year}{2005}
+    \endentry
+    \entry{novembre15}{book}{}
+      \name{author}{3}{}{%
+        {{hash=482b60a201251cbc03d0fbdc346f6ca0}{%
+           family={Novembre},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3c32ca7dde0ad6d969b61065276f1421}{%
+           family={Nicodemo},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1590ad8072518a5253ac06a9824b6b1b}{%
+           family={Coll},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ANSES, Buenos Aires}%
+      }
+      \strng{namehash}{5fe347e1139c8ef0e2143106d2765b71}
+      \strng{fullhash}{5fe347e1139c8ef0e2143106d2765b71}
+      \strng{bibnamehash}{5fe347e1139c8ef0e2143106d2765b71}
+      \strng{authorbibnamehash}{5fe347e1139c8ef0e2143106d2765b71}
+      \strng{authornamehash}{5fe347e1139c8ef0e2143106d2765b71}
+      \strng{authorfullhash}{5fe347e1139c8ef0e2143106d2765b71}
+      \field{labelalpha}{Novembre,\addhighpenspace2015}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Matemática y TIC - Orientaciones para la enseñanza}
+      \field{year}{2015}
+    \endentry
+    \entry{sanchez19}{article}{}
+      \name{author}{2}{}{%
+        {{hash=31b65a87d975e7a4dae6d33541091b02}{%
+           family={Sánchez},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=64bc2b61fb0b7735b9c982726ef53155}{%
+           family={Prieto},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f952ad2be19760805b56b682759e4cee}
+      \strng{fullhash}{f952ad2be19760805b56b682759e4cee}
+      \strng{bibnamehash}{f952ad2be19760805b56b682759e4cee}
+      \strng{authorbibnamehash}{f952ad2be19760805b56b682759e4cee}
+      \strng{authornamehash}{f952ad2be19760805b56b682759e4cee}
+      \strng{authorfullhash}{f952ad2be19760805b56b682759e4cee}
+      \field{labelalpha}{Sánchez,\addhighpenspace2019}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PNA. Revista de investigación en didáctica de la matemática}
+      \field{number}{1}
+      \field{title}{Procesos de objetivación alrededor de las ideas geométricas en la elaboración de simuladores con GeoGebra}
+      \field{volume}{14}
+      \field{year}{2019}
+      \field{pages}{55\bibrangedash 83}
+      \range{pages}{29}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

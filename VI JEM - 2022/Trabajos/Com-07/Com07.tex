@@ -1,0 +1,130 @@
+\documentclass[oneside,spanish]{amsart}
+\usepackage[T1]{fontenc} % Tipo de fuente
+\usepackage[utf8]{inputenc} % Archivo UTF-8
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=3cm,rmargin=2.5cm} % Tamaño
+\usepackage{amsthm} 
+%\usepackage{amsaddr} % Para modificar la posición de address
+\usepackage[spanish]{babel} % Idioma español
+\usepackage[backend=biber,style=alphabetic,natbib,maxalphanames=1]{biblatex} % Compilar bibliografía con BibLaTeX (no BibTeX)
+\usepackage[shortlabels]{enumitem} % Mejora el entorno enumerate
+\usepackage{graphicx} % Colocar imágenes
+\usepackage[hidelinks]{hyperref} % Vínculos y referencias interactivas
+\usepackage[skip=3pt]{caption} % Permite modificar el espacio entre el caption y la imagen
+\usepackage{multicol} % Entornos de múltiples columnas
+
+%-------------------------------------------------------------------------
+% Configuraciones iniciales
+\makeatletter
+%Numeración
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\newlength{\lyxlabelwidth}      % Longitud auxiliar
+\makeatother
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Bibliografía
+\defbibheading{bibliography}[\refname]{}
+\addbibresource{refs-com07.bib}
+
+\renewcommand*{\labelalphaothers}{}
+
+\DeclareLabelalphaTemplate{
+	\labelelement{
+		\field[final]{shorthand}
+		\field{labelname}
+		\field{label}
+	}
+	\labelelement{
+		\literal{,\addhighpenspace}
+	}
+	\labelelement{
+		\field{year}
+	}
+}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Otras configuraciones
+%\pagestyle{plain} % Para que el encabezado esté vacío
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\figurename}{Figura}}
+
+\theoremstyle{definition}
+\newtheorem{problema}{\normalfont PROBLEMA}
+%-------------------------------------------------------------------------
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\scriptsize\MakeUppercase\shorttitle}
+
+%-------------------------------------------------------------------------
+
+% Y acá comienza el documento
+
+\begin{document}
+	
+%-------------------------------------------------------------------------
+% Datos del artículo
+\title{Identificación de herramientas de GeoGebra empleadas en construcciones de rectángulo\vspace{-2ex}}
+\author[1]{Magali Freyre\textsuperscript{1}}
+\address[1]{Facultad de Humanidades y Ciencias, Universidad Nacional del Litoral}
+\author[2]{Marcela Götte}
+\author[3]{Ana María Mántica}
+\email[corresponding author]{\textsuperscript{1}magali.freyre@gmail.com}
+%-------------------------------------------------------------------------
+
+\begin{abstract}
+	Se presentan avances de una investigación que tiene como objetivo estudiar la vinculación entre construcciones de una figura geométrica con GeoGebra, propiedades empleadas en las mismas y su definición. Se propone a estudiantes avanzados de profesorado en matemática construir un rectángulo con GeoGebra de tres maneras distintas, explicitar las propiedades empleadas en cada construcción y la definición de rectángulo considerada. En una segunda etapa, se realiza una entrevista semiestructurada por medio de la plataforma Zoom en la que se presentan las tres construcciones de rectángulo realizadas por otro grupo para ser analizadas. En este trabajo se presenta el análisis de lo producido durante la entrevista a un grupo de dos estudiantes en relación con la identificación de herramientas empleadas. Se trata de una investigación cualitativa interactiva. Se cuenta con el video de la entrevista generado por la plataforma de videoconferencias. Las estudiantes observan las denominaciones de los objetos e interrogan a las construcciones a partir de las funciones disponibles de GeoGebra. Recurren a construir nuevos objetos que posibiliten, acudiendo a propiedades geométricas, determinar características de la figura construida. Se refieren a la función protocolo de construcción luego de las intervenciones de la entrevistadora. Resulta interesante que se propongan tareas que no solo impliquen que se extraiga información de construcciones, acudiendo a distintas funciones de GeoGebra, sino que se reflexione acerca de las potencialidades del protocolo de construcción, sus características y la necesidad de su enseñanza.
+\end{abstract}
+
+\maketitle
+\thispagestyle{empty}
+
+\section{Introducción}
+
+Se presentan avances de una investigación que tiene como objetivo estudiar la vinculación entre construcciones de una figura geométrica con GeoGebra, propiedades empleadas en las mismas y su definición.
+
+\citet{horzum17} sostienen que en los programas de profesorado de matemática los contenidos deben estructurarse en torno a los objetivos de adquirir conocimiento y habilidades que permitan entender y tomar ventajas de las oportunidades que ofrece la tecnología para la enseñanza. El aprendizaje de conceptos relacionados a figuras geométricas con software de geometría dinámica (SGD) es considerablemente distinto a lo que se puede hacer sin computadoras. Por esto resulta relevante que futuros profesores de matemática diseñen propuestas mediadas por GeoGebra y lo usen para resolver actividades en sus clases.
+
+Se propone a estudiantes avanzados de profesorado en matemática que construyan un rectángulo con GeoGebra de tres maneras distintas y que expliciten las propiedades empleadas en cada construcción y la definición de rectángulo considerada. En una segunda etapa, se realiza una entrevista semiestructurada por medio de la plataforma Zoom en la que se presentan las tres construcciones de rectángulo realizadas por otro grupo y se solicita en primera instancia a los estudiantes entrevistados que determinen las herramientas empleadas en cada construcción. Se presenta el análisis de lo realizado por las estudiantes en la entrevista en relación con la identificación de herramientas empleadas.
+
+Como afirman \citet{sanchez19}, la explicación de las técnicas de construcción posibilita que se comprendan las mismas, proceso que es favorecido a través del diálogo acerca de las acciones con el software que materializan la técnica. De esta manera, la identificación de los pasos de construcción y las interacciones en torno a los mismos se considera fundamental para la identificación de propiedades geométricas empleadas.
+
+\section{Requisitos previos}
+
+Las potencialidades del trabajo con SGD resultan de especial interés para estudiantes de profesorados y profesores de matemática. \citet{novembre15} sostienen que la incorporación de tecnología debe provocar rupturas en el quehacer matemático de la escuela ya que "es posible abordar nuevos problemas matemáticos, con sus consecuentes nuevos conocimientos y saberes, y sus nuevas --y muchas veces, desconocidas-- prácticas y tareas" (p.23). Los docentes pueden utilizar tecnologías digitales, en este caso GeoGebra, que enriquezcan los procesos de enseñanza y aprendizaje de los conceptos. \citet{itzcovich20} resalta que GeoGebra permite representar a los objetos geométricos de manera diferente a la tradicional con lápiz y papel, obteniendo aportes distintos. Así, no cambian las propiedades de los objetos geométricos, lo que cambia es el modo de acceder a las relaciones que los caracterizan.
+
+La presente es una investigación cualitativa interactiva (\citet{mcmillan05}). Los sujetos de estudio son estudiantes avanzadas de profesorado en matemática, quienes tienen aprobadas tres asignaturas referidas a geometría en las que se trabaja especialmente con GeoGebra en distintas vistas y haciendo uso del arrastre de objetos libres como característica relacionada al dinamismo en el software, en la formulación y validación de conjeturas.
+
+Las estrategias para la recogida de datos son observaciones, entrevistas y artefactos para el análisis (archivos digitales y grabaciones de audio y video de las producciones de las estudiantes). Particularmente, para el análisis que se presenta se cuenta con el video de la entrevista generado por la plataforma de videoconferencias.
+
+\section{Desarrollo}
+
+Al comienzo de la entrevista, la entrevistadora expone en la pantalla las construcciones de rectángulo a analizar, con las vistas gráfica y algebraica habilitadas. Los elementos en la vista algebraica se presentan según el orden de construcción. Se aclara a las estudiantes que pueden solicitar que se realice cualquier acción sobre el archivo. Sin embargo, en un primer momento solo perciben las construcciones a través de la observación de los dibujos en la pantalla y de las denominaciones de los elementos en las distintas vistas activas. No sugieren la realización de ninguna acción. Analizan las denominaciones de los objetos construidos y manifiestan que el símbolo ’ en algunos puntos puede denotar que son generados a partir de una simetría. 
+
+En una de las construcciones dudan acerca de la construcción de un punto G. Para determinar si dicho punto representa un objeto libre o dependiente, acuden a la vista algebraica del software y analizan sus coordenadas. Una de las estudiantes afirma que el hecho de que el punto no posee coordenadas enteras puede denotar que se trata de un objeto libre, aunque esto no es correcto. En la construcción pueden encontrarse también los puntos E y F que son vértices del rectángulo. Las estudiantes se cuestionan si el triángulo EFG es isósceles, por lo que deciden utilizar herramientas disponibles en GeoGebra para interrogar a la construcción. Trazan el triángulo con la herramienta Polígono, determinan el punto medio de EF con la herramienta Medio o centro y luego emplean la herramienta Recta perpendicular para trazar una recta perpendicular al segmento EF por el punto medio. Las estudiantes observan que esta recta no pasa por el punto G, por lo que concluyen que el triángulo EFG no es isósceles. Esto ilustra el empleo de propiedades geométricas que subyacen en la utilización de las herramientas seleccionadas, cuestión que es resaltada en el estudio de \citet{sanchez19}.
+
+Cabe destacar que el hecho de solo observar las construcciones y las denominaciones de los objetos en las distintas vistas no les permite identificar con claridad los pasos de construcción y evidencian dudas sobre algunos de ellos, aunque nombran algunas herramientas empleadas.
+
+El protocolo de construcción de GeoGebra es una función que permite revisar los pasos llevados a cabo en la realización de una construcción.
+
+Las intervenciones de la entrevistadora promueven que las estudiantes soliciten que se abra el protocolo de construcción de GeoGebra. Las estudiantes refieren a la existencia de dicho protocolo, aunque afirman no recordar cómo se denomina dicha función del SGD.
+
+Tal como afirma \citet{itzcovich20}, la información que devuelve GeoGebra, a partir de una actividad intencional que fomente la discusión entre las decisiones que se toman y lo que ocurre con el software, permite que se continúe pensando en dichas relaciones.
+
+Las estudiantes realizan primero observación en las tres construcciones y luego analizan sus respectivos protocolos de construcción. De la revisión del protocolo de cada construcción logran identificar las herramientas utilizadas y compararlas con las nombradas previamente a partir de la mera observación, identificando que en algunos casos no coinciden. Esto da relevancia al protocolo de construcción que ofrece el SGD y a las distintas vistas que permiten observar diferentes representaciones de los objetos construidos.
+
+\citet{itzcovich16} se cuestionan al respecto de las construcciones con GeoGebra si las herramientas de este SGD, al ser portadoras de conocimiento geométrico favorecen "…el paso del control de las propiedades a través de la percepción y los instrumentos a un control por medio de las definiciones, propiedades y deducciones" (p.75). Asumen que la actividad de construir en SGD posibilita bajo ciertas condiciones un estudio de las figuras en cuanto al conjunto de las relaciones que las caracterizan. Por esta razón resulta importante hacer énfasis en las relaciones que caracterizan cada dibujo-GeoGebra, más allá de los procedimientos utilizados. \citet{itzcovich20} sostiene que son los conocimientos disponibles los que comandan la identificación e interpretación de la información que puede extraerse de las figuras construidas. De esta manera, se puede interrogar a las figuras construidas posibilitando que se identifiquen ciertas relaciones presentes.
+
+Los sujetos de estudio en este caso analizan las figuras construidas con el objetivo de identificar las herramientas empleadas. Observan las denominaciones de los objetos e interrogan a las construcciones a partir de las funciones disponibles. Si bien en primer lugar solo realizan observación, esto no alcanza para asegurar con certeza qué herramientas se emplean. Acuden a construir nuevos objetos que posibiliten, acudiendo a propiedades geométricas, determinar características de la figura construida. No se refieren en primera instancia a la función protocolo de construcción, lo que podría haber permitido la identificación de herramientas empleadas con mayor facilidad. Interrogan a la construcción a partir del protocolo de construcción a partir de intervenciones de la entrevistadora. Resulta interesante por esto la propuesta de tareas a estudiantes de profesorado que no solo impliquen que se extraiga información de construcciones, acudiendo a distintas funciones de GeoGebra, sino que se reflexione acerca de las potencialidades del protocolo de construcción, sus características y la necesidad de su enseñanza.
+
+\section{Bibliografía}
+
+\nocite{*}
+\printbibliography
+
+\end{document}

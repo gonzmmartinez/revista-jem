@@ -1,0 +1,179 @@
+\documentclass[oneside,spanish]{amsart}
+\usepackage[T1]{fontenc} % Tipo de fuente
+\usepackage[utf8]{inputenc} % Archivo UTF-8
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=3cm,rmargin=2.5cm} % Tamaño
+\usepackage{amsthm} 
+%\usepackage{amsaddr} % Para modificar la posición de address
+\usepackage[spanish]{babel} % Idioma español
+\usepackage[backend=biber,style=alphabetic,natbib,maxalphanames=1]{biblatex} % Compilar bibliografía con BibLaTeX (no BibTeX)
+\usepackage[shortlabels]{enumitem} % Mejora el entorno enumerate
+\usepackage{graphicx} % Colocar imágenes
+\usepackage[hidelinks]{hyperref} % Vínculos y referencias interactivas
+\usepackage[skip=3pt]{caption} % Permite modificar el espacio entre el caption y la imagen
+\usepackage{multicol} % Entornos de múltiples columnas
+
+%-------------------------------------------------------------------------
+% Configuraciones iniciales
+\makeatletter
+%Numeración
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\newlength{\lyxlabelwidth}      % Longitud auxiliar
+\makeatother
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Bibliografía
+\defbibheading{bibliography}[\refname]{}
+\addbibresource{refs-com06.bib}
+
+\renewcommand*{\labelalphaothers}{}
+
+\DeclareLabelalphaTemplate{
+	\labelelement{
+		\field[final]{shorthand}
+		\field{labelname}
+		\field{label}
+	}
+	\labelelement{
+		\literal{,\addhighpenspace}
+	}
+	\labelelement{
+		\field{year}
+	}
+}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Otras configuraciones
+%\pagestyle{plain} % Para que el encabezado esté vacío
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\figurename}{Figura}}
+
+\theoremstyle{definition}
+\newtheorem{problema}{\normalfont PROBLEMA}
+%-------------------------------------------------------------------------
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\scriptsize\MakeUppercase\shorttitle}
+
+%-------------------------------------------------------------------------
+
+% Y acá comienza el documento
+
+\begin{document}
+	
+%-------------------------------------------------------------------------
+% Datos del artículo
+\title{Las Prácticas educativas en la construcción de un campo de identidad profesional en el Profesorado en Matemática\vspace{-2ex}}
+\author[1]{Norma Di Franco\textsuperscript{1}}
+\author[2]{Nora Claudia Ferreyra}
+\address[1,2]{Universidad Nacional de La Pampa}
+\email[corresponding author]{\textsuperscript{1}difranconb@gmail.com}
+%-------------------------------------------------------------------------
+
+\begin{abstract}
+	  La presentación tiene como sentido compartir reflexiones vinculadas al Campo de las Prácticas -así denominado en los actuales planes de estudio de los Profesorados universitarios en Matemática-, como expresión de las preocupaciones de un grupo de docentes y de estudiantes que nos desempeñamos en este ámbito en la formación de grado de la UNLPam. En el recorrido del trabajo los cuestionamientos se centran en si este espacio se va conformando como un campo de saberes y de haceres propio y, entonces, qué saberes podemos identificar que le otorgarían esa significación. Así, se incluyen cuestionamientos vinculados a las dimensiones desde las que necesitamos pensar lo propio, si se construyen definiciones independientes dentro de los planes de carrera, qué fundamentos teóricos legitimamos, si es propio porque lo expresamos como nuestro. Recuperamos documentos que vienen explicitando su importancia y gravitación curricular en el entorno nacional tanto como la producción del propio equipo en relación a cómo pensamos los aportes desde la enseñanza, la investigación o la extensión, y nos involucramos con algunos de los que reconocemos como rasgos identitarios en términos de prefigurativos, de contratransferencias y de identidad heteroglósica. Las consideraciones finales no podrían tener significados acabados, remiten a prácticas intensivas cuya potencialidad está en la posibilidad de constituirse en reflexiones, haceres y saberes de alto valor formativo. 
+\end{abstract}
+
+\maketitle
+\thispagestyle{empty}
+
+\section{Introducción}
+
+La presentación se enmarca en el Proyecto de investigación “Prácticas de formación de profesorado, configuraciones epistemológicas de identidad profesional” de la UNLPam y es la expresión de un grupo de docentes y estudiantes que nos desempeñamos en el Campo de las Prácticas en la formación del Profesorado en Matemáticas. A partir de reflexionar sobre nuestros recorridos y de analizar algunas explicitaciones en otros profesorados de nuestro contexto nacional, nos seguimos preguntando si éste se va constituyendo como un campo de saberes y de haceres propio y, para contribuir a ese interrogante, qué saberes podemos identificar y legitimar que le otorgarían ese sentido en nuestra formación de profesores. ¿Desde qué dimensiones necesitamos pensar lo propio? ¿Pensamos en un campo con definiciones independientes dentro de los planes de estudio?  ¿Se trata de unos saberes que tienen un cuerpo de fundamentos teóricos que legitiman sus sentidos? ¿Logra definirse sin referencias subsidiarias de marcos de las didácticas, las pedagogías, las epistemologías? ¿Es propio porque lo expresamos como nuestro?
+
+Como campo comienza a tener mayores reconocimientos, y junto con ellos, la necesidad de mucha reflexión e investigación. Las Jornadas de Enseñanza de la Matemática significan una oportunidad y un espacio muy propicio para la socialización de tales preocupaciones.
+
+
+\section{Requisitos Previos}
+
+La presentación está elaborada desde un equipo de docentes y estudiantes que nos desempeñamos en el Campo de las Prácticas de la formación del Profesorado universitario en Matemáticas, con el sentido de compartir e intercambiar reflexiones con otras/os integrantes de éstas comunidades educativas movilizados por estas inquietudes (además de estudiantes y docentes de las prácticas educativas, podrían sumar mucho al debate coformadores, equipos de gestión educativa, docentes de otros campos de la formación).
+
+\section{Desarrollo}
+
+\subsection{Campo reciente, campo postergado}
+
+La importancia del campo de las prácticas ha quedado expresada en la última reformulación de los planes de estudio de profesorados universitarios de facultades de Ciencias Exactas y Naturales, en documentos como el aprobado por el Comité Ejecutivo del Consejo Interuniversitario Nacional --Res 856/13 CE CIN-- que, en la propuesta acordada de estándares para la acreditación de carreras de profesorado define: 
+\begin{itemize}
+	\item el Campo de la Práctica Profesional como uno de los cuatro campos que organizan la carrera;
+	\item los criterios de intensidad de la formación práctica y las actividades profesionales reservadas al título, entre los cinco elementos que la delimitan;
+	\item las prácticas docentes en su complejidad y multidimensionalidad y el principio de posicionamiento reflexivo en las propias prácticas, en los sentidos que las orientan y en los efectos que producen, entre sus finalidades;
+	\item el 50\% de la carga horaria total asignado al campo, destinado a espacios residenciales o equivalentes;
+	\item y la explicitación -medular para este trabajo- de que “los campos de la formación delimitan configuraciones epistemológicas” (p. 80) que integran temas, procesos y problemas centrales para la formación de profesores.
+\end{itemize}
+
+El reconocimiento reciente de la importancia del Campo de las Prácticas ha quedado ratificado también por el Consejo Universitario de Ciencias Exactas y Naturales --CUCEN--, organismo nacional que nuclea a las distintas facultades de Ciencias Exactas y Naturales de las universidades nacionales, en la centralización de los debates en sus foros y en la publicación de los “aportes específicos de las carreras, propuestas innovadoras, reflexión sobre las prácticas, experiencias en contextos diversos, implementación y articulación de las PPD  en el plan de estudios, dispositivos de formación, fortalezas, oportunidades, dificultades” (\cite{cucen18}).
+
+Y comienza a instalarse como campo de socialización de reflexiones académicas en reuniones científicas nacionales de los últimos cinco años, como las desarrolladas Jornadas de Prácticas Profesionales de los Profesorados Universitarios de Matemática realizadas en la Universidad de Rosario , en las que se ha nucleado la participación de la mayoría de las universidades nacionales.
+
+\subsection{Campo definido curricular y extracurricularmente}
+
+En todo caso, el aumento en las cargas horarias, la presencia en el plan de estudios desde distintas modalidades, daría cuenta de unos saberes de la formación que, por consenso en todos los profesorados universitarios del país -manifestado en el CUCEN-, marcaron la necesidad de otra gravitación curricular. “Apropiarse de estas prácticas docentes contextuadas adquiere mayor significado si están integradas a la trama curricular de las carreras.” (\cite{lapasta18}, 19). Podríamos recuperar aquél \cite{bernstein89} de la clasificación y enmarcación del conocimiento educativo en su análisis acerca de cómo una sociedad selecciona, clasifica, distribuye, transmite y evalúa el conocimiento educativo que debe ser público en tanto reflejo de las distribuciones de poder como principio de control social (p.1). Y, como recurso que parece dar señales de necesidad, se sostiene en presencias extracurriculares también: hablamos de prácticas educativas en jornadas de puertas abiertas de la universidad hacia la comunidad, en espacios de difusión de carreras, en momentos de articulación entre la Educación Secundaria y la Educación Superior, en proyectos de prácticas comunitarias, en modalidades de desarrollo profesional continuo traducidas en talleres vinculados a la Educación Inicial o Primaria, de intervención en trabajos de ferias de ciencias, por mencionar algunos. En nuestros contextos locales hacemos referencia a la participación  en la Semana de la Ciencia (toMate un recreo --juegos de estrategia--, ajedrez en los recreos largos –la guerra de los peones, el salto del caballo, desafíos del tablero roto–, taller de juegos y problemas geométricos), en las Jornadas de Puertas Abiertas de la UNLPam (los juegos y las posibilidades interactivas de matemática recreativa, los juegos y las estrategias de anticipación, los juegos para aprender), en el Programa universitario Interactuando con la Ciencia –de articulación entre los últimos años de la Educación Secundaria y la universidad, en talleres de ingresantes a la universidad --TIMs que se vienen sosteniendo por años, desarrollados en modalidades presenciales y virtuales, con participación plena de estudiantes y residentes de profesorado--, en proyectos de extensión Formarse para formar; Pensar, sentir, desear, hacer: formándonos en DDHH y ESI; Conocer(nos), Reconocer(nos) y Cuestionar(nos) en ESI y DDHH), entre muchas actividades desarrolladas. 
+
+Seguramente todas/os las/os docentes de universidades nacionales podemos reconocernos en alguna/s de estas propuestas. Entonces, ¿es sólo una necesidad de describir lo que ya hacemos? Nos interpretan mejor las Epistemologías del Sur en la expresión de \cite{sousa06} cuando nos ayuda a pensar cómo las racionalidades dominantes han impactado en nuestras maneras de actuar, de pensar, en nuestras ciencias; unas racionalidades indolentes, perezosas, que se consideran únicas, exclusivas, y que no se ejercitan lo suficiente como para poder mirar la riqueza inagotable del mundo. 
+
+\subsection{Campo de saberes propios}
+
+A partir de las reflexiones en relación a las diferentes articulaciones, resulta importante a este equipo seguir trabajando por el análisis de configuraciones epistemológicas, avanzar en su identificación y en las definiciones que se independizan, desde sentidos/significados/saberes propios, que demandan poder explicitar autonomía y valoran profundas relaciones con otros campos de saber. 
+
+Una síntesis de elementos presentes desde diferentes perspectivas consideradas y reintegrados como expresión de este equipo de estudio, queda expresada por:
+
+El saber profesional del/la profesor/a se caracteriza como un conocimiento práctico (estudiado a partir de las prácticas, se respalda en la experiencia --que somete a análisis-- y se transforma en principios más generales a partir de la reflexión teórica); relacional y complejo (funciona articulando, en conexiones, integrando, constituyendo un sistema); dinámico (atendiendo lo imprevisible, en cambio continuo), situado (contextualizado), especializado (específico), identitario (representativo de una actividad profesional), personal pero referente de una comunidad (si bien toda práctica es particular, es referencia de la comunidad de las/os profesores identificadas/os por sus prácticas) y descripto desde dimensiones objetivas (convertido en cuerpo de saberes de la profesión) tanto como instrumentales (herramienta de análisis de las propias prácticas) (\cite{difranco18}) y políticas (entretejido en intereses y relaciones de poder). (\cite{difrancosiderac20})
+
+En esos marcos como generadores de nuevas reflexiones nos resultan importantes las conceptualizaciones de prácticas y praxis; equipamientos praxeológicos de las/os profesores y archivos legitimados en la formación; epistemologías implícitas en las prácticas de profesorado; concepciones de Buenas Prácticas, criterios, métodos y recursos; formación para la comprensión, para la intervención y para la reflexión; conocimiento en la acción, reflexión en la acción y reflexión sobre la acción; producciones conjuntas y colaborativas, creación de significados en entornos de diálogo, identidad heteroglósica; contextualizaciones y concepciones aterrizadas; prácticas por la ampliación de derechos que discutan patriarcado, colonialismo, racismo y toda forma de exclusión; la investigación para la identificación colectiva y local de problemas, complejidades y cuestiones cruciales de la profesión;  entre tantos debates profundos que permitan proyectar prácticas educativas más inclusivas, menos extractivistas, violentas o discriminadoras.
+
+Como estado de situación en la actualidad, se puede leer de diferentes presentaciones en nuestros ámbitos nacionales (en los que claramente nos incluímos y participamos de lógicas análogas desde la universidad en la que nos desempeñamos), una necesidad reclamada de mucha investigación en el campo. A la vez, advertimos que todo bolsillo categorial que se diseña viene a colocarse en el abrigo de las disciplinas legitimadas como tales y un difuso/invisibilizado/negado status académico o científico de los saberes de las prácticas reforzando una diferenciación traducida en jerarquías en que las prácticas quedan subalternizadas y únicamente subsidiadas por otros campos. 
+
+Recurrentemente, ante el planteo de la necesidad de vinculación o diálogo entre la formación disciplinar matemática y la práctica profesional, nos y los posicionamos como campos separados y que tienen necesidad de articularse, pero luego en la descripción de la experiencia, aparece la fuerza de aplicar lo teórico de la formación disciplinar al mundo práctico de la experiencia educativa antes que de integrar diferentes campos teórico-prácticos. En este sentido, desde lugares muy pequeños, venimos haciendo esfuerzos por sostener una producción en nuestras investigaciones que nos ayuda en el crecimiento como campo propio. Así, los trabajos de posgrados que hemos desarrollado, los estudios en los equipos de investigación en los que trabajamos, o las propuestas de nuestras/os becarias/os estudiantes y graduadas/os dan cuenta de algunos recorridos. Ejemplificamos con producciones de estudiantes que abonan esta posibilidad.  
+
+\begin{itemize}
+	\item Beca Estímulo a las Vocaciones Científicas EVC-CIN Convocatoria 2019 de la SPU. Becario Maximiliano Laborda Caffarone. Prácticas Educativas en Matemática mediadas por la tecnología: entre las herramientas conceptuales y las actualizaciones pedagógicas. FCEyN. UNLPam. Res 1518/20 CE CIN.
+	
+	Las estrategias analizadas a partir de mediaciones tecnológicas permiten reflexionar cómo el conocimiento se configura también por los medios que lo producen, qué implican manejos más dinámicos de los sistemas de representación, la importancia de las actividades de intercambio, las oportunidades que se brindan para la construcción conceptual, las posibilidades desde intersticios curriculares, las erosiones del saber escolar o las resistencias a la utilización de la tecnología. 
+	
+	\item Beca Estímulo a las Vocaciones Científicas EVC-CIN Convocatoria 2018-2019 SPU. Res P. Nº 403/18. Becaria Dalma Cañada. El juego como analizador de relaciones con el saber en las prácticas de profesorado. FCEyN. UNLPam.
+	
+	Se pudo analizar que, en la mayoría de los juegos se partió de la problematización que generaba la actividad en sí misma para llegar a construir una definición formal o un procedimiento validado; esto es, el juego no fue utilizado como un motivador o instrumento para hacer más divertida la tarea, sino con fines matemáticos, como herramienta para el aprendizaje de los conceptos matemáticos. También que, en muchos casos y con frecuencias detalladas, las relaciones que promueve el/la residente para las/os alumnas/os refleja las propias relaciones con el saber identificadas desde el diseño del juego; en otros, como en las mediaciones innovadoras, aparecen en la relación de residente con el material que propone, pero no en la demanda al alumno como jugador. No se identifican vinculaciones particulares asociadas a nociones específicas de la matemática, antes bien al tipo de procesos relacionales de construcción o de reproducción, de seguimiento de pistas bajo control externo o de permitir los argumentos, las conjeturas, las validaciones y las contradicciones como posibilidad de aproximaciones significativas y de defensa de lo que se produce.
+	
+	\item Beca de Perfeccionamiento en la Investigación (CEBPI) Convocatoria 2020 Res 294/19 CS UNLPam. Becaria Déborah Caren Mendoza Virgili. Los sentidos de los juegos en las Prácticas Educativas en Matemática: entre las herramientas, las prácticas de inercia y las innovaciones declarativas.
+	
+	El análisis realizado permitió reflexionar sobre mediaciones que: permiten al/la docente disponer de estrategias que amplían espacios decisionales de las/os estudiantes y orientan hacia la producción (definición de comodines), colaboran con las posibilidades de hacer pensar a las/os alumnas/os en un conocimiento a partir de necesidades antes que de imposiciones, permiten insistir en que las relaciones con el saber necesitan poder evidenciarse como parte de las intencionalidades docentes, no se pueden dejar dependiendo de supuestos logros naturales o espontaneísmos, los saberes que circulan y se validan entre compañeros, jugada a jugada, van generando independencia de la aceptación autorizada del/la docente y van apoyándose en estrategias de control sobre lo que se produce, en relaciones en aparente contradicción, como las de reproducción e interioridad, prácticas en apariencia mecánicas y repetitivas en que las/os estudiantes pueden apropiarse más de los saberes en algunas iteraciones, conviven y generan posibilidades educativas igualmente trascendentes.
+	
+	\item Elaboración de propuestas por la ampliación de derechos decoloniales, antirracistas, antimarginación; que trabajen por unas escuelas más democráticas, por una mayor justicia de saberes.  La identificación de su influencia en nuestras prácticas educativas se vuelve imprescindible para intentar un desarrollo más autónomo en la formación de profesorado, “tendríamos que enseñar democracia desde la perspectiva de los esclavos y de los trabajadores precarizados; tendríamos que enseñar ciudadanía desde la perspectiva de los no ciudadanos.” (Santos, 2018: 317). Desde el rol de docentes nos identificamos en el trabajo en el Campo de las Prácticas en la formación de profesorado, con la intencionalidad de promover y desarrollar experiencias educativas desde perspectivas surepistemológicas, con estudiantes que anticipen un ejercicio profesional insurgente ante la restricción o la violación de derechos.
+	
+	\item Identificación de problemáticas locales como las de las superficies como unidades económicas familiares y la disputa a puesteros de las tierras del oeste pampeano; los índices de mortalidad adolescente en situaciones de marginación social aumentados por casos de adicción; los concursos locales de las reinas estudiantiles de la primavera y los estereotipos de belleza atizados por el mercado a partir del estudio de las medidas y la proporcionalidad; los abusos sacerdotales en un pueblo pampeano integrando las estadísticas ocultas por encubrimientos eclesiásticos; el análisis de escalas, volúmenes y capacidades desde las crónicas de un río robado; los significados de los números en expresiones fraccionarias, decimales y porcentuales para desnaturalizar la violencia de género; las argumentaciones en las disciplinas y los argumentos en relación a la interrupción voluntaria del embarazo; embarazos adolescentes, deserción escolar y cifras que permiten rastrear una transmisión intergeneracional de las pobrezas; todos casos de profunda significatividad en nuestros contextos y en situaciones en que las conceptualizaciones de la matemática permitieran una mayor comprensión de las problemáticas.
+\end{itemize}
+
+\subsection{Campo prefigurativo, campo de contratransferencias}
+
+En esos recorridos que este equipo viene zigzagueando expresábamos una de las primeras fuerzas que depositamos en el campo de las prácticas y es la de sus sentidos prefigurativos.
+
+Los diferentes procesos y complejidades que se componen en el campo están orientados por “una concepción dialéctica, tanto del vínculo enseñanza-aprendizaje como de la construcción y socialización del conocimiento, que podemos denominar prefigurativa en la medida en que, además de impugnar las prácticas escolares propias del orden social dominante, intenta anticipar en los diferentes espacios que configuran a la vida cotidiana, los embriones o gérmenes de la educación futura (\cite{ouvina11}, 143). Y una praxis prefigurativa en tanto que: se desarrolla durante la formación, desde momentos tempranos en la carrera; anticipa prácticas desempeñadas como profesionales docentes; no espera que estén las condiciones para que se comiencen a ejercer;  es, por definición, política, se sostiene en la confianza en las posibilidades de cambio; discute/interpela la tradiciones en la formación, no las puede considerar como naturales; reflexiona y construye conocimiento siempre provisional aunque no discursivo, anclado en las posibilidades situadas de los haceres docentes; se da siempre con otros, entre los sujetos que participan y le dan sentido. (\cite{difranco11})
+
+El estudio de muchas decisiones que toman las/os residentes en el rol de estudiantes de la formación y en el rol de docentes en sus residencias, en un tiempo sincrónico, desarrollado en la investigación de una maestría, comienza a aportarnos muchos lugares por donde investigar. 
+
+La propuesta del trabajo de tesis se inicia con unos objetivos definidos por describir las prácticas en las residencias, en particular, las relaciones de las/os residentes con el saber, como caracterizadoras de rasgos identitarios de prácticas profesionales docentes, y configurar un esquema categorial que pueda integrarse al entramado de saberes de la formación de profesorado. […] Las/os residentes, en el rol de estudiantes, desarrollan procesos de construcción, identifican intencionalidades docentes vinculadas a establecer relaciones, a involucrar a los/as alumnos/as con las conceptualizaciones y a explicitar consideraciones sobre tales procesos. Establecen disquisiciones y las marcan: cómo se construye en términos de aproximaciones a una definición, cómo se va relacionando quien construye con su definición, cómo inciden las interpretaciones de otros, cómo se tienen en cuenta conceptualizaciones que están siempre relacionadas aun cuando nadie las haya propuesto explícitamente, qué casos elegir, cuáles resultan más significativos. Valoran positivamente esas experiencias, y al analizarlas, se van configurando las claves para poder llevar adelante esos procesos. Proponen a las innovaciones como producciones para resignificar necesidades detectadas, estrategias para resolver problemas de la práctica, valoran su carácter colectivo y de transformación. Al asumir el rol de productores/as de propuestas de enseñanza, resulta muy tenue la fuerza de las posibilidades tanto de inventar conceptos (proponer alguno que no esté reconocido desde la disciplina) como la de recuperar otros conceptos que la preparación universitaria tiene incluidos en el currículum de formación. En las propuestas que ofrecen como significativas están presentes ataduras a un orden, una formalidad, precisión y rigor, que se transforman en condicionamientos y, en sus ejemplos, no garantizan comprensión. Propuestas de aplicación de fórmulas, aceptación de clasificaciones sin discusión, actividades de baja necesidad reflexiva, no hay salidas particulares a problemas prácticos y todas vienen de la mano de tener conocimientos ya sabidos. (p. 253) […] El estudio permite advertir diferencias sustanciales entre las vinculaciones con el saber como estudiantes y como futuros docentes. Como alumnos/as en formación, resuelven problemas abiertos, reconocen la importancia de los aportes particulares, describen con fuerza las virtualidades de la construcción conceptual. En las prácticas de aula mayoritariamente no lo proponen. En el rol de profesoras/es resuelven necesidades de enseñanza y aprendizaje con evaluaciones de pruebas objetivas, encapsulamientos curriculares, aplicación de fórmulas sin sentido, mecánicas de pistas y pasos, aceptación de clasificaciones sin discusión. Cuando elaboran ensayos de propuestas de aula resultan complejas y encriptadas y, cuando se recuperan propuestas ya implementadas, además de ser obvias e infecundas, promueven muy bajos niveles de reflexión. (\cite{difranco18}, pp.261-262).
+
+Entonces, en este estudio, las lógicas identificadas como prefigurativas construyéndose desde el rol de estudiantes no se imponen a los/as alumnos/as cuando actúan bajo el rol de profesor, o, nunca llegaron a constituirse como relaciones propias o apropiadas. 
+
+Mas adelante, y en otro intento por seguir comprendiendo, nos ayudamos de las investigaciones de \cite{laville04} en sus trabajos en el campo del análisis clínico, en que focaliza en la relación del enseñante con el saber que enseña para comprender la dinámica transferencial de la clase: los núcleos duros que se evidencian en la persistencia en el no entendimiento, el investimento que hacen los alumnos del profesor como poseedor del saber, el deseo de enseñar, el deseo de aprender, la manipulación de los fenómenos de autoridad. En sus elaboraciones señala que la relación con el conocimiento de un sujeto es un proceso de producción de saber para pensar y para actuar. Para la comprensión de tales procesos es necesario que el sujeto actualice las relaciones que establece en situaciones concretas de desempeño profesional. Tales procesos, de contratransferencia, no se los considera de persona a persona sino, como un médico y su paciente, en una situación profesional. Blanchard Laville propone hacer análisis contratransferenciales a partir de lo enunciado por el docente, del discurso pronunciado, de sus producciones, para poder reflexionar acerca de los modos en que el docente se ubica con respecto a esos enunciados de saber y en qué lugar pone a los alumnos.
+
+De regreso al estudio descripto más arriba, no se pudo dejar de advertir la fuerza con que cada residente termina significando un referente de particulares relaciones con el saber, que se registran con recurrencia en las diferentes actuaciones de la primera y segunda residencia. En las referencias de la investigadora y el análisis de los procesos de contratransferencia, la hipótesis indica que “en el vínculo que el docente establecerá con los alumnos para relacionarlos con el saber revelará su propia relación con el saber que enseña” (\cite{laville04}, p. 81), a la vez que se fragua una especie de firma profesional “que es precisamente la manera en la que él se relaciona con el saber y el lugar, o los lugares en los que pone al alumno, y esta organización topológica singular pertenece sólo al docente” (p. 62). De ese modo, nuestras conclusiones provisionales a partir del análisis de casos tomados de los dispositivos residenciales, en que las lógicas con el saber como estudiantes no son las relaciones que se proponen cuando actúan bajo el rol de profesores, vienen a reforzar que son marcas del juego de mediaciones que promueve el docente de la formación en esa cátedra. Luego, lo que las/os residentes proponen para el aula, diferente, revelaría sus propias relaciones, Por otra parte, del estudio a partir de casos grupales, las lógicas identificadas desarrolladas por un mismo residente en el rol de profesor, permiten describir esas firmas profesionales singulares que se sostienen en diferentes prácticas y señalarían rasgos de sus particulares relaciones con el saber. Entonces, en un análisis como en el otro, en el trabajo realizado por el docente y en el lugar que pone a las/os alumnos en esa tarea, se puede analizar su propia relación con el saber, la puesta en escena de sus propias mediaciones. Esto tiene muchas implicaciones en la formación de profesorado, en el juego de anticipaciones y en las actuaciones mismas de las prácticas profesionales, a la hora de analizar esas atmósferas transferenciales que se generan. Como expresa \cite{planas11}, las distancias entre lo que se piensa que se hace y lo que se piensa que se debería hacer; y agregaríamos, entre lo que se piensa que se debería enseñar, lo que se piensa que se enseña y lo que se enseña y se aprende, siguen aportándonos señales que resulta indispensable seguir analizando.
+
+\subsection{Reflexiones provisionales}
+
+En este recorrido desde algunas reflexiones que resultan medulares a este equipo, recuperamos documentos que vienen explicitando la importancia y gravitación curricular del Campo de las Prácticas en el entorno nacional. El cuestionamiento acerca de qué es lo propio permite caracterizaciones desde las últimas formulaciones de los planes de estudio como uno de los cuatro campos que organizan la carrera de profesorado, bajo unos criterios de intensidad de la formación práctica entre los cinco elementos que la delimitan, las prácticas docentes en su complejidad y multidimensionalidad entre sus finalidades, y la explicitación de que los campos de la formación delimitan configuraciones epistemológicas particulares. Los archivos de experiencias curriculares y extracurriculares contribuyen en la configuración de sentidos propios. Desde los trabajos de las/os estudiantes recuperamos la importancia en la confirmación misma de las alternativas educativas que las mediaciones docentes habilitan, en las vinculaciones directas con los saberes de la matemática, en la identificación de cuáles y qué tan restringidos son los espacios decisionales que quedan para las/os alumnas/os o qué tipo de intervenciones se promueven (de producción, de reproducción, de innovación, de intercambio, de validación). Del estudio acerca de las prácticas de estudiantes en el rol de alumnos de la formación y en el rol de profesoras/es en aulas de secundaria en un tiempo sincrónico, construimos análisis en tanto campo prefigurativo y de contratranferencias. Y muchos nuevos interrogantes se generan a medida que trabajamos en el campo. 
+
+Desde estos caminos y posicionamientos depositamos la confianza y la convicción en unas consideraciones finales que no podrían tener significados acabados, refieren a estudios basados en prácticas intensivas --en tanto el/la practicante se responsabiliza de las actividades que implican profesionalmente que otras/os aprendan- cuya potencialidad está en la posibilidad de constituirse en reflexiones, haceres y saberes de alto valor formativo.
+
+\section{Bibliografía}
+
+\nocite{*}
+\printbibliography
+
+\end{document}

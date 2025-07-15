@@ -1,0 +1,248 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{baez18}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=b77bb047a2bb7f7893818ea3235300fb}{%
+           family={Báez},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Camagüey}%
+      }
+      \strng{namehash}{b77bb047a2bb7f7893818ea3235300fb}
+      \strng{fullhash}{b77bb047a2bb7f7893818ea3235300fb}
+      \strng{bibnamehash}{b77bb047a2bb7f7893818ea3235300fb}
+      \strng{authorbibnamehash}{b77bb047a2bb7f7893818ea3235300fb}
+      \strng{authornamehash}{b77bb047a2bb7f7893818ea3235300fb}
+      \strng{authorfullhash}{b77bb047a2bb7f7893818ea3235300fb}
+      \field{labelalpha}{Báez,\addhighpenspace2018}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Estrategia didáctica para el desarrollo conceptual procedimental en el cálculo diferencial de una variable real, para las carreras de ingeniería}
+      \field{type}{Tesis presentada en opción al grado científico de Doctor en Ciencias Pedagógicas}
+      \field{year}{2018}
+    \endentry
+    \entry{castro94}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=698e85174735cbc69b104630dd908555}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Granada}%
+      }
+      \strng{namehash}{698e85174735cbc69b104630dd908555}
+      \strng{fullhash}{698e85174735cbc69b104630dd908555}
+      \strng{bibnamehash}{698e85174735cbc69b104630dd908555}
+      \strng{authorbibnamehash}{698e85174735cbc69b104630dd908555}
+      \strng{authornamehash}{698e85174735cbc69b104630dd908555}
+      \strng{authorfullhash}{698e85174735cbc69b104630dd908555}
+      \field{labelalpha}{Castro,\addhighpenspace1994}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Exploración de patrones numéricos mediante configuraciones puntuales. Estudio con escolares de primer ciclo de secundaria (12-14 años)}
+      \field{type}{Tesis de doctorado}
+      \field{year}{1994}
+    \endentry
+    \entry{johnsonbaugh00}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d086dd94a87b4d0c14ddec70a8023180}{%
+           family={Johnsonbaugh},
+           familyi={J\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice-Hall, México}%
+      }
+      \strng{namehash}{d086dd94a87b4d0c14ddec70a8023180}
+      \strng{fullhash}{d086dd94a87b4d0c14ddec70a8023180}
+      \strng{bibnamehash}{d086dd94a87b4d0c14ddec70a8023180}
+      \strng{authorbibnamehash}{d086dd94a87b4d0c14ddec70a8023180}
+      \strng{authornamehash}{d086dd94a87b4d0c14ddec70a8023180}
+      \strng{authorfullhash}{d086dd94a87b4d0c14ddec70a8023180}
+      \field{labelalpha}{Johnsonbaugh,\addhighpenspace2000}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Matemáticas Discretas}
+      \field{year}{2000}
+      \field{pages}{485\bibrangedash 499}
+      \range{pages}{15}
+    \endentry
+    \entry{lluch18}{article}{}
+      \name{author}{2}{}{%
+        {{hash=698c33bcb1631c7dd83b45f3dc986035}{%
+           family={Lluch\bibnamedelima Molins},
+           familyi={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f5839fa35d695091914027fd95760281}{%
+           family={Portillo\bibnamedelima Vidiella},
+           familyi={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{90f2e611241b2807f1d324a9c51c485d}
+      \strng{fullhash}{90f2e611241b2807f1d324a9c51c485d}
+      \strng{bibnamehash}{90f2e611241b2807f1d324a9c51c485d}
+      \strng{authorbibnamehash}{90f2e611241b2807f1d324a9c51c485d}
+      \strng{authornamehash}{90f2e611241b2807f1d324a9c51c485d}
+      \strng{authorfullhash}{90f2e611241b2807f1d324a9c51c485d}
+      \field{labelalpha}{Lluch Molins,\addhighpenspace2018}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Iberoamericana de Educación}
+      \field{number}{2}
+      \field{title}{La competencia de aprender a aprender en el marco de la educación superior}
+      \field{volume}{78}
+      \field{year}{2018}
+      \field{pages}{59\bibrangedash 76}
+      \range{pages}{18}
+    \endentry
+    \entry{meirieu92}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bb6f979d5dde66d259ec79a2d52fc68b}{%
+           family={Meirieu},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb6f979d5dde66d259ec79a2d52fc68b}
+      \strng{fullhash}{bb6f979d5dde66d259ec79a2d52fc68b}
+      \strng{bibnamehash}{bb6f979d5dde66d259ec79a2d52fc68b}
+      \strng{authorbibnamehash}{bb6f979d5dde66d259ec79a2d52fc68b}
+      \strng{authornamehash}{bb6f979d5dde66d259ec79a2d52fc68b}
+      \strng{authorfullhash}{bb6f979d5dde66d259ec79a2d52fc68b}
+      \field{labelalpha}{Meirieu,\addhighpenspace1992}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Octaedro}
+      \field{note}{Madrid}
+      \field{title}{Aprender, sí. Pero ¿Cómo?}
+      \field{year}{1992}
+      \field{pages}{30\bibrangedash 39}
+      \range{pages}{10}
+    \endentry
+    \entry{polya66}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e9a767ed110b365a759ff07b80d7c153}{%
+           family={Polya},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Tecnos, Madrid}%
+      }
+      \strng{namehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{fullhash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{bibnamehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{authorbibnamehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{authornamehash}{e9a767ed110b365a759ff07b80d7c153}
+      \strng{authorfullhash}{e9a767ed110b365a759ff07b80d7c153}
+      \field{labelalpha}{Polya,\addhighpenspace1966}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Traducción de J. L. Abellán}
+      \field{title}{Matemáticas y Razonamiento Plausible}
+      \field{year}{1966}
+      \field{pages}{200\bibrangedash 300}
+      \range{pages}{101}
+    \endentry
+    \entry{rivera11}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f75e7c1fee8ecb21467e35452445146b}{%
+           family={Rivera},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f983545724559e2e4de7449300b6989e}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0ca87260b573d94d918e5afa7700a6c}
+      \strng{fullhash}{d0ca87260b573d94d918e5afa7700a6c}
+      \strng{bibnamehash}{d0ca87260b573d94d918e5afa7700a6c}
+      \strng{authorbibnamehash}{d0ca87260b573d94d918e5afa7700a6c}
+      \strng{authornamehash}{d0ca87260b573d94d918e5afa7700a6c}
+      \strng{authorfullhash}{d0ca87260b573d94d918e5afa7700a6c}
+      \field{labelalpha}{Rivera,\addhighpenspace2011}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Early Algebraization, Advances in Mathematics Education}
+      \field{note}{Berlin-Heidelberg}
+      \field{title}{Formation of Pattern Generalization Involving Linear Figural Patterns Among Middle School Students: Results of a Three-YearStudy}
+      \field{year}{2011}
+      \field{pages}{323\bibrangedash 366}
+      \range{pages}{44}
+    \endentry
+    \entry{stake78}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ec7f6377d64c8e0d72885b01054a6600}{%
+           family={Stake},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec7f6377d64c8e0d72885b01054a6600}
+      \strng{fullhash}{ec7f6377d64c8e0d72885b01054a6600}
+      \strng{bibnamehash}{ec7f6377d64c8e0d72885b01054a6600}
+      \strng{authorbibnamehash}{ec7f6377d64c8e0d72885b01054a6600}
+      \strng{authornamehash}{ec7f6377d64c8e0d72885b01054a6600}
+      \strng{authorfullhash}{ec7f6377d64c8e0d72885b01054a6600}
+      \field{labelalpha}{Stake,\addhighpenspace1978}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Researcher}
+      \field{number}{2}
+      \field{title}{The case study method}
+      \field{volume}{7}
+      \field{year}{1978}
+      \field{pages}{5\bibrangedash 8}
+      \range{pages}{4}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

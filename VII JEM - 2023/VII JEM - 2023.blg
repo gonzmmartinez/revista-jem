@@ -1,0 +1,46 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'VII JEM - 2023.blg'
+[150] biber-MSWIN32:340> INFO - === 
+[213] Biber.pm:418> INFO - Reading 'VII JEM - 2023.bcf'
+[435] Biber.pm:975> INFO - Using all citekeys in bib section 0
+[470] Biber.pm:4401> INFO - Processing section 0
+[488] Biber.pm:4592> INFO - Looking for bibtex file 'Trabajos/01/refs-01.bib' for section 0
+[592] bibtex.pm:1713> INFO - LaTeX decoding ...
+[618] bibtex.pm:1518> INFO - Found BibTeX data source 'Trabajos/01/refs-01.bib'
+[701] Biber.pm:4592> INFO - Looking for bibtex file 'Trabajos/02/refs-02.bib' for section 0
+[829] bibtex.pm:1713> INFO - LaTeX decoding ...
+[858] bibtex.pm:1518> INFO - Found BibTeX data source 'Trabajos/02/refs-02.bib'
+[923] Biber.pm:4592> INFO - Looking for bibtex file 'Trabajos/03/refs-03.bib' for section 0
+[1024] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1049] bibtex.pm:1518> INFO - Found BibTeX data source 'Trabajos/03/refs-03.bib'
+[1102] Biber.pm:4592> INFO - Looking for bibtex file 'Trabajos/04/refs-04.bib' for section 0
+[1192] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1214] bibtex.pm:1518> INFO - Found BibTeX data source 'Trabajos/04/refs-04.bib'
+[1240] Biber.pm:4592> INFO - Looking for bibtex file 'Trabajos/05/refs-05.bib' for section 0
+[1327] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1350] bibtex.pm:1518> INFO - Found BibTeX data source 'Trabajos/05/refs-05.bib'
+[1384] Biber.pm:4592> INFO - Looking for bibtex file 'Trabajos/06/refs-06.bib' for section 0
+[1466] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1489] bibtex.pm:1518> INFO - Found BibTeX data source 'Trabajos/06/refs-06.bib'
+[1525] Biber.pm:4592> INFO - Looking for bibtex file 'Trabajos/07/refs-07.bib' for section 0
+[1618] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1644] bibtex.pm:1518> INFO - Found BibTeX data source 'Trabajos/07/refs-07.bib'
+[1666] Biber.pm:4592> INFO - Looking for bibtex file 'Trabajos/08/refs-08.bib' for section 0
+[1751] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1787] bibtex.pm:1518> INFO - Found BibTeX data source 'Trabajos/08/refs-08.bib'
+[1840] Biber.pm:4592> INFO - Looking for bibtex file 'Trabajos/09/refs-09.bib' for section 0
+[1932] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1958] bibtex.pm:1518> INFO - Found BibTeX data source 'Trabajos/09/refs-09.bib'
+[1999] Biber.pm:4592> INFO - Looking for bibtex file 'Trabajos/11/refs-11.bib' for section 0
+[2107] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2128] bibtex.pm:1518> INFO - Found BibTeX data source 'Trabajos/11/refs-11.bib'
+[2257] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2257] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2258] Biber.pm:4221> INFO - Sorting list 'none/apasortcite//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[2358] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2358] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2358] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[2425] bbl.pm:654> INFO - Writing 'VII JEM - 2023.bbl' with encoding 'UTF-8'
+[2513] bbl.pm:757> INFO - Output to VII JEM - 2023.bbl
+[2514] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[2514] Biber.pm:132> INFO - WARNINGS: 1

@@ -1,0 +1,244 @@
+\documentclass[oneside,spanish]{amsart}
+\usepackage[T1]{fontenc} % Tipo de fuente
+\usepackage[utf8]{inputenc} % Archivo UTF-8
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=3cm,rmargin=2.5cm} % Tamaño
+\usepackage{amsthm} 
+%\usepackage{amsaddr} % Para modificar la posición de address
+\usepackage[spanish]{babel} % Idioma español
+\usepackage[backend=biber,style=alphabetic,natbib,maxalphanames=1]{biblatex} % Compilar bibliografía con BibLaTeX (no BibTeX)
+\usepackage[shortlabels]{enumitem} % Mejora el entorno enumerate
+\usepackage{graphicx} % Colocar imágenes
+\usepackage[hidelinks]{hyperref} % Vínculos y referencias interactivas
+\usepackage[skip=3pt]{caption} % Permite modificar el espacio entre el caption y la imagen
+\usepackage{multicol} % Entornos de múltiples columnas
+
+%-------------------------------------------------------------------------
+% Configuraciones iniciales
+\makeatletter
+%Numeración
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\newlength{\lyxlabelwidth}      % Longitud auxiliar
+\makeatother
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Bibliografía
+\defbibheading{bibliography}[\refname]{}
+\addbibresource{refs-tall01.bib}
+
+\renewcommand*{\labelalphaothers}{}
+
+\DeclareLabelalphaTemplate{
+	\labelelement{
+		\field[final]{shorthand}
+		\field{labelname}
+		\field{label}
+	}
+	\labelelement{
+		\literal{,\addhighpenspace}
+	}
+	\labelelement{
+		\field{year}
+	}
+}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Otras configuraciones
+%\pagestyle{plain} % Para que el encabezado esté vacío
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\figurename}{Figura}}
+
+\theoremstyle{definition}
+\newtheorem{problema}{\normalfont PROBLEMA}
+\newtheorem*{thm*}{Teorema}
+%-------------------------------------------------------------------------
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\scriptsize\MakeUppercase\shorttitle}
+
+%-------------------------------------------------------------------------
+
+% Y acá comienza el documento
+
+\begin{document}
+	
+%-------------------------------------------------------------------------
+% Datos del artículo
+\title{Ampliando Modelos de Geometría\vspace{-2ex}}
+\author[1]{Patricia Angélica Ruiz\textsuperscript{1}}
+\author[2]{Antonio Noé Sángari}
+\email[corresponding author]{\textsuperscript{1}patry.26.38@gmail.com}
+%-------------------------------------------------------------------------
+
+\begin{abstract}
+Es claro que el dibujo no es relevante en geometría, pero es de particular importancia en la deducción, en el aprendizaje o en la enseñanza. En este sentido, si contáramos con más de un sistema de dibujo, seguramente nuestro pensamiento se dirigiría hacia las teorías y los posibles modelos. En esta propuesta trataremos el siguiente problema: Supongamos la existencia de un modelo para la geometría Euclidiana en la que las rectas se las dibuja como rayos de luz, los puntos como pequeñas manchas, etc; tratemos de validar otro modelo para la geometría absoluta que tiene dibujos para los objetos de la teoría distintos, a su vez este será también un modelo para una geometría llamada No Euclidiana.
+
+Trataremos uno de los modelos más famosos para la geometría absoluta, el modelo del Semiplano Superior de Poincaré. En esta propuesta brindaremos conceptos elementales de este modelo, junto con herramientas de GeoGebra para hacer el dibujo correspondiente. Justificaremos cómo puede pasarse de un supuesto modelo para la geometría euclidiana a una interpretación para la geometría no euclidiana o de Lobachevski. También dedicaremos un espacio a consideraciones históricas del modelo del semiplano superior de Poincaré. 
+\end{abstract}
+
+\maketitle
+\thispagestyle{empty}
+
+\section{Contenidos}
+
+El modelo del Semiplano Superior de Poincaré. Interpretación de los axiomas de incidencia. Herramientas con GeoGebra para el dibujo de los objetos elementales del modelo. Interpretación de los axiomas de orden. Axiomas de congruencia. Interpretación y dibujo de las herramientas correspondientes. Axiomas de continuidad. Axioma de Lobachevski.
+
+\section{Requisitos Previos}
+
+Conocimiento básico de GeoGebra y un primer curso de geometría de nivel superior. Es preciso tener GeoGebra Classic en su versión actual instalado en algún dispositivo.
+
+\section{Objetivos}
+
+El objetivo principal de este taller es dotar a los cursantes de herramientas teóricas y de apoyo gráfico sobre el modelo del semiplano superior de Poincaré. En particular, realizar una verificación somera de los cuatro primeros grupos de axiomas de la geometría absoluta dentro del modelo de Poincaré (en forma teórica) y discutir luego el quinto grupo; y desarrollar herramientas gráficas dinámicas como apoyó pedagógico. 
+
+Un objetivo secundario es mostrar a los cursantes la utilidad de contar con más de una forma de interpretar los objetos (teóricos). En otras palabras, tratar de despertar el interés de los cursantes centrándonos en la ventaja de independizarse de la intuición y centrarse en la especulación teórica. \citet{dreher15}.
+
+Al concluir el curso los docentes deberían haber discutido sobre las interpretaciones para un teoría, en este caso la geometría absoluta, y haber tratado sobre las interpretaciones para la teoría. Otra discusión que tiene que presentarse es sobre el valor de la representación gráfica en el sentido didáctico y en el sentido matemático y lógico.
+
+\section{Actividades}
+
+\subsection{Actividades Previas\label{subsec:Actividades-Previas}}
+
+Primeramente comunicaremos a los cursantes los objetivos, los contenidos del taller y el sistema de evaluaciones mediante un escrito que adjuntaremos en el curso de la plataforma e-learning designada. También recomendaremos la lectura de: páginas del libro \citet{efimov84}, con el objetivo de repasar los postulados de la Geometría Absoluta y los dos modelos que el libro propone para ella. De apuntes sobre la construcción de herramientas con GeoGebra, videos y sitios web de terceros sobre estos temas.
+
+Propondremos una lista de actividades, posterior a las lecturas recomendadas, que consiste principalmente en la creación de una herramienta que permita trazar una semicircunferencia con extremos en la abscisa dados dos puntos en el semiplano superior, no alineados en una recta.
+
+Haremos un cuestionario objetivo de autocorrección en el curso que nos asignen en la plataforma e-learning a modo de autoevaluación.
+
+Presentaremos una lista de expositores entre los cursantes, para que resuelvan algunos ejercicios derivados de los documentos y del material audiovisual adjuntado en el curso.
+
+Los axiomas de incidencia que tomaremos son \citet{sangari21}:
+\begin{enumerate}[label=Ax I.\arabic{enumi}]
+	\item \emph{Cualesquiera que sean los puntos $A,$$B$ existe una recta no euclidiana que pasa por los puntos $A,$$B$.}
+	\item \emph{Cualesquiera que sean dos puntos diferentes $A,$$B$ existe a lo sumo una recta no euclidiana que pasa por los puntos $A,$$B$.}
+	\item \emph{En cada recta no euclidiana hay al menos dos puntos. Existen al menos tres puntos que no están sobre una misma recta.}
+\end{enumerate}
+
+\subsection{Primeras dos horas sincrónicas\label{subsec:Primeras-dos-sinc}}
+
+Iniciaremos el taller con las presentaciones correspondientes y la mecánica de los talleres, particularizando el presente. Todo esto en aproximadamente 15'.
+
+Para que las personas que no hayan podido repasar el material que se adjuntó en la plataforma no sufran un defasaje muy serio, haremos una breve aclaración: indicaremos lo que dice la teoría de la Geometría Absoluta (los primeros cuatro grupos de axiomas) y la forma en que se dibuja habitualmente; y si se considera un modelo para esta, como se puede obtener otro modelo derivado del primero, como es el modelo de Poincaré. Para precisar, daremos la siguiente correspondencia:
+\begin{itemize}
+	\item Plano $\rightarrow$ Semiplano abierto (Cualquiera) $\alpha$ de borde $r$.
+	\item Rectas $\rightarrow$ Semicircunferencias en $\alpha$ con extremos en $r$ y semirrectas abiertas en $\alpha$ perpendiculares a $r$ .
+	\item Puntos $\rightarrow$ Puntos en $\alpha$.
+\end{itemize}
+
+Para que no vayamos a perdernos con los objetos en los modelos considerados al primero (modelo tradicional) le llamaremos euclidiano y al segundo no euclidiano por motivos que aclararemos luego. (20').
+
+Posteriormente pasaremos a dar la palabra a los cursantes designados como expositores en la sección \ref{subsec:Actividades-Previas}, permitiendo exponer la herramienta creadas en GeoGebra(45')
+
+Luego plantearemos el caso en el que los puntos, que determinan la semicircunferencia en la herramienta que crearon, estén alineados en una recta perpendicular a la abscisa, permitiéndoles observar cambios en sus propuestas iniciales. Esto llevará a una puesta en común de lo que la herramienta debería hacer y como solucionarlo. Generaremos las condiciones necesarias para lograr a una lluvia de ideas tendientes a solucionar los problemas surgidos. Obteniendo así una herramienta que dados dos puntos no euclidianos, cualesquiera, puede trazar una recta no euclidiana que pasa por ellos. (40')
+
+\subsection{Primeras dos horas Entre Clases\label{subsec:Primeras-dos-EC}}
+
+Les entregaremos apuntes de creación propia sobre la definición e interpretación de la relación \emph{estar entre}, y de la definición de \emph{inversión} y sus propiedades\emph{.} Lo primero con el fin de abordar el segundo grupo de axiomas de la Geometría Absoluta.
+
+Los axioma de orden que tomaremos son:
+\begin{enumerate}[label=Ax II.\arabic{enumi}]
+	\item \emph{Si el punto $B$ se encuentra entre el punto $A$ y el punto $C$, entonces $A$, $B$, $C$ son puntos diferentes de una misma recta, y $B$ se encuentra, asimismo, entre $C$ y $A$.}
+	\item \emph{Cualesquiera que sean los puntos distintos $A$ y $C$, existe al menos un punto $B$ sobre la recta $AC$ tal que $C$ está entre $A$ y $B$.}
+	\item \emph{Entre tres puntos cualesquiera de una recta, a lo sumo uno de ellos puede encontrarse entre los otros dos.}
+	\item \emph{(Axioma de Pasch) Sean $A,$$B$ y $C$ tres puntos que no pertenecen a una misma recta, y $a$, una recta en el plano $ABC$ que no contiene ninguno de los puntos $A,B,C$. Entonces, si la recta $a$ pasa por algún punto del segmento $AB$, también pasará por algún punto del segmento $AC$ o por alguno del segmento $BC$.}
+\end{enumerate}
+
+Lo segundo con el fin de introducir al III grupo de axiomas.
+
+Tomamos como axiomas de congruencia:
+\begin{enumerate}[label=Ax III.\arabic{enumi}]
+	\item \emph{Si $A$ y $B$ son dos puntos sobre la recta $a$, y $A^{\prime}$ es un punto de la misma recta, o bien de otra recta $a^{\prime}$, siempre podemos encontrar, a un lado prefijado de $A^{\prime}$ sobre la recta $a^{\prime}$, un punto $B^{\prime}$, y solo uno, tal que el segmento $AB$ es congruente al $A^{\prime}B^{\prime}$(se denota $AB\equiv A^{\prime}B^{\prime}$). Para cada segmento $AB$ exigimos la congruencia $AB\equiv BA$.}
+	\item \emph{Si los segmentos $A^{\prime}B^{\prime}$ y $A^{\prime\prime}B^{\prime\prime}$ son congruentes al mismo segmento $AB$; entonces $A^{\prime}B^{\prime}$ es congruente al segmento $A^{\prime\prime}B^{\prime\prime}$, es decir, si $A^{\prime}B^{\prime}\equiv AB$ y $A^{\prime\prime}B^{\prime\prime}\equiv AB$ entonces también $A^{\prime}B^{\prime}\equiv A^{\prime\prime}B^{\prime\prime}$.}
+	\item \emph{Sean $AB$ y $BC$ dos segmentos sobre la recta $a$, sin puntos interiores comunes y sean, además, $A^{\prime}B^{\prime}$ y $B^{\prime}C^{\prime}$ dos segmentos sobre la misma recta, o bien sobre otra $a^{\prime}$ que tampoco poseen puntos interiores comunes. Si 
+	\[
+	AB\equiv A^{\prime}B^{\prime}\text{ y }BC\equiv B^{\prime}C^{\prime}
+	\]
+	entonces
+	\[
+	AC\equiv A^{\prime}C^{\prime}
+	\]
+	}
+	\item \emph{Sean dados $<(h,k)$ en el plano $\alpha$, una recta $a^{\prime}$ en este mismo plano, o bien en otro, $\alpha^{\prime},$ y supongamos fijado un lado determinado del plano $\alpha^{\prime}$ con respecto a la recta $a^{\prime}$. Sea $h^{\prime}$ una semirrecta de la recta $a^{\prime}$ con origen en el punto $O^{\prime}$. Entonces en el plano $\alpha^{\prime}$ existe una semirrecta $k^{\prime},$ y solo una, tal que $<(h,k)$ es congruente con $<(h^{\prime},k^{\prime})$ y, además, todos los puntos interiores de $<(h^{\prime},k^{\prime})$ se encuentran en el lado prefijado con respecto a $a^{\prime}$.}\\
+	\emph{Si $<(h,k)\equiv<(h^{\prime},k^{\prime})$, entonces $<(k;h)\equiv<(k^{\prime};h^{\prime})$.}\\
+	\emph{Cada ángulo es congruente consigo mismo, es decir: $<(h,k)\equiv<(h,k)$ y $<(h,k)\equiv<(k,h)$} \item \emph{Sean $A,B,C$ tres puntos no pertenecientes a una misma recta y $A^{\prime},B^{\prime},C^{\prime}$ otros tres, tampoco pertenecientes a una misma recta. Si
+	\[
+	AB\equiv A^{\prime}B^{\prime},AC\equiv A^{\prime}C^{\prime}y<BAC\equiv<B^{\prime}A^{\prime}C^{\prime}
+	\]
+	entonces
+	\[
+	<ABC\equiv<A^{\prime}B^{\prime}C^{\prime}y<ACB\equiv<A^{\prime}C^{\prime}B^{\prime}
+	\]
+	}
+\end{enumerate}
+
+Se propondrán actividades para abordar los apuntes de lectura, en las que se trabajará con la demostración de los tres primeros axiomas del grupo II. Así como también la creación de las herramienta en GeoGebra de punto medio, mediatriz y bisectriz no euclidiana, basándonos en la definición de inversión.\textasciiacute{}
+
+\subsection{Segundas dos horas sincrónicas\label{subsec:Segundas-dos-sinc}}
+
+Comenzaremos por repasar las actividades de la sección \ref{subsec:Primeras-dos-EC}. Pediremos a los cursantes exponer obstáculos, si los hubo, en la realización de las actividades correspondientes a la sección \ref{subsec:Primeras-dos-EC} y con ayuda del resto de oyentes propondremos soluciones. Todo ello incentivando la interacción y participación (30'). 
+
+Luego se trataremos el axioma restante de éste grupo y se pondrá en común el esquema de demostración de ellos, sin ahondar en detalles, dejando abierto al cursante esta actividad si lo desea.(20')
+
+Después se recordará definición de inversión y sus propiedades (10'). Se pedirá a los cursantes relatar la creación de las herramientas pedidas en la sección \ref{subsec:Primeras-dos-EC}, reproduciremos las acciones relatadas, constatando su funcionalidad, y versatilidad con respecto a la posición de los puntos.(30')
+
+Luego enunciaremos el primer axioma del III grupo (congruencia), interpretaremos el enunciado gráficamente en GeoGebra, el cual compartiremos por la plataforma e-learning designada. Luego de dejar unos minutos libres para pensar su demostración, haremos una puesta en común de ésta (20'). 
+
+Por último enunciaremos el resto de axiomas del grupo III con sus respectivas interpretaciones en GeoGebra.
+
+\subsection{Segundas dos horas Entre Clases\label{subsec:Segundas-dos-EC}}
+
+Se brindará a los cursantes apuntes y actividades sobre la definición de \emph{orden de los puntos de una semirrecta} y \emph{orden de los puntos de una recta}, con el fin de introducir al lector en el grupo IV de axiomas. Tomaremos como el cuarto grupo
+\begin{enumerate}[label=Ax IV.\arabic{enumi}]
+	\item (Axioma de Arquimedes) Sean $AB$ y $CD$ segmentos arbitrarios. Entonces sobre la recta $AB$ existe un número finito de puntos $A_{1},A_{2},...,A_{n}$ situados de manera que $A_{1}$ esta entre $A$ y $A_{2}$, $A_{2}$ esta entre $A_{1}$ y $A_{3}$, etc, tales que los segmentos $AA_{1},A_{1}A_{2},A_{2}A_{3},...,A_{n-1}A_{n}$ son congruentes al segmento $CD$ y $B$ está entre $A$ y $A_{n}$.
+	\item (Axioma de Cantor) Supongamos que una recta arbitraria $a$ de da una sucesión infinita de segmentos $A_{1}B_{1},A_{2}B_{2},A_{3}B_{3},...$ de los cuales cada uno está en el interior del precedente; supongamos además, cualquiera sea una segmento fijado, existe un índice $n$ para el cual $A_{n}B_{n}$ es menor que ese segmento. Entonces existe sobre la recta $a$ un punto $X$ que está en el interior de todos los segmentos $A_{1}B_{1},A_{2}B_{2},A_{3}B_{3},...$
+\end{enumerate}
+
+Para mejor desarrollo de resultados usaremos el \emph{Principio de Dedekind}: \emph{Si todos los puntos de la recta están distribuidos
+en clases de manera que:}
+\begin{enumerate}
+	\item \emph{Cada punto pertenece a una clase y solo a una, y cada clase tiene puntos.}
+	\item \emph{Cada punto de la primera clase precede a cada punto de la segunda.}
+	
+	Entonces,\emph{ o bien en la primera clase existe un punto que sigue a todos los demás de ésta clase, o bien en la segunda clase existe algún punto que precede a todos los demás de dicha clase.}
+\end{enumerate}
+
+Y que según el teorema siguiente
+\begin{thm*}
+Si a los axiomas I-III agregamos el principio de Dedekind, las proposiciones de Arquimedes IV.1 y de Cantor IV.2 pueden ser demostradas. Y recíprocamente.
+\end{thm*}
+
+También se dará una pequeña reseña histórica sobre la controversia del V postulado, presentando la geometría de Lobachevski, junto con actividades para trabajar sobre la interpretación del postulado de la paralela en ambos modelos. Se pretende que con las actividades propuestas los cursantes concluyan que, para el modelo de Euclides el postulado de las paralelas se cumple y que no así para el modelo del semiplano superior de Poincaré.
+
+Usamos como axioma de las paralelas:
+\begin{enumerate}[label=Ax V.\arabic{enumi}]
+	\item Existe una recta $a$ y un punto $A$ que no le pertenece; tal que en el plano determinado por $A$ y la recta $a$, pasan por $A$ al menos dos rectas que no cortan a $a$.
+\end{enumerate}
+
+\subsection{Terceras dos horas sincrónicas\label{subsec:Terceras-dos-sinc}}
+
+Se iniciará la clase haciendo un breve repaso de las actividades anteriores, luego enunciaremos los axiomas de continuidad y el principio de Dedekind, aclarando que hay un teorema que los relaciona. en una puesta en común se hablará sobre el principio de Dedekind y sobre la veracidad de éste para el modelo en el que estamos trabajando. Se extraerán ideas principales, con el objetivo de llegar a concluir que los axiomas de continuad son validos en el modelo (40'). 
+
+A continuación con el aporte de lo trabajado en la sección \ref{subsec:Segundas-dos-EC} se pedirá a los alumnos que expresen las conclusiones a las que llegaron, resolviendo las actividades, con respecto al V postulado en el modelo. Se anotarán ideas principales con su respectivas explicaciones. Concluyendo de ésta manera que, el modelo del semiplano superior de Poincaré no es un modelo para la geometría euclidiana, pero si para la geometría absoluta, y para la geometría de Lobachevski o no euclidiana.
+
+\subsection{Evaluación final}
+
+La evaluación final será a través de un cuestionario, mediante la plataforma exa-Virtual. Se pretende que el cursante sea capaz de:
+\begin{itemize}
+	\item Comprender de conceptos y principios de la geometría no euclidiana.
+	\item Identificar lo que es un modelo, y como se prueba que lo es.
+	\item Identificar las diferencias entre los dos modelos dados. 
+	\item Diferenciar los distintos elementos del modelo del semiplano superior de Poincaré.
+	\item Identificar la definición de la relación estar entre y de congruencia en el modelo del semiplano superior.
+\end{itemize}
+
+\section{Bibliografía}
+
+\printbibliography
+
+\end{document}

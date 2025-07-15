@@ -1,0 +1,143 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {part}{I \hspace *{1em} Talleres}{7}{section*.1}%
+\contentsline {section}{\numberline {1} Descifrando los secretos de la pista: estadística y simulaciones en la Fórmula 1}{8}{section*.2}%
+\hspace *{3em}\vspace \medskipamount \textit {del Valle Vides, C. N.; Chocobar, E. F.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {1.1}Introducción}{8}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Importancia del taller}{8}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Fundamentos}{9}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Contenidos}{13}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Requisitos previos}{13}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Objetivos}{13}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Actividades}{14}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Actividades previas}{14}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Primera hora y media presenciales}{15}{subsubsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.5.3}Primeras dos horas entre clases}{15}{subsubsection.1.5.3}%
+\contentsline {subsubsection}{\numberline {1.5.4}Segunda dos horas presenciales}{15}{subsubsection.1.5.4}%
+\contentsline {subsubsection}{\numberline {1.5.5}Segundas dos horas entre clase}{16}{subsubsection.1.5.5}%
+\contentsline {subsubsection}{\numberline {1.5.6}Terceras dos horas presenciales}{16}{subsubsection.1.5.6}%
+\contentsline {subsubsection}{\numberline {1.5.7}Evaluación final}{16}{subsubsection.1.5.7}%
+\contentsline {subsection}{\numberline {1.6}Bibliografía}{17}{subsection.1.6}%
+\contentsline {section}{\numberline {2} El desarrollo del pensamiento proporcional en la primaria y el ciclo básico del nivel secundario haciendo uso de los registros semióticos de representación y las TIC}{18}{section*.9}%
+\hspace *{3em}\vspace \medskipamount \textit {Villagra, C. E.; Miguez, I. H; Acosta, R. N.; Chorolque, E. M.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {2.1}Introducción}{18}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Importancia del taller}{18}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Fundamentos}{18}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Contenidos}{19}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Requisitos Previos}{19}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Objetivos}{19}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Actividades}{19}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Actividades Previas}{19}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Primera hora y media presenciales}{20}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Primeras dos horas entre clases}{20}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Segunda hora y media presencial}{21}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.5}Segundas dos horas entre clases}{22}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {2.5.6}Tercera hora y media presencial}{22}{subsubsection.2.5.6}%
+\contentsline {subsubsection}{\numberline {2.5.7}Evaluación final}{23}{subsubsection.2.5.7}%
+\contentsline {subsection}{\numberline {2.6}Bibliografía}{24}{subsection.2.6}%
+\contentsline {section}{\numberline {3} Autovalores, autovectores y transformaciones: una mirada geométrica}{25}{section*.12}%
+\hspace *{3em}\vspace \medskipamount \textit {Chañi, M. D.; Romero, S. N.; Gutierrez, M. D.; Velasquez, N. A. M.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {3.1}Introducción}{25}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Importancia del Taller}{25}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Fundamentos}{25}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Contenidos}{26}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Requisitos Previos}{26}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Objetivos}{27}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Actividades}{27}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Actividades previas}{27}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Primera hora y media presenciales}{27}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Primeras dos horas entre clases}{27}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Segundas dos horas presenciales}{27}{subsubsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.5}Segundas dos horas entre clases}{27}{subsubsection.3.5.5}%
+\contentsline {subsubsection}{\numberline {3.5.6}Terceras dos horas presenciales}{28}{subsubsection.3.5.6}%
+\contentsline {subsubsection}{\numberline {3.5.7}Evaluación final}{28}{subsubsection.3.5.7}%
+\contentsline {subsection}{\numberline {3.6}Bibliografía}{28}{subsection.3.6}%
+\contentsline {section}{\numberline {4} De la ecuación cuadrática a la cúbica: una introducción a los números complejos}{29}{section*.13}%
+\hspace *{3em}\vspace \medskipamount \textit {Chañi, M. D.; Romero, S. N.; Gutierrez, M. D.; Velasquez, N. A. M.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {4.1}Introducción}{29}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Importancia del Taller}{29}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Fundamentos}{29}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}Contenidos}{30}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Requisitos Previos}{30}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Objetivos}{30}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Actividades}{31}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Actividades previas}{31}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Primera hora y media presenciales}{31}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Primeras dos horas entre clases}{31}{subsubsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.4}Segundas dos horas presenciales}{31}{subsubsection.4.5.4}%
+\contentsline {subsubsection}{\numberline {4.5.5}Segundas dos horas entre clases}{31}{subsubsection.4.5.5}%
+\contentsline {subsubsection}{\numberline {4.5.6}Terceras dos horas presenciales}{31}{subsubsection.4.5.6}%
+\contentsline {subsubsection}{\numberline {4.5.7}Evaluación final}{31}{subsubsection.4.5.7}%
+\contentsline {subsection}{\numberline {4.6}Bibliografía}{31}{subsection.4.6}%
+\contentsline {section}{\numberline {5} Geometría: algunos conceptos relacionados con Olimpiada Matemática Argentina}{33}{section*.14}%
+\hspace *{3em}\vspace \medskipamount \textit {Sángari, A. N.; Flores Rocha, V.; Coria, S. E.; Ghiglia, N.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {5.1}Introducción}{33}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Importancia del taller}{33}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Fundamentos}{34}{subsubsection.5.1.2}%
+\contentsline {paragraph}{\numberline {5.1.2.1}Fundamentos Matemáticos}{34}{paragraph.5.1.2.1}%
+\contentsline {paragraph}{\numberline {5.1.2.2}Fundamentos Didácticos}{34}{paragraph.5.1.2.2}%
+\contentsline {paragraph}{\numberline {5.1.2.3}Fundamentos Pedagógicos}{34}{paragraph.5.1.2.3}%
+\contentsline {subsection}{\numberline {5.2}Contenidos}{34}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Requisitos}{35}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Objetivos}{35}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Metodología}{35}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Actividades}{36}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Actividades previas}{36}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.2}Primera hora y media presenciales}{36}{subsubsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.3}Primeras dos horas entre clases}{37}{subsubsection.5.6.3}%
+\contentsline {subsubsection}{\numberline {5.6.4}Segundas dos horas presenciales}{37}{subsubsection.5.6.4}%
+\contentsline {subsubsection}{\numberline {5.6.5}Segundas dos horas entre clases}{37}{subsubsection.5.6.5}%
+\contentsline {subsubsection}{\numberline {5.6.6}Terceras dos horas presenciales}{37}{subsubsection.5.6.6}%
+\contentsline {subsubsection}{\numberline {5.6.7}Evaluación final}{37}{subsubsection.5.6.7}%
+\contentsline {subsection}{\numberline {5.7}Bibliografía}{38}{subsection.5.7}%
+\contentsline {part}{II \hspace *{1em} Comunicaciones breves}{39}{subsection.5.7}%
+\contentsline {section}{\numberline {6} Ecuaciones diferenciales y GeoGebra: un viaje visual por la carga y descarga de un capacitor en un circuito RC}{40}{section*.15}%
+\hspace *{3em}\vspace \medskipamount \textit {Chocobar, E. F.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {6.1}Introducción}{40}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Requisitos previos}{40}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Desarrollo}{40}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Bibliografía}{41}{subsection.6.4}%
+\contentsline {section}{\numberline {7} Investigación sobre las estrategias de enseñanza implementadas en un profesorado de matemática durante la pandemia por COVID-19}{42}{section*.16}%
+\hspace *{3em}\vspace \medskipamount \textit {Montenegro, F.; Cravero, M.; Fernández, C.; Salazar, M. G. R.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {7.1}Introducción}{42}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Requisitos previos}{42}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Desarrollo}{42}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Bibliografía}{44}{subsection.7.4}%
+\contentsline {section}{\numberline {8} Epistemología e historia de la Matemática: evaluación con monografía y ejemplo}{45}{section*.17}%
+\hspace *{3em}\vspace \medskipamount \textit {Ferrero, M. M.; Nuñez, A. V.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {8.1}Introducción}{45}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Desarrollo}{45}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Introducción a la monografía}{46}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}El problema isoperimétrico}{46}{subsubsection.8.2.2}%
+\contentsline {paragraph}{\numberline {8.2.2.1}El problema isoperimétrico como un hito histórico}{46}{paragraph.8.2.2.1}%
+\contentsline {paragraph}{\numberline {8.2.2.2}Origen del problema isoperimétrico}{47}{paragraph.8.2.2.2}%
+\contentsline {paragraph}{\numberline {8.2.2.3}El problema isoperimétrico “vivo” durante 2000 años}{47}{paragraph.8.2.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.3}Zenodoro, el geómetra griego}{47}{subsubsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}Una nueva forma de abordar el problema isoperimétrico: Gergonne}{48}{subsubsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.5}El matemático cuyo nombre está ligado con más fuerza al problema isoperimétrico: Jakob Steiner (1796-1863)}{48}{subsubsection.8.2.5}%
+\contentsline {subsubsection}{\numberline {8.2.6}El problema isoperimétrico resuelto después de 2000 años}{48}{subsubsection.8.2.6}%
+\contentsline {subsection}{\numberline {8.3}Reflexiones finales}{48}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Bibliografía de la monografía}{50}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Bibliografía}{50}{subsection.8.5}%
+\contentsline {section}{\numberline {9} La teoría de conjuntos y su enseñanza}{51}{section*.18}%
+\hspace *{3em}\vspace \medskipamount \textit {Sángari, A. N.; Coria Saravia, S. I.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {9.1}Introducción}{51}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Generalidades}{51}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Importancia en el sistema educativo}{51}{subsubsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.3}Propósito de este trabajo}{52}{subsubsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.2}Requisitos previos}{52}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Desarrollo}{52}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Breve recorrido histórico}{52}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}Primeros axiomas}{53}{subsubsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.4}Bibliografía}{55}{subsection.9.4}%
+\contentsline {section}{\numberline {10} Trabajo conjunto: primario, secundario, terciario y universitario para una Olimpiada Matemática Argentina en Salta}{56}{section*.19}%
+\hspace *{3em}\vspace \medskipamount \textit {Flores Rocha, V.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {10.1}Desarrollo}{56}{subsection.10.1}%
+\contentsline {section}{\numberline {11} Múltiples registros con los axiomas de incidencia de la geometría euclidiana}{57}{section*.20}%
+\hspace *{3em}\vspace \medskipamount \textit {Sángari, A. N.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {11.1}Introducción}{57}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}Importancia del trabajo con varios registros}{57}{subsubsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.2}Requisitos previos}{58}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Desarrollo}{58}{subsection.11.3}%
+\contentsline {subsubsection}{\numberline {11.3.1}Comentarios sobre el problema teórico}{58}{subsubsection.11.3.1}%
+\contentsline {subsubsection}{\numberline {11.3.2}Ejemplo ilustrativo}{58}{subsubsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.4}Bibliografía}{60}{subsection.11.4}%

@@ -1,0 +1,14 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'Tall03.blg'
+[157] biber-MSWIN32:340> INFO - === 
+[216] Biber.pm:418> INFO - Reading 'Tall03.bcf'
+[392] Biber.pm:978> INFO - Found 3 citekeys in bib section 0
+[416] Biber.pm:4401> INFO - Processing section 0
+[431] Biber.pm:4592> INFO - Looking for bibtex file 'refs-tall03.bib' for section 0
+[531] bibtex.pm:1713> INFO - LaTeX decoding ...
+[563] bibtex.pm:1518> INFO - Found BibTeX data source 'refs-tall03.bib'
+[647] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[647] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[647] Biber.pm:4221> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'es-ES'
+[653] bbl.pm:654> INFO - Writing 'Tall03.bbl' with encoding 'UTF-8'
+[657] bbl.pm:757> INFO - Output to Tall03.bbl

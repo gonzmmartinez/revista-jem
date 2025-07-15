@@ -1,0 +1,164 @@
+\documentclass[oneside,spanish]{amsart}
+\usepackage[T1]{fontenc} % Tipo de fuente
+\usepackage[utf8]{inputenc} % Archivo UTF-8
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=3cm,rmargin=2.5cm} % Tamaño
+\usepackage{amsthm} 
+%\usepackage{amsaddr} % Para modificar la posición de address
+\usepackage[spanish]{babel} % Idioma español
+\usepackage[backend=biber,style=alphabetic,natbib,maxalphanames=1]{biblatex} % Compilar bibliografía con BibLaTeX (no BibTeX)
+\usepackage[shortlabels]{enumitem} % Mejora el entorno enumerate
+\usepackage{graphicx} % Colocar imágenes
+\usepackage[hidelinks]{hyperref} % Vínculos y referencias interactivas
+\usepackage[skip=3pt]{caption} % Permite modificar el espacio entre el caption y la imagen
+\usepackage{multicol} % Entornos de múltiples columnas
+
+%-------------------------------------------------------------------------
+% Configuraciones iniciales
+\makeatletter
+%Numeración
+\numberwithin{equation}{section}
+\newlength{\lyxlabelwidth}      % Longitud auxiliar
+\makeatother
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Bibliografía
+\defbibheading{bibliography}[\refname]{}
+\addbibresource{refs-com04.bib}
+
+\renewcommand*{\labelalphaothers}{}
+
+\DeclareLabelalphaTemplate{
+	\labelelement{
+		\field[final]{shorthand}
+		\field{labelname}
+		\field{label}
+	}
+	\labelelement{
+		\literal{,\addhighpenspace}
+	}
+	\labelelement{
+		\field{year}
+	}
+}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Otras configuraciones
+%\pagestyle{plain} % Para que el encabezado esté vacío
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\figurename}{Figura}}
+
+\theoremstyle{definition}
+\newtheorem{defin}{\bfseries Definición}
+%-------------------------------------------------------------------------
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\scriptsize\MakeUppercase\shorttitle}
+
+%-------------------------------------------------------------------------
+
+% Y acá comienza el documento
+
+\begin{document}
+	
+%-------------------------------------------------------------------------
+% Datos del artículo
+\title[Análisis del debate de estudiantes de profesorado en matemática en el caso de poliedro regular]{Análisis del debate de estudiantes de profesorado en matemática en el caso de poliedro regular\vspace{-2ex}}
+\author[1]{Dulce Carla Gottig\textsuperscript{1}}
+\author[2]{Ana María Mántica}
+\author[3]{Magalí Freyre}
+\email[corresponding author]{\textsuperscript{1}dulcegottig17@gmail.com}
+%-------------------------------------------------------------------------
+
+\begin{abstract}
+	Se presenta el análisis de una actividad realizada por estudiantes avanzados del profesorado en matemática. La misma tiene por objetivo reflexionar sobre la importancia de la definición en matemática tomando particularmente el concepto de poliedro regular. Para esto se conforman grupos y se toman definiciones de libros de textos escolares y páginas de internet para compararlas con la empleada en la cátedra. Se comparan ambas definiciones con el propósito de determinar si definen el mismo conjunto de figuras. Del análisis se desprende no sólo que las definiciones no son equivalentes, sino que no guardan coherencia con el conjunto de figuras que dicen considerar a partir de las condiciones exigidas. Se debate junto al grupo clase la importancia de analizar las definiciones que aparecen tanto en los libros de textos como en páginas de internet, a la que actualmente acuden mucho los estudiantes, en función de determinar si realmente se define el conjunto de figuras que se pretende definir.
+\end{abstract}
+
+\maketitle
+\thispagestyle{empty}
+
+\section{Introducción}
+
+El interés por realizar investigación se debe a la necesidad de trabajar en la innovación de proyectos que estimulen el pensamiento crítico, favorezcan el razonamiento y la visualización, e incentiven a la indagación. Resulta necesario, para esto, realizar una profundización de contenidos y proponer un análisis acentuado en el desarrollo práctico que involucra necesariamente la apropiación de conceptos. Particularmente, se considera relevante investigar temas propios de la geometría tridimensional con el fin de ahondar en sus definiciones y aplicaciones, y explorar tanto propiedades como la razón de ser de las mismas no solo con fundamentación teórica sino también mediante la utilización de software de geometría dinámica. 
+ 
+En este trabajo se presenta el análisis de lo realizado por estudiantes avanzados del profesorado en matemática que realizan tareas que apuntan a una correcta construcción del concepto de poliedro regular. Se les presentan definiciones de poliedro regular y se les propone contrastarlas con la utilizada por la cátedra y determinar si la definición y familia de poliedros regulares que abarcan guardan coherencia. Se pretende delimitar la condición de arbitrariedad de las definiciones de modo que, al mencionar el concepto a tratar, en este caso poliedro regular, el conjunto de figuras sea el mismo.
+
+\citet{guillen97} sostiene que, “ha habido diferentes aproximaciones a la investigación en esta área (geometría tridimensional) y en ellas se han presentado dificultades que se derivan de definiciones inadecuadas, de habilidades espaciales y de no saber cómo examinarlas mejor” (p.60).
+
+\section{Requisitos previos}
+
+El concepto de poliedro se considera de interés particularmente para profesores de matemática de nivel primario o secundario y para estudiantes de profesorados, dado el escaso desarrollo del mismo en textos de nivel secundario y la poca presencia de la geometría en las aulas (\citet{mantica19}).  Se destaca el interés por dotar de relevancia al trabajo en geometría en el diseño curricular de la provincia de Santa Fe (\cite{santafe14}) que destaca que “se debe profundizar la producción y el análisis de construcciones geométricas y propiciar el control de estas tareas” (p.51). Se realiza este trabajo con la intención de provocar cambios en la actitud por parte de los docentes en cuanto al trabajo en geometría en la escolaridad obligatoria.
+
+Esta es una investigación de tipo cualitativo (\citet{mcknight00}). El diseño, implementación y análisis de las tareas lo encuadramos en el método investigación-acción (\citet{elliot90}). Entre los métodos de recolección de datos se mencionan la observación, artefactos escritos y grabaciones en audio y en video (\citet{mcknight00}). Las propuestas se implementan con alumnos de profesorado en matemática de la Facultad de Humanidades y Ciencias de la Universidad Nacional del Litoral (UNL), Argentina. Las muestras son de tipo accidental.
+
+\section{Desarrollo}
+
+En la realización del trabajo participan dos grupos de estudiantes que se denominan en este escrito A y B. El A tiene dos estudiantes y el B tres. Cada grupo establece similitudes y diferencias de una definición entregada por el investigador y la utilizada por la cátedra, con el objetivo de determinar si ambas definen el mismo conjunto de figuras. Se consideran para entregar a los grupos una definición tomada de un texto utilizado por docentes de matemática en la escuela secundaria y otra tomada de internet. Las definiciones correspondientes son entregadas a cada grupo de estudiantes y se le propone a la semana siguiente un debate junto al grupo clase en el que exponen por Zoom las conclusiones, que además presentan por escrito. En esta instancia se encuentran presentes todos los estudiantes y docentes de la cátedra.
+
+Se toman los aportes de \citet{winicki00} quienes afirman que si dos enunciados diferentes definen dos conceptos y sus correspondientes conjuntos de objetos ejemplo son conjuntos no disjuntos, entonces las definiciones pueden ser equivalentes, consecuentes o pueden competir. Si los conjuntos de objetos ejemplo son iguales, entonces son definiciones equivalentes de un mismo concepto. En este caso, se puede aceptar una como definición y la otra como teorema dependiendo solo de consideraciones didácticas. Si uno de los conjuntos de objetos es un subconjunto propio del otro, se dice que las definiciones son consecuentes, es decir que una proviene de la otra y los conjuntos correspondientes de las condiciones definitorias establecidas por estos enunciados también están conectados por una relación de inclusión. Si los conjuntos de objetos se intersectan y el conjunto de intersección es un subconjunto pro-pio de cada uno de ellos, entonces se dice que los enunciados son definiciones que compiten para dos conceptos matemáticos diferentes.
+
+Teniendo en consideración la clasificación anterior, se propone un análisis de las definiciones, que permite determinar si la definición y los poliedros regulares que se presentan como existentes guardan coherencia, atendiendo a las condiciones enunciadas. Además, se propone una comparación entre las definiciones entregadas a cada grupo con la acordada por la cátedra. Es aquí donde se procede de dos maneras distintas de acuerdo a los resultados obtenidos: por un lado, en el caso en el que ambos enunciados definen conjuntos de figuras iguales (definiciones equivalentes) se justifica la correspondencia de condiciones presentes en una y otra; por otro lado, si los conjuntos de objetos no son los mismos (definiciones consecuentes o que compiten), se proponen contraejemplos que demuestran el porqué de la relación hallada.
+
+Se les entregan a ambos grupos la definición que se utiliza en el texto de la cátedra en la cual se desarrolla la adscripción en que se enmarca la presente investigación. Esta definición es considerada como definición base y es propuesta por \citet{mantica22}. Se exhibe a continuación:
+
+\textit{Superficie poliédrica: Llamaremos superficie poliédrica al conjunto de un número finito de polígonos, llamados caras de la superficie, que cumplan con las siguientes condiciones:}
+
+\begin{enumerate}[1.]
+	\item	\textit{Cada lado de una cara pertenece también a otra y sólo otra. Ambas caras se llaman contiguas.}
+	\item	\textit{Dos caras contiguas están en distinto plano.} 
+	\item	\textit{Dos caras no contiguas pueden unirse por una sucesión de caras contiguas.}
+	\item	\textit{Dos caras no contiguas no pueden tener más punto común que un vértice y si lo tienen deben pertenecer ambas a un mismo ángulo poliedro.} (p.21)
+\end{enumerate}
+
+Posteriormente se define poliedro: \textit{“Llamaremos poliedro al conjunto de los puntos de la superficie poliédrica y los interiores a la misma. Los vértices y lados de las caras se llaman vértices y aristas del poliedro”} (p.23).
+
+Para más adelante definir poliedros regulares convexos como \textit{”aquellos cuyas caras son polígonos regulares iguales y en cuyos vértices concurren el mismo número de ellas”} (p.29).
+
+Asimismo, se entregan a cada grupo las definiciones 1 y 2 distribuidas al azar.
+
+\begin{defin}
+	\textit{“[...] Se dice que un \underline{poliedro regular} es aquel que tiene caras y ángulos iguales, por ejemplo, un \underline{cubo} o hexaedro (seis caras). El cubo posee seis \underline{polígonos} con lados iguales con la misma longitud, estos a su vez se unen en \underline{vértice} con ángulos de $90^\circ$ grados. También eran conocidos antiguamente y son conocidos aún, como \underline{sólidos platónicos}. Los \underline{sólidos platónicos} o sólidos de \underline{Platón} son poliedros regulares y convexos. Solo existen cinco de ellos: el \underline{tetraedro}, el \underline{cubo}, el \underline{octaedro}, el \underline{dodecaedro} y el \underline{icosaedro}”}. (Definición recuperada del sitio web Wikipedia. Actualizado en 2021. \url{https://es.wikipedia.org/wiki/Poliedro})
+\end{defin}
+
+\begin{defin}
+	\textit{“Existen solo cinco poliedros regulares en los que todas sus caras son polígonos regulares: tetraedro, cubo, octaedro, dodecaedro e icosaedro”} (\citet{aristegui05}).
+\end{defin}
+
+Se solicita a los estudiantes que comparen ambas definiciones destacando similitudes y diferencias y que una vez comparadas conforme a la clasificación establecida por \citet{winicki00} determinen si son equivalentes, consecuentes o compiten.
+
+A continuación, se desarrolla lo realizado en relación al análisis y comparación de definiciones correspondientes a cada grupo y en relación al debate con el grupo clase. El grupo A analiza la definición 2 y el grupo B la definición 1.
+
+\bigskip
+\paragraph{\bfseries Grupo A}
+
+En primer lugar, plantean como diferencia entre ambas definiciones que la definición 2 solamente habla de las caras de los poliedros, que tienen que ser iguales, y no establece nada sobre los vértices, ángulos poliedros. En cambio, en la de la cátedra se establece que en los vértices concurre la misma cantidad de caras. En cuanto a las similitudes se tienen en cuenta dos: que ambas definiciones imponen que los poliedros tienen que tener las caras iguales y tienen que ser polígonos regulares. En segundo lugar, manifiestan que el conjunto de poliedros de ambas definiciones son los mismos cinco cuerpos: el tetraedro, el hexaedro, el octaedro, el dodecaedro y el icosaedro. En la definición 2 lo dice explícitamente y en la definición base no se explicita, aunque el corolario del Teorema de Euler expresa que solo existen cinco poliedros regulares convexos. Además, exponen que no les queda claro si las definiciones hablan de lo mismo.
+
+Luego de un debate con el grupo clase se arriba a la conclusión que la definición 2 no hace alusión a los vértices del poliedro, por la que no la consideran una definición formal. No es coherente pues con esa definición se podrían construir más de los cinco que se mencionan.
+
+La docente cuestiona si en la definición base existen condiciones no necesarias. Se invita a pensar en poliedros que cumplan solo las dos condiciones exigidas por la definición 2.
+
+Se concluye que el conjunto de figuras de ambas definiciones no es el mismo. Por esta razón, las definiciones no son equivalentes. La definición dada por la cátedra es un subconjunto propio de la definición 2, esto nos permite decir que las definiciones son consecuentes, una proviene de la otra.
+
+\bigskip
+\paragraph{\bfseries Grupo B}
+
+Los estudiantes expresan que la definición 1 define poliedros regulares mientras que la definición base define poliedros regulares convexos. La similitud entre ambas es que las caras del poliedro deben ser iguales y la diferencia es que la definición base añade las condiciones de que las caras deben ser polígonos regulares y que en cada vértice debe concurrir el mismo número de caras.
+
+Después de estas comparaciones los estudiantes manifiestan que según la definición 1 un poliedro regular puede ser aquel que tenga caras iguales pero que sus caras no sean polígonos regulares, aquel que tenga caras iguales pero que en cada vértice no concurra el mismo número de caras y un poliedro que tenga caras iguales pero que en cada vértice no concurra el mismo número de caras y que sus caras no sean polígonos regulares. Afirman que según la definición base estos poliedros no son considerados como poliedros regulares convexos. Además, ejemplifican a partir de construcciones el caso de poliedro con caras iguales pero que no son polígonos regulares. Así, consideran un tetraedro que tiene caras iguales que son triángulos isósceles pero no son regulares porque los triángulos no son equiláteros. Después construyen un poliedro que tiene caras triángulos equiláteros, o sea que las caras son todas iguales y polígonos regulares, pero en cada vértice no concurre el mismo número de caras, en algunos vértices concurren tres caras y en otros cuatro (bipirámide triangular). Para el último caso en el que las caras solo son iguales y no cumple ninguna de las otras dos condiciones plantean otro poliedro que también tiene seis caras que son triángulos isósceles no equiláteros. De nuevo, puede observarse en este ejemplo que en algunos vértices concurren tres caras y en otros cuatro.
+
+A partir de todos los ejemplos desarrollados concluyen que las definiciones no definen el mismo conjunto.
+
+Se debate junto al grupo clase la importancia de analizar las definiciones que aparecen tanto en los libros de textos como en páginas de internet a las que suelen acudir los estudiantes, con el objetivo de determinar si realmente definen el conjunto de figuras que se pretende definir.
+
+
+\section{Bibliografía}
+
+\nocite{*}
+\printbibliography
+
+\end{document}

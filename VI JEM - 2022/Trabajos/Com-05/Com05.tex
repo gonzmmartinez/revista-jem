@@ -1,0 +1,334 @@
+\documentclass[oneside,spanish]{amsart}
+\usepackage[T1]{fontenc} % Tipo de fuente
+\usepackage[utf8]{inputenc} % Archivo UTF-8
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=3cm,rmargin=2.5cm} % Tamaño
+\usepackage{amsthm} 
+%\usepackage{amsaddr} % Para modificar la posición de address
+\usepackage[spanish]{babel} % Idioma español
+\usepackage[backend=biber,style=alphabetic,natbib,maxalphanames=1]{biblatex} % Compilar bibliografía con BibLaTeX (no BibTeX)
+\usepackage[shortlabels]{enumitem} % Mejora el entorno enumerate
+\usepackage{graphicx} % Colocar imágenes
+\usepackage[hidelinks]{hyperref} % Vínculos y referencias interactivas
+\usepackage[skip=3pt]{caption} % Permite modificar el espacio entre el caption y la imagen
+\usepackage{multicol} % Entornos de múltiples columnas
+
+%-------------------------------------------------------------------------
+% Configuraciones iniciales
+\makeatletter
+%Numeración
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\newlength{\lyxlabelwidth}      % Longitud auxiliar
+\makeatother
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Bibliografía
+\defbibheading{bibliography}[\refname]{}
+\addbibresource{refs-com05.bib}
+
+\renewcommand*{\labelalphaothers}{}
+
+\DeclareLabelalphaTemplate{
+	\labelelement{
+		\field[final]{shorthand}
+		\field{labelname}
+		\field{label}
+	}
+	\labelelement{
+		\literal{,\addhighpenspace}
+	}
+	\labelelement{
+		\field{year}
+	}
+}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Otras configuraciones
+%\pagestyle{plain} % Para que el encabezado esté vacío
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\figurename}{Figura}}
+
+\theoremstyle{definition}
+\newtheorem{problema}{\normalfont PROBLEMA}
+%-------------------------------------------------------------------------
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\scriptsize\MakeUppercase\shorttitle}
+
+%-------------------------------------------------------------------------
+
+% Y acá comienza el documento
+
+\begin{document}
+	
+%-------------------------------------------------------------------------
+% Datos del artículo
+\title[Implementación del modelo pedagógico flipped classroom o metodología del aula invertida]{Implementación del modelo pedagógico flipped classroom o metodología del aula invertida\vspace{-2ex}}
+\author[1]{Pedro Orazzi\textsuperscript{1}}
+\address[1]{Facultad de Arquitectura y Urbanismo, Universidad Nacional de La Plata}
+\email[corresponding author]{\textsuperscript{1}estructurarte2112@hotmail.com}
+%-------------------------------------------------------------------------
+
+\begin{abstract}
+	Los docentes de la Cátedra de Estadística y Matemática para las Decisiones, materia del tercer año de la Carrera de Contador Público y Administración de empresas, la cual se dicta de forma virtual, hemos planteado la modificación de la metodología de enseñanza, implementando el modelo pedagógico “flipped classroom” o aula invertida la cual se trata de un sistema que propone que los alumnos estudien y preparen las lecciones fuera de clase, accediendo en sus casas a los contenidos.
+	
+	En donde el rol del docente es el de tutor, más que presentador de información, proporcionando retroalimentación, guiando el aprendizaje del alumno individualmente y observando la interacción entre ellos, siendo el responsable de adaptar, proveer la didáctica y los materiales utilizados de acuerdo con las necesidades de los alumnos, propicia el aprendizaje colaborativo.
+	
+	Las clases en video conferencias (zoom o gloogle meet) que ofrece la cátedra son el espacio donde los alumnos interactúan, hacen las consultas y realizan las actividades de una forma participativa (analizar ideas, debates, trabajos en grupo, etc.). 
+	
+	La premisa de la cátedra es que el alumno aprende haciendo y no memorizando.
+	
+	En esta ponencia vamos a presentar los nuevos lineamientos de trabajo de la cátedra, la implementación del modelo pedagógico “flipped classroom”, su metodología, características principales, ventajas, diagramación de las clases, actividades, rol del docente, rol del alumno.
+	
+\end{abstract}
+
+\maketitle
+\thispagestyle{empty}
+
+\section{Introducción}
+
+\subsection{Planteo de la problemática}
+
+Con el paso del tiempo y aun en la actualidad se ha demostrado que para garantizar el acceso equitativo a las oportunidades educativas y a una educación de calidad, es necesario que los esfuerzos se vean acompañados por reformas educativas, las que no podrán implementarse de forma efectiva sin que se produzca un cambio en lo que respecta al rol docente, quien debe estar capacitado para preparar a sus estudiantes a enfrentarse a una sociedad cada vez más basada en el conocimiento científico e impulsada por la tecnología. Evidenciándose una apatía en los alumnos manifestándose en el bajo rendimiento, la escasa participación y hasta el manifiesto rechazo hacia el estudio. 
+
+Habiendo hecho un análisis de los bajos resultados obtenidos por los alumnos pareciera indicar que estos están relacionados con los contenidos impartidos y la forma en que se imparten, provocando una desconexión de los alumnos con el estudio, bajo nivel cognitivo y cognoscitivo, dificultades en el aprendizaje y en la comprensión, asumiéndolo como inútil en su accionar diario y posteriormente profesional. 
+
+Entre las principales causas de la desconexión de los alumnos se ha encontrado la utilización de estrategias de enseñanza donde se utiliza el método expositivo y repetitivo, evidenciando de que muchos alumnos realicen una repetición simple de los conceptos y una resolución mecánica de los problemas, generando desmotivación, apatía y falta de interés hacia el aprendizaje, es por esto, que estamos convencidos de la implementación de actividades innovadoras teniendo en cuenta la tecnología; para esto se debe orientar las clases fomentando  cualquier tipo de ambiente de aprendizaje interactivo e interesante, en los que el docente solo es un ente facilitador, guía y comprometido verdaderamente con la enseñanza y aprendizaje de sus propios alumnos; apasionado en el desarrollo de las habilidades de los educandos; en los cuales ellos puedan recurrir a la tecnología vanguardista de última generación y así mismo lograr utilizar materiales didácticos, técnicas de información y obtengan un ambiente de integración entre estudiante y docente.
+
+\subsection{Introducción al concepto modelo pedagógico flipped classroom o aula invertida}
+
+En la Cátedra de Estadística y Matemática para las Decisiones trabajamos con el método educativo Flipped Classroom conocido como aula invertida que se trata de un sistema que propone que los alumnos estudien y preparen las lecciones fuera de clase, accediendo en sus casas a los contenidos.
+
+En las video conferencias (zoom o gloogle meet) que ofrece la cátedra es el espacio donde los alumnos interactúan, hacen las consultas y realizan las actividades de una forma más participativas (analizar ideas, debates, trabajos en grupo, etc.). La premisa de la cátedra es que el alumno aprende haciendo y no memorizando, en donde el docente actúa como guía.
+
+A continuación, citaremos las ventajas de este sistema educativo
+
+\subsection{Ventajas del Flipped Classroom}
+
+\begin{enumerate}[a.-]
+	\item Los alumnos son los protagonistas.
+	
+	El alumnado es el protagonista de su propio aprendizaje y se implica desde el primer momento ya que les dota de responsabilidades, pasando de ser sujetos pasivos a activos. Pasan a ser actores en lugar de espectadores porque trabajan, participan, plantean dudas, colaboran en equipo, se organizan y planifican para realizar proyectos o resolver problemas.
+	
+	\item Consolida el conocimiento
+	
+	Este método da más tiempo para resolver dudas y consolidar conocimientos en clase. Al haber trabajado los contenidos y conceptos en casa, el tiempo en el aula puede dedicarse a resolver dudas, solucionar dificultades de comprensión o aprendizaje y trabajar los temas de manera individual y colaborativa.
+	
+	\item Favorece la diversidad en el aula, los alumnos pueden dedicar todo el tiempo que quieran a revisar los contenidos, para llegar a su máxima comprensión. 
+	
+	\item Aprendizaje más profundo y perdurable en el tiempo.
+	
+	\item Mejora el desarrollo de las competencias por el trabajo individual y colaborativo.
+	
+	\item Mayor motivación en el alumno.
+\end{enumerate}
+
+\section{Requisitos previos}
+
+La presente ponencia está dirigida a docentes, alumnos y profesionales vinculados con la enseñanza de la matemática y a todos los profesionales relacionados con el mundo educativo, de cualquier área de conocimiento y nivel, así como a estudiantes de la Universidad interesados en la temática del mismo y tiene los objetivos de compartir distintas experiencias relacionadas con el uso de TIC en la docencia; reflexionar sobre el uso de las TIC en la educación y su relevancia, hacer un diagnóstico para conocer el uso y opinión de las TIC de alumnado de las distintas universidades participantes en la Jornada; divulgar buenas prácticas docentes empleando las TIC; propiciar la reflexión sobre el uso de las mismas y su integración en la práctica diaria en el aula y fomentar la cooperación, el intercambio y la participación a través de redes educativas.
+
+\section{Desarrollo}
+
+\subsection{Fundamentos del aula invertida}
+
+Se trata de un modelo y no una técnica con hondas raíces en las teorías de Jean Piaget (1896-1980) y Lev Vygotsky (1896-1934). 
+
+La definición de aula invertida recoge los principios del constructivismo, del cognitivismo y del aprendizaje colaborativo y cooperativo, este último derivado del concepto de zona de desarrollo próximo (ZDP) creado por Vygotsky. La ZDP es la que permite aprender por uno mismo con la ayuda de otros (docentes o pares) que comparten sus conocimientos.
+
+También se inspira en la teoría del aprendizaje experiencial de David Kolb y Ron Fry, que predica que, para aprender algo, hay que procesar y trabajar la información aprendida mediante la inmersión completa en tareas y actividades.
+El constructivismo es la base del aprendizaje activo y, por ello, es vital para comprender la potencialidad del aprendizaje invertido para cada alumno y la revolución que implica.
+
+\subsection{Entornos de aprendizaje}
+
+El modelo FLIP se desarrolla sobre estos 4 pilares del aprendizaje: el entorno flexible, la cultura de aprendizaje, el contenido intencional y el educador profesional.
+
+\subsection{Entorno flexible}
+
+Entorno flexible es el ambiente propiciado por los docentes en el que los alumnos escogen cuándo y dónde aprender.
+
+Se necesita de flexibilidad por parte del profesor para que el contenido sea asimilado al ritmo del alumno, permitiendo tiempos de aprendizaje más amplios y evaluaciones adaptadas al aula invertida y a sus actividades.
+
+\subsection{Cultura de aprendizaje}
+
+La cultura de aprendizaje es la que se centra en el modelo de instrucción enfocado en el alumno y en su participación activa en el proceso.
+
+Durante el tiempo de clase, el profesor hace que los estudiantes profundicen y compartan con otros sus inquietudes, dudas y hallazgos.
+
+\subsection{Contenido intencional}
+
+El contenido intencional se refiere a las lecciones basadas en el modelo FLIP que los educadores preparan. Estos contenidos están adaptados a los objetivos de la materia y están orientados a la comprensión de conceptos y a mejorar el aprovechamiento del tiempo de clase.
+
+\subsection{Educador profesional}
+
+El término “educador profesional” hace referencia a la conducta que deben mantener los educadores durante todo el proceso de aula inversa.
+
+Estos deben concentrarse en la evolución de los alumnos, en el aporte de retroalimentación y en la evaluación.
+
+En definitiva, no puede entenderse qué es el flipped classroom y cómo aplicarlo para mejorar los resultados de los alumnos si no se aceptan estos 4 escenarios y no se está dispuesto a desarrollarlos todos por igual.
+
+\subsection{Rol de los docentes}
+
+El flipped classroom implica una estrategia de enseñanza y aprendizaje disruptiva donde los docentes deben realizar dos tipos de trabajo diferenciados: el individual con cada estudiante, atendiendo a sus necesidades y al tiempo que tarda en aprender, y las tareas en grupo en clase.
+
+Como se invierten las formas de enseñanza, el docente pasa a dar las lecciones fuera de clase, de forma online, y traslada las tareas grupales al aula, bajo su guía y supervisión. Así se pretende conseguir que los alumnos aprendan los conceptos por descubrimiento propio y no por inducción. Esta es la base del aprendizaje significativo.
+
+Para lograrlo, el docente debe desempeñar un rol motivador, permitiendo que el alumno sea autónomo y aprenda a desarrollar un pensamiento crítico, reflexivo y participativo. Es lo que Vygotski denominaba “andamiaje”, que no es más que las herramientas para que el estudiante siga construyendo su aprendizaje después de salir del aula.
+
+De acuerdo con Bergmann y Sams (2012), el docente es tutor, es un coach del aprendizaje, más que presentador de información, proporciona retroalimentación, guía el aprendizaje del alumno individualmente y observa la interacción entre los estudiantes. 
+
+Es el responsable de adaptar y proveer la didáctica y los materiales utilizados de acuerdo con las necesidades de los alumnos, propicia el aprendizaje colaborativo.
+
+\subsection{Objetivos}
+
+\subsubsection{Objetivos generales}
+
+Los objetivos planteados por las Cátedra se concretaron en los siguientes: 
+
+\begin{enumerate}[a.]
+	\item Implementar la flipped classroom como metodología de enseñanza.
+	
+	\item Procurar destrezas y herramientas tecnológicas para que los alumnos puedan llevar a cabo su aprendizaje. 
+\end{enumerate}
+
+\subsubsection{Objetivos específicos}
+
+\begin{enumerate}[a.]
+	\item Innovar en la enseñanza a través de la metodología del aula invertida.
+	
+	\item Incrementar el uso del campus virtual por parte de los alumnos y los profesores. 
+	
+	\item Posibilitar el aprendizaje significativo de los contenidos teóricos a través de estrategias procedimentales. 
+	
+	\item Fomentar la planificación, el diseño y la elaboración de herramientas digitales por parte de los alumnos y de los profesores.
+	
+	\item Integrar curricularmente los recursos tecnológicos.
+\end{enumerate}
+
+\subsection{Metodología}
+
+\subsubsection{Estructura de la materia}
+
+La estructura de la cursada de Estadística y Matemática para las Decisiones está diagramada en 8 módulos
+
+\paragraph{Actividades:}
+
+\begin{enumerate}[1.-]
+	\item La materia es 100\% virtual, tienen una clase semanal por video conferencias (Zoom o Google Meet).
+	
+	En el primer día de clases
+	\begin{enumerate}[a.-]
+		\item Se confeccionarán los grupos, cada grupo tendrá designado un nombre de comisión y la cantidad de alumnos será de 5 como máximo.
+		
+		\item Se establecen las actividades que cada grupo debe realizar durante las clases, las cuales los alumnos las deben preparar con antelación a su presentación, pudiendo ser exponer sobre la teoría, la actividad práctica o el uso de los software, es a elección de los grupos. 
+		
+		Las clases es el espacio donde los alumnos exponen, interactúan, hacen las consultas, analizar ideas, generan debates, realizando las actividades de una forma participativa y actuando de forma colaborativa. 
+		Por cada una de estas exposiciones los integrantes de los grupos acreditan 1 punto que se le será sumado a la nota del parcial.
+		
+		\item La elección de la realización de un póster o monografía.
+	\end{enumerate}
+	
+	\item Trabajos prácticos Por cada módulo los alumnos en sus casas deben realizar un trabajo practico que comprenden 3 partes, la primera consta de un cuestionario teórico, la segunda corresponde a la realización de una actividad práctica y en la tercera deben resolver ejercicios con la asistencia de software, tienen un plazo de entrega será de 7 días a partir de la clase que se imparte el tema y su aprobación obra como presente de la clase.
+	Entre todos los trabajos prácticos entregados se elegirán a los 2 mejores y a los alumnos integrantes de esas comisiones se le acreditará 1 punto a la nota del parcial.
+	
+	\item Póster o monografía, los grupos eligen la realización de una monografía o póster, acreditando por la realización de estos trabajos puntos para el parcial.
+	Tanto la realización del póster como la de la monografía tienen pautas preestablecidas que se deben respetar, siendo el eje temático la incorporación de los software en estadística y matemática para las decisiones.
+	
+	Este trabajo incluyendo teoría, contenidos matemáticos sobre la actividad práctica, información sobre el modo de uso y aplicaciones del software, ejemplos resueltos mediante el programa asociados con la tarea profesional, imágenes ilustrativas e información que se crea relevante.
+	
+	Cuenta con una preentrega en formato digital, una vez aprobada, se procederá a la entrega final.
+	
+	Como soporte los alumnos disponen de videos y PDF en los cuales se explican los trabajos a realizar, las pautas y plazos de entrega.
+\end{enumerate}
+
+\subsubsection{Material didáctico}
+
+Los alumnos tienen a disposición los apuntes en pdf y los canales de videos teóricos, prácticos y explicación de software que se descargan de la zona interactiva/campus virtual o de YouTube, en los cuales se los orienta y se les da los lineamientos para que ellos puedan realizar las actividades sin la necesidad de una explicación teoría o practica de parte del docente, a eso hacemos referencia cuando decimos que trabajamos con el modelo pedagógico del aula invertida.
+
+A continuación, citamos los canales de YouTube de cada unidad de la materia que tienen a disposición los alumnos (con sus correspondientes enlaces). 
+Cabe mencionar que cada canal tiene la explicación teórica, la práctica y la del uso de software de cada módulo.
+
+\begin{itemize}
+	\item Canal EMD (28 videos)
+	
+	\url{https://www.youtube.com/playlist?list=PLbY-TVB5SkBob9QG8JFv7PyKsC_p1Rgt-}
+	
+	\item Canal módulo 1 - Sistema de inventario - EMD (16 videos)
+	
+	\url{https://www.youtube.com/playlist?list=PLbY-TVB5SkBqQRc10uNoslHiTyHaZiPVL}
+	
+	\item Canal módulo 2 - Método simplex - EMD (11 videos)
+	
+	\url{https://www.youtube.com/playlist?list=PLbY-TVB5SkBo9Ax_C9XBN3rNUeu6ID4SS}
+	
+	\item Canal módulo 3 - Modelo de transporte - EMD (13 videos)
+	
+	\url{https://www.youtube.com/playlist?list=PLbY-TVB5SkBor4KFhYdP-uXOrgEPIVo0W}
+	
+	\item Canal módulo 4 - Teoría de juegos - EMD (16 videos)
+	
+	\url{https://www.youtube.com/playlist?list=PLbY-TVB5SkBomXQKuuAU7CkWQ3KwshVOE}
+	
+	\item Canal modulo 5 - Métodos CPM PERT - EMD (10 videos)
+	
+	\url{https://www.youtube.com/playlist?list=PLbY-TVB5SkBpcStRsZEojN2lZkV7UDn8K}
+	
+	\item Canal módulo 6 - Distribuciones muestrales - EMD (8 videos)
+	
+	\url{https://www.youtube.com/playlist?list=PLbY-TVB5SkBp5qYgVTtmkosz7_O3WKzQw}
+	
+	\item Canal modulo 7 - Estimación paramétrica - EMD (11 videos)
+	
+	\url{https://www.youtube.com/playlist?list=PLbY-TVB5SkBqISZ1d4_r-bPCpLl95mr-p}
+	
+	\item Canal modulo 8 - Inferencia estadística - EMD (29 videos)
+	
+	\url{https://www.youtube.com/playlist?list=PLbY-TVB5SkBrQJQjwg-KC1wSLAboRzJXE}
+	
+	\item Canal poster - EMD (1 video)
+	
+	\url{https://www.youtube.com/playlist?list=plby-tvb5skbos6cpl6dmm7simvfqt-mom}
+	
+	\item Canal clase de repaso - EMD (2 videos)
+	\begin{itemize}
+		\item Clase de repaso módulos 1 2 3 4
+		
+		\url{https://youtu.be/73hYFn6QmHw}
+		
+		\item Clase de repaso módulos 5 6 7 8
+		
+		\url{https://youtu.be/shVPeZ_0bAc}
+		
+		\item Canal reglamento y cronograma de cursada - EMD (2 videos)
+		
+		\url{https://www.youtube.com/playlist?list=PLbY-TVB5SkBr_cqDvc5EyfWS5O9e4GhM-}
+	\end{itemize}
+\end{itemize}
+
+Los medios de comunicación son la zona interactiva/Campo virtual y el grupo de WhatsApp.
+
+\subsection{Conclusión}
+
+En referencia a la implementación del modelo pedagógico flipped classroom se observa una diferencia positiva y estadísticamente significativa en las calificaciones de los alumnos. 
+
+Bajo este modelo pedagógico todos los alumnos tienen la misma oportunidad de participación y de compartir sus ideas y conocimientos, fomentándose un aprendizaje mucho más social y colaborativo, la interacción de estos crece a través de las exposiciones, debates, actividades en grupo, etc. 
+
+Aprenden unos de los otros cuando se comentan dudas o reflexiones acerca de los contenidos, ayudándose mutuamente y no sólo confían en el profesor como el único difusor de conocimiento, sino que también lo hacen en sus compañeros.
+
+El aula inversa permite inspirar, escuchar, animar, motivar y brindar una visión mucho más enriquecedora a los alumnos, estando estos mucho más atentos, la clase deja de ser expositiva por parte del docente para convertirse en interactiva.
+
+Se desvanece la imagen del docente como un mero comunicador, cumpliendo ahora un rol de guía con la responsabilidad y obligación potenciar el aprendizaje del alumno.  
+
+Por último, mencionamos que el modelo pedagógico flipped classroom es muy atractivo y eficaz para alumnos y profesores ofreciendo una experiencia distinta en la educación poniéndonos a pensar que el implementar este modelo es una alternativa de innovación educativa viable para la enseñanza.
+
+\section{Bibliografía}
+
+\nocite{*}
+\printbibliography
+
+\end{document}
