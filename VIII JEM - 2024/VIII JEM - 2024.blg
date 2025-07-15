@@ -1,0 +1,23 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'VIII JEM - 2024.blg'
+[71] biber:340> INFO - === Tue Jul 15, 2025, 13:00:03
+[84] Biber.pm:419> INFO - Reading 'VIII JEM - 2024.bcf'
+[164] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[183] Biber.pm:4419> INFO - Processing section 0
+[193] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/01/refs-01.bib' for section 0
+[193] bibtex.pm:1713> INFO - LaTeX decoding ...
+[200] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/01/refs-01.bib'
+[264] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/02/refs-02.bib' for section 0
+[265] bibtex.pm:1713> INFO - LaTeX decoding ...
+[272] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/02/refs-02.bib'
+[312] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/03/refs-03.bib' for section 0
+[312] bibtex.pm:1713> INFO - LaTeX decoding ...
+[316] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/03/refs-03.bib'
+[358] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[358] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[358] Biber.pm:4239> INFO - Sorting list 'none/apasortcite//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[385] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[385] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[385] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[400] bbl.pm:660> INFO - Writing 'VIII JEM - 2024.bbl' with encoding 'UTF-8'
+[415] bbl.pm:763> INFO - Output to VIII JEM - 2024.bbl

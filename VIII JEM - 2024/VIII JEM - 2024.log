@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.8)  15 JUL 2025 00:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.8)  15 JUL 2025 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"VII JEM - 2024.tex"
-(./VII JEM - 2024.tex
+**"VIII JEM - 2024.tex"
+(./VIII JEM - 2024.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
@@ -735,6 +735,10 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthlast=\dimen295
 \titlewidthfirst=\dimen296
 )
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2023/10/27 v2.16 TOC entries
+\ttl@leftsep=\dimen297
+)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
 
@@ -742,8 +746,8 @@ Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count327
 \calc@Bcount=\count328
-\calc@Adimen=\dimen297
-\calc@Bdimen=\dimen298
+\calc@Adimen=\dimen298
+\calc@Bdimen=\dimen299
 \calc@Askip=\skip67
 \calc@Bskip=\skip68
 LaTeX Info: Redefining \setlength on input line 80.
@@ -753,12 +757,12 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen299
-\ESO@tempdimb=\dimen300
+\ESO@tempdima=\dimen300
+\ESO@tempdimb=\dimen301
 )
-\AM@pagewidth=\dimen301
-\AM@pageheight=\dimen302
-\AM@fboxrule=\dimen303
+\AM@pagewidth=\dimen302
+\AM@pageheight=\dimen303
+\AM@fboxrule=\dimen304
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
@@ -795,7 +799,7 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \c@tcblayer=\count334
 \c@tcolorbox@number=\count335
 \l__tcobox_tmpa_box=\box119
-\l__tcobox_tmpa_dim=\dimen304
+\l__tcobox_tmpa_dim=\dimen305
 \tcb@temp=\box120
 \tcb@temp=\box121
 \tcb@temp=\box122
@@ -1654,92 +1658,92 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count477
 \@quotereset=\count478
-(./VII JEM - 2024.aux
+(./VIII JEM - 2024.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
-\openout1 = `"VII JEM - 2024.aux"'.
+\openout1 = `"VIII JEM - 2024.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 131.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 156.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1
-31.
+56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 156.
 LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
-31.
+56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    ... okay on input line 156.
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 131.
+(Font)              scaled to size 8.0pt on input line 156.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
-31.
+56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-131.
+156.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-131.
+156.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-131.
+156.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 131
+LaTeX Font Info:    Trying to load font information for U+msa on input line 156
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 131
+LaTeX Font Info:    Trying to load font information for U+msb on input line 156
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-131.
+156.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 131.
+(Font)              scaled to size 10.0pt on input line 156.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1779,18 +1783,18 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count479
-\scratchdimen=\dimen305
+\scratchdimen=\dimen306
 \scratchbox=\box125
 \nofMPsegments=\count480
 \nofMParguments=\count481
 \everyMPshowfont=\toks52
 \MPscratchCnt=\count482
-\MPscratchDim=\dimen306
+\MPscratchDim=\dimen307
 \MPnumerator=\count483
 \makeMPintoPDFobject=\count484
 \everyMPtoPDFconversion=\toks53
@@ -1803,11 +1807,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 131.
+Package hyperref Info: Link coloring ON on input line 156.
 
-(./VII JEM - 2024.out) (./VII JEM - 2024.out)
+(./VIII JEM - 2024.out) (./VIII JEM - 2024.out)
 \@outlinefile=\write5
-\openout5 = `"VII JEM - 2024.out"'.
+\openout5 = `"VIII JEM - 2024.out"'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -1846,22 +1850,22 @@ File: spanish.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `"VII JEM - 2024.bcf"'.
+\openout4 = `"VIII JEM - 2024.bcf"'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '"VII JEM - 2024".bbl' found.
+Package biblatex Info: ... file '"VIII JEM - 2024".bbl' found.
 
-(./VII JEM - 2024.bbl)
-Package biblatex Info: Reference section=0 on input line 131.
-Package biblatex Info: Reference segment=0 on input line 131.
+(./VIII JEM - 2024.bbl)
+Package biblatex Info: Reference section=0 on input line 156.
+Package biblatex Info: Reference segment=0 on input line 156.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Portada.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<Trabajos/Portada.pdf, id=23, 597.50829pt x 845.0471pt>
+<Trabajos/Portada.pdf, id=27, 597.50829pt x 845.0471pt>
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf>
-Package pdftex.def Info: Trabajos/Portada.pdf  used on input line 134.
+Package pdftex.def Info: Trabajos/Portada.pdf  used on input line 159.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -1869,7 +1873,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Portada.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf>
-Package pdftex.def Info: Trabajos/Portada.pdf  used on input line 134.
+Package pdftex.def Info: Trabajos/Portada.pdf  used on input line 159.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -1879,26 +1883,26 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Portada.pdf): PDF inclusion:
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Portada.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<Trabajos/Portada.pdf, id=26, page=1, 597.50829pt x 845.0471pt>
+<Trabajos/Portada.pdf, id=30, page=1, 597.50829pt x 845.0471pt>
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf, page 1>
-Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 134.
+Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 159.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf, page 1>
-Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 134.
+Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 159.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf, page 1>
-Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 134.
+Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 159.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf, page 1>
-Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 134.
+Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 159.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf, page 1>
-Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 134.
+Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 159.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 [1
 
@@ -1933,11 +1937,11 @@ LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/n' will be
 (Font)              scaled to size 12.0pt on input line 80.
 )
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/sc' will be
-(Font)              scaled to size 7.0pt on input line 137.
+(Font)              scaled to size 7.0pt on input line 162.
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 137.
+(Font)              scaled to size 9.0pt on input line 162.
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/sc' will be
-(Font)              scaled to size 9.0pt on input line 137.
+(Font)              scaled to size 9.0pt on input line 162.
 
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
@@ -1996,10 +2000,12 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/domitian/a_qenzo5.enc}]
 (./Trabajos/Prologo.tex
-LaTeX Font Info:    Font shape `T1/Domitian-TLF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 1.
-LaTeX Font Info:    Font shape `T1/Domitian-TLF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 1.
+LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/n' will be
+(Font)              scaled to size 20.74pt on input line 1.
+LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/sc' will be
+(Font)              scaled to size 20.74pt on input line 1.
+LaTeX Font Info:    Font shape `T1/Inter-TLF/medium/sc' will be
+(Font)              scaled to size 20.74pt on input line 1.
 )
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
@@ -2011,24 +2017,17 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 [5
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/domitian/a_4ivb7d.enc}]
-(./Trabajos/Indice.tex (./VII JEM - 2024.toc
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inter/a_6ftb5e.enc}{/usr/share/t
+exlive/texmf-dist/fonts/enc/dvips/domitian/a_4ivb7d.enc}]
+(./Trabajos/Indice.tex (./VIII JEM - 2024.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-
-Overfull \hbox (7.5pt too wide) detected at line 3
-\T1/Domitian-TLF/regular/n/10 1. 
- []
-
-
-Overfull \hbox (7.5pt too wide) detected at line 23
-\T1/Domitian-TLF/regular/n/10 2. 
- []
-
+LaTeX Font Info:    Font shape `T1/Domitian-TLF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
 )
 \tf@toc=\write6
-\openout6 = `"VII JEM - 2024.toc"'.
+\openout6 = `"VIII JEM - 2024.toc"'.
 
 )
 
@@ -2058,22 +2057,18 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 [7
 
 ] (./Trabajos/01/01.tex
-LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 19.
-LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/sc' will be
-(Font)              scaled to size 20.74pt on input line 19.
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 32.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-5.
+(Font)              scaled to size 10.95pt on input line 23.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/sc' will be
-(Font)              scaled to size 14.4pt on input line 77.
+(Font)              scaled to size 14.4pt on input line 68.
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 79.
+(Font)              scaled to size 10.95pt on input line 70.
 
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
@@ -2135,20 +2130,20 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 ]
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
-(fancyhdr)                Make it at least 30.40402pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.40402pt}.
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.40402pt}.
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
 [13]
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
-(fancyhdr)                Make it at least 30.40402pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.40402pt}.
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.40402pt}.
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
 [14]
 
@@ -2163,13 +2158,13 @@ Package biblatex Warning: Split bibliography detected.
 )
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
-(fancyhdr)                Make it at least 30.40402pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.40402pt}.
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.40402pt}.
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[15] (./Trabajos/PortadaComunicaciones.tex)
+[15] (./Trabajos/03/03.tex
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -2182,12 +2177,51 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 ]
 
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[17]
+
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[18] (./Trabajos/PortadaComunicaciones.tex)
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[19
+
+]
+
 pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Contraportada.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<Trabajos/Contraportada.pdf, id=242, 597.50829pt x 845.0471pt>
+<Trabajos/Contraportada.pdf, id=293, 597.50829pt x 845.0471pt>
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf>
-Package pdftex.def Info: Trabajos/Contraportada.pdf  used on input line 154.
+Package pdftex.def Info: Trabajos/Contraportada.pdf  used on input line 181.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -2195,7 +2229,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Contraportada.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf>
-Package pdftex.def Info: Trabajos/Contraportada.pdf  used on input line 154.
+Package pdftex.def Info: Trabajos/Contraportada.pdf  used on input line 181.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -2205,36 +2239,36 @@ usion: found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Contraportada.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<Trabajos/Contraportada.pdf, id=245, page=1, 597.50829pt x 845.0471pt>
+<Trabajos/Contraportada.pdf, id=296, page=1, 597.50829pt x 845.0471pt>
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf, page 1>
 Package pdftex.def Info: Trabajos/Contraportada.pdf , page1 used on input line 
-154.
+181.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf, page 1>
 Package pdftex.def Info: Trabajos/Contraportada.pdf , page1 used on input line 
-154.
+181.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf, page 1>
 Package pdftex.def Info: Trabajos/Contraportada.pdf , page1 used on input line 
-154.
+181.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf, page 1>
 Package pdftex.def Info: Trabajos/Contraportada.pdf , page1 used on input line 
-154.
+181.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf, page 1>
 Package pdftex.def Info: Trabajos/Contraportada.pdf , page1 used on input line 
-154.
+181.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[17
+[20
 
 
- <./Trabajos/Contraportada.pdf>] (./VII JEM - 2024.aux
+ <./Trabajos/Contraportada.pdf>] (./VIII JEM - 2024.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -2247,29 +2281,30 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `"VII JEM - 2024".out' has not changed.
-(rerunfilecheck)             Checksum: 1349903B45DB95726CABFB4DB709F947;1612.
-Package logreq Info: Writing requests to '"VII JEM - 2024".run.xml'.
-\openout1 = `"VII JEM - 2024.run.xml"'.
+Package rerunfilecheck Info: File `"VIII JEM - 2024".out' has not changed.
+(rerunfilecheck)             Checksum: 62DEDBF12E991137C97F2E605D3F5963;2046.
+Package logreq Info: Writing requests to '"VIII JEM - 2024".run.xml'.
+\openout1 = `"VIII JEM - 2024.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38012 strings out of 474222
- 727328 string characters out of 5748734
- 1942975 words of memory out of 5000000
- 59384 multiletter control sequences out of 15000+600000
- 678317 words of font info for 135 fonts, out of 8000000 for 9000
+ 38211 strings out of 474222
+ 731025 string characters out of 5748734
+ 1943975 words of memory out of 5000000
+ 59545 multiletter control sequences out of 15000+600000
+ 685439 words of font info for 136 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 84i,17n,93p,1207b,2907s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,93p,1208b,2907s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/domitian/Domitian-Bold.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/domitian/Domitian-Italic.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/domitian/Domitian-Roman.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/inter/Inter-Bold.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on "VII JEM - 2024.pdf" (17 pages, 439565 bytes).
+re/texlive/texmf-dist/fonts/type1/public/inter/Inter-Medium.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on "VIII JEM - 2024.pdf" (20 pages, 463549 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 275 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

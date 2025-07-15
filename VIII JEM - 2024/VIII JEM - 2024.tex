@@ -1,6 +1,5 @@
 \documentclass[oneside,spanish,10pt]{amsart}
 \usepackage{setspace}
-\let\oldstylenums\oldstyle
 \usepackage[a4paper]{geometry}
 \geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2.5cm,rmargin=2.5cm,footskip=1cm,includefoot,headsep=1cm,includehead} % Tamaño
 \usepackage{amsthm}
@@ -14,6 +13,7 @@
 \usepackage{nicefrac}
 \usepackage{tikz}
 \usepackage[center]{titlesec}
+\usepackage{titletoc}
 \usepackage{pdfpages}
 \usepackage{tcolorbox}
 
@@ -59,6 +59,7 @@ maxbibnames=99
 % ARCHIVOS DE BIBLIOGRAFÍAS
 \addbibresource{Trabajos/01/refs-01.bib}
 \addbibresource{Trabajos/02/refs-02.bib}
+\addbibresource{Trabajos/03/refs-03.bib}
 %-------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------
@@ -79,7 +80,7 @@ maxbibnames=99
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
 \fancyhead[C]{\scshape Memorias de las VIII JEM - 2024\\ \vspace{1mm} \hrule \vspace{1mm}
-	\scshape\scriptsize \articulotitulo}
+	\scshape\scriptsize \articulotitulocorto}
 \fancyhead[L]{}
 \fancyhead[R]{\vspace{1em}\small\scshape\articulotipo}
 \fancyfoot[C]{\small \thepage}
@@ -103,10 +104,20 @@ maxbibnames=99
 %-------------------------------------------------------------------------
 % TÍTULOS DE SECCIONES
 \setcounter{secnumdepth}{4}
+\titleformat{\section}[block]{\centering\setstretch{0.75}\Huge\scshape}{}{1em}{}
 \titleformat{\subsection}{\centering\scshape}{\arabic{subsection}.}{1em}{\LARGE}
 \titleformat{\subsubsection}{\normalfont\bfseries}{\arabic{subsection}.\arabic{subsubsection}}{1em}{\large}
 \titleformat{\paragraph}{\normalfont\bfseries}{\arabic{subsection}.\arabic{subsubsection}.\arabic{paragraph}}{1em}{\large}
 \titlespacing*{\paragraph}{0pt}{1em}{1em}
+
+\titlecontents{section}
+[3em] % indentación desde margen izquierdo
+{\vspace{2pt}} % formato antes de la entrada (puedes dejar vacío {})
+{\contentslabel{1.5em}} % formato del número (ancho reservado)
+{} % formato sin número (si no tiene)
+{\hfill\contentspage} % formato del número de página alineado a la derecha
+
+
 %-------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------
@@ -120,12 +131,26 @@ maxbibnames=99
 %-------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------
+% AUTORES
+\newcommand{\addautor}[3][]{%
+	{\Large \scshape #2}\\%
+	{\large \itshape #3}\\%
+	\ifx\\#1\\%
+	% Si el argumento opcional (correo) está vacío, no hace nada
+	\else
+	{\ttfamily \small #1}\\%
+	\fi
+}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
 % DOCUMENTO
 
 \title{}
 \author{}
 \date{}
 \newcommand{\articulotitulo}{}
+\newcommand{\articulotitulocorto}{}
 \newcommand{\articulotipo}{}
 
 \begin{document}
@@ -148,6 +173,8 @@ maxbibnames=99
 	\input{Trabajos/01/01.tex}
 	\clearpage
 	\input{Trabajos/02/02.tex}
+	\clearpage
+	\input{Trabajos/03/03.tex}
 	\clearpage
 	\input{Trabajos/PortadaComunicaciones.tex}
 	\clearpage

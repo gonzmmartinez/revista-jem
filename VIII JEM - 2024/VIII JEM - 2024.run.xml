@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>"VII JEM - 2024".bcf</file>
+      <file>"VIII JEM - 2024".bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>"VII JEM - 2024".bbl</file>
+      <file>"VIII JEM - 2024".bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -67,23 +67,24 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>"VII JEM - 2024"</infile>
+      <infile>"VIII JEM - 2024"</infile>
     </cmdline>
     <input>
-      <file>"VII JEM - 2024".bcf</file>
+      <file>"VIII JEM - 2024".bcf</file>
     </input>
     <output>
-      <file>"VII JEM - 2024".bbl</file>
+      <file>"VIII JEM - 2024".bbl</file>
     </output>
     <provides type="dynamic">
-      <file>"VII JEM - 2024".bbl</file>
+      <file>"VIII JEM - 2024".bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>"VII JEM - 2024".bcf</file>
+      <file>"VIII JEM - 2024".bcf</file>
     </requires>
     <requires type="editable">
       <file>Trabajos/01/refs-01.bib</file>
       <file>Trabajos/02/refs-02.bib</file>
+      <file>Trabajos/03/refs-03.bib</file>
     </requires>
   </external>
 </requests>

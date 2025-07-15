@@ -1,7 +1,7 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {part}{I \hspace *{1em} Talleres}{7}{section*.1}%
-\contentsline {section}{\numberline {1} Preparación de estudiantes para las Olimpiadas Matemáticas: Técnicas de preparación}{8}{section*.2}%
-\hspace *{3em}\vspace \medskipamount \textit {del Valle Vides, C. N.; Chocobar, E. F.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {section}{\numberline {1}Preparación de estudiantes para las Olimpiadas Matemáticas: Técnicas de preparación}{8}{section.1}%
+\hspace *{3em}\vspace \medskipamount \textit {Sángari, A. N.; Flores Rocha, V.; Ghiglia, N. N.; Coria, S. E.}\unhbox \voidb@x \par \vspace \medskipamount 
 \contentsline {subsection}{\numberline {1.1}Introducción}{8}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1}Sobre el taller}{8}{subsubsection.1.1.1}%
 \contentsline {subsubsection}{\numberline {1.2}Importancia de la enseñanza de la demostración}{8}{subsubsection.1.1.2}%
@@ -20,8 +20,8 @@
 \contentsline {subsubsection}{\numberline {5.6}Terceras hora y media sincrónicas}{10}{subsubsection.1.5.6}%
 \contentsline {subsubsection}{\numberline {5.7}Evaluación final}{10}{subsubsection.1.5.7}%
 \contentsline {subsection}{\numberline {1.6}Bibliografía}{10}{subsection.1.6}%
-\contentsline {section}{\numberline {2} Datos educativos: producción y uso de herramientas de procesamiento de información con asistencia de la IA para la toma de decisiones}{12}{section*.3}%
-\hspace *{3em}\vspace \medskipamount \textit {Villagra, C. E.; Miguez, I. H; Acosta, R. N.; Chorolque, E. M.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {section}{\numberline {2}Datos educativos: producción y uso de herramientas de procesamiento de información con asistencia de la IA para la toma de decisiones}{12}{section.2}%
+\hspace *{3em}\vspace \medskipamount \textit {Bifano, F. J; Carranza, P. F.}\unhbox \voidb@x \par \vspace \medskipamount 
 \contentsline {subsection}{\numberline {2.1}Introducción}{12}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Contenidos}{13}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.1}Actividades previas}{13}{subsubsection.2.2.1}%
@@ -39,4 +39,23 @@
 \contentsline {subsubsection}{\numberline {5.6}Terceras hora y media sincrónicas}{15}{subsubsection.2.5.6}%
 \contentsline {subsubsection}{\numberline {5.7}Evaluación final}{15}{subsubsection.2.5.7}%
 \contentsline {subsection}{\numberline {2.6}Bibliografía}{15}{subsection.2.6}%
-\contentsline {part}{II \hspace *{1em} Comunicaciones breves}{16}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Uso de recursos tecnológicos para optimizar la enseñanza de la geometría}{16}{section.3}%
+\hspace *{3em}\vspace \medskipamount \textit {Bifano, F. J; Carranza, P. F.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {3.1}Introducción}{16}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Contenidos}{16}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {2.1}Módulo 1: Introducción a los recursos tecnológicos en la enseñanza de la geometría}{16}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {2.2}Herramientas de Software para la Enseñanza de la Geometría}{16}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {2.3}Módulo 3: Implementación Práctica en el Aula}{16}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Requisitos previos}{16}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Objetivos}{17}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Actividades}{17}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {5.1}Actividades previas}{17}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {5.2}Primeras hora y media sincrónicas}{17}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {5.3}Primeras tres horas entre clases}{17}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {5.4}Segundas hora y media sincrónicas}{17}{subsubsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {5.5}Segundas tres horas entre clases}{18}{subsubsection.3.5.5}%
+\contentsline {subsubsection}{\numberline {5.6}Terceras hora y media sincrónicas}{18}{subsubsection.3.5.6}%
+\contentsline {subsubsection}{\numberline {5.7}Evaluación final}{18}{subsubsection.3.5.7}%
+\contentsline {subsection}{\numberline {3.6}Bibliografía}{18}{subsection.3.6}%
+\contentsline {part}{II \hspace *{1em} Comunicaciones breves}{19}{subsection.3.6}%
+\contentsfinish 
