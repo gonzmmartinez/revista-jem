@@ -3064,6 +3064,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/03/refs-03.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/04/refs-04.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/05/refs-05.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/06/refs-06.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">margaris1968</bcf:citekey>
@@ -3105,6 +3106,7 @@
     <bcf:citekey order="29" intorder="1">audisio2019</bcf:citekey>
     <bcf:citekey order="30" intorder="4" nocite="1">*</bcf:citekey>
     <bcf:citekey order="31" intorder="5" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="32" intorder="6" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
