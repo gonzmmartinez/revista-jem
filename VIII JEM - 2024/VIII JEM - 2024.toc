@@ -57,5 +57,35 @@
 \contentsline {subsubsection}{\numberline {5.6}Terceras hora y media sincrónicas}{18}{subsubsection.3.5.6}%
 \contentsline {subsubsection}{\numberline {5.7}Evaluación final}{18}{subsubsection.3.5.7}%
 \contentsline {subsection}{\numberline {3.6}Bibliografía}{18}{subsection.3.6}%
-\contentsline {part}{II \hspace *{1em} Comunicaciones breves}{19}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Enseñanza del álgebra inicial a través de la modelización con un enfoque de la teoría antropológica didáctica}{19}{section.4}%
+\hspace *{3em}\vspace \medskipamount \textit {Villagra, C.; Carrasco, R.; Alvarez, D.; Miguez, I.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {4.1}Introducción}{19}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Contenidos}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Requisitos previos}{20}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Objetivos}{20}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Actividades}{20}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {5.1}Actividades previas}{20}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {5.2}Primera hora y media sincrónica}{20}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {5.3}Primeras tres horas entre clases}{21}{subsubsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {5.4}Segundas hora y media sincrónicas}{21}{subsubsection.4.5.4}%
+\contentsline {subsubsection}{\numberline {5.5}Segundas tres horas entre clases}{22}{subsubsection.4.5.5}%
+\contentsline {subsubsection}{\numberline {5.6}Terceras hora y media sincrónicas}{23}{subsubsection.4.5.6}%
+\contentsline {subsubsection}{\numberline {5.7}Evaluación final}{23}{subsubsection.4.5.7}%
+\contentsline {subsection}{\numberline {4.6}Bibliografía}{23}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Avanzando con las propiedades de los conjuntos numéricos: Encadenamientos y ausencias entre la escuela Primaria y la escuela Secundaria}{24}{section.5}%
+\hspace *{3em}\vspace \medskipamount \textit {Villagra, C.; Carrasco, R.; Alvarez, D.; Miguez, I.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {5.1}Introducción}{24}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Contenidos}{24}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Requisitos previos}{24}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Objetivos}{25}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Actividades}{25}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.1}Actividades previas}{25}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.2}Presentación del taller}{26}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.3}Clase asincrónica}{27}{subsubsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.4}Clase sincrónica 2}{27}{subsubsection.5.5.4}%
+\contentsline {subsubsection}{\numberline {5.5}Clase asincrónica}{27}{subsubsection.5.5.5}%
+\contentsline {subsubsection}{\numberline {5.6}Clase sincrónica 3}{27}{subsubsection.5.5.6}%
+\contentsline {subsubsection}{\numberline {5.7}Evaluación}{28}{subsubsection.5.5.7}%
+\contentsline {subsection}{\numberline {5.6}Bibliografía}{28}{subsection.5.6}%
+\contentsline {part}{II \hspace *{1em} Comunicaciones breves}{29}{subsection.5.6}%
 \contentsfinish 

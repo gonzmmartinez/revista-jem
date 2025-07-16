@@ -334,8 +334,8 @@
       \strng{authorbibnamehash}{8b1e8196940785f5d9fe3e601134e5d4}
       \strng{authornamehash}{8b1e8196940785f5d9fe3e601134e5d4}
       \strng{authorfullhash}{8b1e8196940785f5d9fe3e601134e5d4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -562,8 +562,8 @@
       \strng{authorbibnamehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
       \strng{authornamehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
       \strng{authorfullhash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -600,8 +600,8 @@
       \strng{authorbibnamehash}{744bb210cd127b83b5dbfd9b36bb060f}
       \strng{authornamehash}{744bb210cd127b83b5dbfd9b36bb060f}
       \strng{authorfullhash}{744bb210cd127b83b5dbfd9b36bb060f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -633,8 +633,8 @@
       \strng{authorbibnamehash}{22cf95cca2d5609836bd913ea4f7f83c}
       \strng{authornamehash}{22cf95cca2d5609836bd913ea4f7f83c}
       \strng{authorfullhash}{22cf95cca2d5609836bd913ea4f7f83c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -663,8 +663,8 @@
       \strng{authorbibnamehash}{a783cf12c63ab7872502046b23716f12}
       \strng{authornamehash}{a783cf12c63ab7872502046b23716f12}
       \strng{authorfullhash}{a783cf12c63ab7872502046b23716f12}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -693,8 +693,8 @@
       \strng{authorbibnamehash}{ffff3dc1d5266e01c35c28f718a484f9}
       \strng{authornamehash}{ffff3dc1d5266e01c35c28f718a484f9}
       \strng{authorfullhash}{ffff3dc1d5266e01c35c28f718a484f9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -722,8 +722,8 @@
       \strng{authorbibnamehash}{ee5f1c5c657dc9af306ed48636bb4f0e}
       \strng{authornamehash}{ee5f1c5c657dc9af306ed48636bb4f0e}
       \strng{authorfullhash}{ee5f1c5c657dc9af306ed48636bb4f0e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -761,6 +761,479 @@
       \field{title}{The Role of Technology in the Teaching and Learning of Mathematics}
       \field{year}{2010}
       \keyw{03}
+    \endentry
+    \entry{bolea2003}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f4b82f7a65f240cdf4272423e9fc2df}{%
+           family={Bolea},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Departamento de Matemática de la Universidad de Zaragoza, Monografías del Seminario de Matemática “García de Galeno”, número 23}%
+      }
+      \strng{namehash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \strng{fullhash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \strng{bibnamehash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \strng{authorbibnamehash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \strng{authornamehash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \strng{authorfullhash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El proceso de algebrización de las organizaciones matemáticas escolares}
+      \field{type}{Tesis doctoral}
+      \field{year}{2003}
+      \keyw{04}
+    \endentry
+    \entry{gascon1999}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=398a4fdb738bf4c70b14903f7598464d}{%
+           family={Gascón},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{398a4fdb738bf4c70b14903f7598464d}
+      \strng{fullhash}{398a4fdb738bf4c70b14903f7598464d}
+      \strng{bibnamehash}{398a4fdb738bf4c70b14903f7598464d}
+      \strng{authorbibnamehash}{398a4fdb738bf4c70b14903f7598464d}
+      \strng{authornamehash}{398a4fdb738bf4c70b14903f7598464d}
+      \strng{authorfullhash}{398a4fdb738bf4c70b14903f7598464d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educación matemática}
+      \field{number}{1}
+      \field{title}{La naturaleza prealgebraica de las matemáticas escolares}
+      \field{volume}{11}
+      \field{year}{1999}
+      \field{pages}{77\bibrangedash 78}
+      \range{pages}{2}
+      \keyw{04}
+    \endentry
+    \entry{chevallard1999}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=52e1e3cd74df0c9158f7776e3df295d5}{%
+           family={Chevallard},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \strng{fullhash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \strng{bibnamehash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \strng{authorbibnamehash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \strng{authornamehash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \strng{authorfullhash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Recherches en Didactique des Mathématiques}
+      \field{number}{2}
+      \field{title}{El análisis de las prácticas docentes en la teoría antropológica de lo didáctico}
+      \field{volume}{19}
+      \field{year}{1999}
+      \field{pages}{221\bibrangedash 266}
+      \range{pages}{46}
+      \keyw{04}
+    \endentry
+    \entry{garcia2005}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=433f27ba24eea07d930e3bacf638d5be}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{433f27ba24eea07d930e3bacf638d5be}
+      \strng{fullhash}{433f27ba24eea07d930e3bacf638d5be}
+      \strng{bibnamehash}{433f27ba24eea07d930e3bacf638d5be}
+      \strng{authorbibnamehash}{433f27ba24eea07d930e3bacf638d5be}
+      \strng{authornamehash}{433f27ba24eea07d930e3bacf638d5be}
+      \strng{authorfullhash}{433f27ba24eea07d930e3bacf638d5be}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Investigación en educación matemática}
+      \field{day}{1}
+      \field{isbn}{978-84-612-5856-7}
+      \field{month}{1}
+      \field{title}{El álgebra como instrumento de modelización. Articulación del estudio en las relaciones funcionales en la educación secundaria}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{71\bibrangedash 92}
+      \range{pages}{22}
+      \keyw{04}
+      \warn{\item Overwriting field 'year' with year value from field 'date' for entry 'garcia2005'}
+    \endentry
+    \entry{audisio2019}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=100a0499a2ed6b282a51777e8871fb58}{%
+           family={Audisio},
+           familyi={A\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2da1acd51a727917cbaf9817027d169}{%
+           family={Chirino},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5eee223592f3d83dee57dd54b2a3f03b}{%
+           family={Heredia},
+           familyi={H\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94ba5c398bf36b97fabfa07de517ab20}{%
+           family={Viola},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cf649ebf11ff1988e0c3c52178abe89}{%
+           family={Gramaglio},
+           familyi={G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5edeca5f8caea89a9d72342aedf5ecd3}
+      \strng{fullhash}{cf549b11bb02ac197c5b2acf283f8639}
+      \strng{bibnamehash}{cf549b11bb02ac197c5b2acf283f8639}
+      \strng{authorbibnamehash}{cf549b11bb02ac197c5b2acf283f8639}
+      \strng{authornamehash}{5edeca5f8caea89a9d72342aedf5ecd3}
+      \strng{authorfullhash}{cf549b11bb02ac197c5b2acf283f8639}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modelización Matemática. Documento de la serie Matemática para la Formación Docente. Articulación DGES - FAMAT. Córdoba}
+      \field{year}{2019}
+      \keyw{04}
+    \endentry
+    \entry{montoro2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=21da7cfbfdbcde84ad68b02bcd3b2064}{%
+           family={Montoro},
+           familyi={M\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a929153e07b84a47720bc0c4ffe88a51}{%
+           family={Scheuer},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10c3def7e515cbc7c5ffb3c75d883359}{%
+           family={Pérez-Echeverría},
+           familyi={P\bibinithyphendelim E\bibinitperiod},
+           given={M.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{31eb10c20d878cfc2f8e8c6ce7ea93a2}
+      \strng{fullhash}{76bac607e407f65aa9196b313e25a2ee}
+      \strng{bibnamehash}{76bac607e407f65aa9196b313e25a2ee}
+      \strng{authorbibnamehash}{76bac607e407f65aa9196b313e25a2ee}
+      \strng{authornamehash}{31eb10c20d878cfc2f8e8c6ce7ea93a2}
+      \strng{authorfullhash}{76bac607e407f65aa9196b313e25a2ee}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educación Matemática}
+      \field{title}{¿cuán abundantes son los conjuntos de números? estudiantes comparando infinitos}
+      \field{volume}{28}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{145\bibrangedash 174}
+      \range{pages}{30}
+      \keyw{05}
+    \endentry
+    \entry{nardoni2014}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b3e120e0611419201e1797fe34cf9fde}{%
+           family={Nardoni},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c829b4aae54f033d582e386f11ad6ce}{%
+           family={Camara},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea1fa89baba33531ca5d9fc25b74f4fe}{%
+           family={Pochulu},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{546086d162cf8bd0010c3a761ffe160c}
+      \strng{fullhash}{4cf298ce611d5d5d0bb148f0b5681533}
+      \strng{bibnamehash}{4cf298ce611d5d5d0bb148f0b5681533}
+      \strng{authorbibnamehash}{4cf298ce611d5d5d0bb148f0b5681533}
+      \strng{authornamehash}{546086d162cf8bd0010c3a761ffe160c}
+      \strng{authorfullhash}{4cf298ce611d5d5d0bb148f0b5681533}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{revista YUPANA}
+      \field{number}{8}
+      \field{title}{Evaluando la comprensión de los números racionales en estudiantes que culminan la escuela secundaria}
+      \field{volume}{14}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{67\bibrangedash 82}
+      \range{pages}{16}
+      \keyw{05}
+    \endentry
+    \entry{galvez1994}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1bd1703b0081cf6a76e830d199bfb38b}{%
+           family={Galvéz\bibnamedelima Grecia},
+           familyi={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2096ff84f82f901bd531878f897e44b}{%
+           family={Parra},
+           familyi={P\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a69be157ed9ff66b7e23a41f4ab1e84}{%
+           family={Saiz},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Paidós}%
+      }
+      \strng{namehash}{5c337f2d8c4a5e0e0243e8c153c72c11}
+      \strng{fullhash}{6af0b02a56d29f4d679c818381ea3840}
+      \strng{bibnamehash}{6af0b02a56d29f4d679c818381ea3840}
+      \strng{authorbibnamehash}{6af0b02a56d29f4d679c818381ea3840}
+      \strng{authornamehash}{5c337f2d8c4a5e0e0243e8c153c72c11}
+      \strng{authorfullhash}{6af0b02a56d29f4d679c818381ea3840}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{La Didáctica de las Matemáticas en el libro}
+      \field{year}{1994}
+      \true{nocite}
+      \keyw{05}
+    \endentry
+    \entry{panizza2004}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aaeef7d919f21c46c5cb7c1bf4583baf}{%
+           family={Panizza},
+           familyi={P\bibinitperiod},
+           given={Mabel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Paidós}%
+      }
+      \strng{namehash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \strng{fullhash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \strng{bibnamehash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \strng{authorbibnamehash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \strng{authornamehash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \strng{authorfullhash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Enseñar Matemática en el Nivel Inicial y el primer ciclo de la EGB. Análisis y propuestas}
+      \field{title}{Conceptos básicos de la Teoría de Situaciones Didáctica}
+      \field{year}{2004}
+      \true{nocite}
+      \keyw{05}
+    \endentry
+    \entry{sadosky2005}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d9621f27651308c2746bd166e816ae7}{%
+           family={Sadosky},
+           familyi={S\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Libros del Zorzal}%
+      }
+      \strng{namehash}{4d9621f27651308c2746bd166e816ae7}
+      \strng{fullhash}{4d9621f27651308c2746bd166e816ae7}
+      \strng{bibnamehash}{4d9621f27651308c2746bd166e816ae7}
+      \strng{authorbibnamehash}{4d9621f27651308c2746bd166e816ae7}
+      \strng{authornamehash}{4d9621f27651308c2746bd166e816ae7}
+      \strng{authorfullhash}{4d9621f27651308c2746bd166e816ae7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reflexiones teóricas para la Educación Matemática}
+      \field{title}{La Teoría de Situaciones Didácticas: Un marco para pensar y actuar la enseñanza de la Matemática}
+      \field{year}{2005}
+      \true{nocite}
+      \keyw{05}
+    \endentry
+    \entry{izcovich2007}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=134206b342a23d6d42c16d73cf8a68d5}{%
+           family={Izcovich},
+           familyi={I\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Aique}%
+      }
+      \strng{namehash}{134206b342a23d6d42c16d73cf8a68d5}
+      \strng{fullhash}{134206b342a23d6d42c16d73cf8a68d5}
+      \strng{bibnamehash}{134206b342a23d6d42c16d73cf8a68d5}
+      \strng{authorbibnamehash}{134206b342a23d6d42c16d73cf8a68d5}
+      \strng{authornamehash}{134206b342a23d6d42c16d73cf8a68d5}
+      \strng{authorfullhash}{134206b342a23d6d42c16d73cf8a68d5}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{La Matemática escolar - Las prácticas de enseñanza en el aula}
+      \field{year}{2007}
+      \true{nocite}
+      \keyw{05}
+    \endentry
+    \entry{chamorro2006}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d1365d5f24995e673a7914f61e361857}{%
+           family={Chamorro},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {México}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Pearson}%
+      }
+      \strng{namehash}{d1365d5f24995e673a7914f61e361857}
+      \strng{fullhash}{d1365d5f24995e673a7914f61e361857}
+      \strng{bibnamehash}{d1365d5f24995e673a7914f61e361857}
+      \strng{authorbibnamehash}{d1365d5f24995e673a7914f61e361857}
+      \strng{authornamehash}{d1365d5f24995e673a7914f61e361857}
+      \strng{authorfullhash}{d1365d5f24995e673a7914f61e361857}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Didáctica de las Matemáticas}
+      \field{year}{2006}
+      \true{nocite}
+      \keyw{05}
+    \endentry
+    \entry{centeno1997}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=75ceda28330f27a2013b6fa80cf01e72}{%
+           family={Centeno\bibnamedelima Pérez},
+           familyi={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Síntesis}%
+      }
+      \strng{namehash}{75ceda28330f27a2013b6fa80cf01e72}
+      \strng{fullhash}{75ceda28330f27a2013b6fa80cf01e72}
+      \strng{bibnamehash}{75ceda28330f27a2013b6fa80cf01e72}
+      \strng{authorbibnamehash}{75ceda28330f27a2013b6fa80cf01e72}
+      \strng{authornamehash}{75ceda28330f27a2013b6fa80cf01e72}
+      \strng{authorfullhash}{75ceda28330f27a2013b6fa80cf01e72}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Números decimales. ¿Por qué? ¿Para qué?}
+      \field{year}{1997}
+      \true{nocite}
+      \keyw{05}
     \endentry
   \enddatalist
   \datalist[entry]{none/global//global/global}
@@ -1079,8 +1552,8 @@
       \strng{authorbibnamehash}{8b1e8196940785f5d9fe3e601134e5d4}
       \strng{authornamehash}{8b1e8196940785f5d9fe3e601134e5d4}
       \strng{authorfullhash}{8b1e8196940785f5d9fe3e601134e5d4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1307,8 +1780,8 @@
       \strng{authorbibnamehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
       \strng{authornamehash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
       \strng{authorfullhash}{ac3fcb991f2fc75443bf8ecd1d7abec7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1345,8 +1818,8 @@
       \strng{authorbibnamehash}{744bb210cd127b83b5dbfd9b36bb060f}
       \strng{authornamehash}{744bb210cd127b83b5dbfd9b36bb060f}
       \strng{authorfullhash}{744bb210cd127b83b5dbfd9b36bb060f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1378,8 +1851,8 @@
       \strng{authorbibnamehash}{22cf95cca2d5609836bd913ea4f7f83c}
       \strng{authornamehash}{22cf95cca2d5609836bd913ea4f7f83c}
       \strng{authorfullhash}{22cf95cca2d5609836bd913ea4f7f83c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1408,8 +1881,8 @@
       \strng{authorbibnamehash}{a783cf12c63ab7872502046b23716f12}
       \strng{authornamehash}{a783cf12c63ab7872502046b23716f12}
       \strng{authorfullhash}{a783cf12c63ab7872502046b23716f12}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1438,8 +1911,8 @@
       \strng{authorbibnamehash}{ffff3dc1d5266e01c35c28f718a484f9}
       \strng{authornamehash}{ffff3dc1d5266e01c35c28f718a484f9}
       \strng{authorfullhash}{ffff3dc1d5266e01c35c28f718a484f9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1467,8 +1940,8 @@
       \strng{authorbibnamehash}{ee5f1c5c657dc9af306ed48636bb4f0e}
       \strng{authornamehash}{ee5f1c5c657dc9af306ed48636bb4f0e}
       \strng{authorfullhash}{ee5f1c5c657dc9af306ed48636bb4f0e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1506,6 +1979,479 @@
       \field{title}{The Role of Technology in the Teaching and Learning of Mathematics}
       \field{year}{2010}
       \keyw{03}
+    \endentry
+    \entry{bolea2003}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f4b82f7a65f240cdf4272423e9fc2df}{%
+           family={Bolea},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Departamento de Matemática de la Universidad de Zaragoza, Monografías del Seminario de Matemática “García de Galeno”, número 23}%
+      }
+      \strng{namehash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \strng{fullhash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \strng{bibnamehash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \strng{authorbibnamehash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \strng{authornamehash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \strng{authorfullhash}{9f4b82f7a65f240cdf4272423e9fc2df}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El proceso de algebrización de las organizaciones matemáticas escolares}
+      \field{type}{Tesis doctoral}
+      \field{year}{2003}
+      \keyw{04}
+    \endentry
+    \entry{gascon1999}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=398a4fdb738bf4c70b14903f7598464d}{%
+           family={Gascón},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{398a4fdb738bf4c70b14903f7598464d}
+      \strng{fullhash}{398a4fdb738bf4c70b14903f7598464d}
+      \strng{bibnamehash}{398a4fdb738bf4c70b14903f7598464d}
+      \strng{authorbibnamehash}{398a4fdb738bf4c70b14903f7598464d}
+      \strng{authornamehash}{398a4fdb738bf4c70b14903f7598464d}
+      \strng{authorfullhash}{398a4fdb738bf4c70b14903f7598464d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educación matemática}
+      \field{number}{1}
+      \field{title}{La naturaleza prealgebraica de las matemáticas escolares}
+      \field{volume}{11}
+      \field{year}{1999}
+      \field{pages}{77\bibrangedash 78}
+      \range{pages}{2}
+      \keyw{04}
+    \endentry
+    \entry{chevallard1999}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=52e1e3cd74df0c9158f7776e3df295d5}{%
+           family={Chevallard},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \strng{fullhash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \strng{bibnamehash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \strng{authorbibnamehash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \strng{authornamehash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \strng{authorfullhash}{52e1e3cd74df0c9158f7776e3df295d5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Recherches en Didactique des Mathématiques}
+      \field{number}{2}
+      \field{title}{El análisis de las prácticas docentes en la teoría antropológica de lo didáctico}
+      \field{volume}{19}
+      \field{year}{1999}
+      \field{pages}{221\bibrangedash 266}
+      \range{pages}{46}
+      \keyw{04}
+    \endentry
+    \entry{garcia2005}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=433f27ba24eea07d930e3bacf638d5be}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{433f27ba24eea07d930e3bacf638d5be}
+      \strng{fullhash}{433f27ba24eea07d930e3bacf638d5be}
+      \strng{bibnamehash}{433f27ba24eea07d930e3bacf638d5be}
+      \strng{authorbibnamehash}{433f27ba24eea07d930e3bacf638d5be}
+      \strng{authornamehash}{433f27ba24eea07d930e3bacf638d5be}
+      \strng{authorfullhash}{433f27ba24eea07d930e3bacf638d5be}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Investigación en educación matemática}
+      \field{day}{1}
+      \field{isbn}{978-84-612-5856-7}
+      \field{month}{1}
+      \field{title}{El álgebra como instrumento de modelización. Articulación del estudio en las relaciones funcionales en la educación secundaria}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{71\bibrangedash 92}
+      \range{pages}{22}
+      \keyw{04}
+      \warn{\item Overwriting field 'year' with year value from field 'date' for entry 'garcia2005'}
+    \endentry
+    \entry{audisio2019}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=100a0499a2ed6b282a51777e8871fb58}{%
+           family={Audisio},
+           familyi={A\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2da1acd51a727917cbaf9817027d169}{%
+           family={Chirino},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5eee223592f3d83dee57dd54b2a3f03b}{%
+           family={Heredia},
+           familyi={H\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94ba5c398bf36b97fabfa07de517ab20}{%
+           family={Viola},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cf649ebf11ff1988e0c3c52178abe89}{%
+           family={Gramaglio},
+           familyi={G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5edeca5f8caea89a9d72342aedf5ecd3}
+      \strng{fullhash}{cf549b11bb02ac197c5b2acf283f8639}
+      \strng{bibnamehash}{cf549b11bb02ac197c5b2acf283f8639}
+      \strng{authorbibnamehash}{cf549b11bb02ac197c5b2acf283f8639}
+      \strng{authornamehash}{5edeca5f8caea89a9d72342aedf5ecd3}
+      \strng{authorfullhash}{cf549b11bb02ac197c5b2acf283f8639}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modelización Matemática. Documento de la serie Matemática para la Formación Docente. Articulación DGES - FAMAT. Córdoba}
+      \field{year}{2019}
+      \keyw{04}
+    \endentry
+    \entry{montoro2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=21da7cfbfdbcde84ad68b02bcd3b2064}{%
+           family={Montoro},
+           familyi={M\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a929153e07b84a47720bc0c4ffe88a51}{%
+           family={Scheuer},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10c3def7e515cbc7c5ffb3c75d883359}{%
+           family={Pérez-Echeverría},
+           familyi={P\bibinithyphendelim E\bibinitperiod},
+           given={M.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{31eb10c20d878cfc2f8e8c6ce7ea93a2}
+      \strng{fullhash}{76bac607e407f65aa9196b313e25a2ee}
+      \strng{bibnamehash}{76bac607e407f65aa9196b313e25a2ee}
+      \strng{authorbibnamehash}{76bac607e407f65aa9196b313e25a2ee}
+      \strng{authornamehash}{31eb10c20d878cfc2f8e8c6ce7ea93a2}
+      \strng{authorfullhash}{76bac607e407f65aa9196b313e25a2ee}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educación Matemática}
+      \field{title}{¿cuán abundantes son los conjuntos de números? estudiantes comparando infinitos}
+      \field{volume}{28}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{145\bibrangedash 174}
+      \range{pages}{30}
+      \keyw{05}
+    \endentry
+    \entry{nardoni2014}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b3e120e0611419201e1797fe34cf9fde}{%
+           family={Nardoni},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c829b4aae54f033d582e386f11ad6ce}{%
+           family={Camara},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea1fa89baba33531ca5d9fc25b74f4fe}{%
+           family={Pochulu},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{546086d162cf8bd0010c3a761ffe160c}
+      \strng{fullhash}{4cf298ce611d5d5d0bb148f0b5681533}
+      \strng{bibnamehash}{4cf298ce611d5d5d0bb148f0b5681533}
+      \strng{authorbibnamehash}{4cf298ce611d5d5d0bb148f0b5681533}
+      \strng{authornamehash}{546086d162cf8bd0010c3a761ffe160c}
+      \strng{authorfullhash}{4cf298ce611d5d5d0bb148f0b5681533}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{revista YUPANA}
+      \field{number}{8}
+      \field{title}{Evaluando la comprensión de los números racionales en estudiantes que culminan la escuela secundaria}
+      \field{volume}{14}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{67\bibrangedash 82}
+      \range{pages}{16}
+      \keyw{05}
+    \endentry
+    \entry{galvez1994}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1bd1703b0081cf6a76e830d199bfb38b}{%
+           family={Galvéz\bibnamedelima Grecia},
+           familyi={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2096ff84f82f901bd531878f897e44b}{%
+           family={Parra},
+           familyi={P\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a69be157ed9ff66b7e23a41f4ab1e84}{%
+           family={Saiz},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Paidós}%
+      }
+      \strng{namehash}{5c337f2d8c4a5e0e0243e8c153c72c11}
+      \strng{fullhash}{6af0b02a56d29f4d679c818381ea3840}
+      \strng{bibnamehash}{6af0b02a56d29f4d679c818381ea3840}
+      \strng{authorbibnamehash}{6af0b02a56d29f4d679c818381ea3840}
+      \strng{authornamehash}{5c337f2d8c4a5e0e0243e8c153c72c11}
+      \strng{authorfullhash}{6af0b02a56d29f4d679c818381ea3840}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{La Didáctica de las Matemáticas en el libro}
+      \field{year}{1994}
+      \true{nocite}
+      \keyw{05}
+    \endentry
+    \entry{panizza2004}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aaeef7d919f21c46c5cb7c1bf4583baf}{%
+           family={Panizza},
+           familyi={P\bibinitperiod},
+           given={Mabel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Paidós}%
+      }
+      \strng{namehash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \strng{fullhash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \strng{bibnamehash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \strng{authorbibnamehash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \strng{authornamehash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \strng{authorfullhash}{aaeef7d919f21c46c5cb7c1bf4583baf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Enseñar Matemática en el Nivel Inicial y el primer ciclo de la EGB. Análisis y propuestas}
+      \field{title}{Conceptos básicos de la Teoría de Situaciones Didáctica}
+      \field{year}{2004}
+      \true{nocite}
+      \keyw{05}
+    \endentry
+    \entry{sadosky2005}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d9621f27651308c2746bd166e816ae7}{%
+           family={Sadosky},
+           familyi={S\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Libros del Zorzal}%
+      }
+      \strng{namehash}{4d9621f27651308c2746bd166e816ae7}
+      \strng{fullhash}{4d9621f27651308c2746bd166e816ae7}
+      \strng{bibnamehash}{4d9621f27651308c2746bd166e816ae7}
+      \strng{authorbibnamehash}{4d9621f27651308c2746bd166e816ae7}
+      \strng{authornamehash}{4d9621f27651308c2746bd166e816ae7}
+      \strng{authorfullhash}{4d9621f27651308c2746bd166e816ae7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reflexiones teóricas para la Educación Matemática}
+      \field{title}{La Teoría de Situaciones Didácticas: Un marco para pensar y actuar la enseñanza de la Matemática}
+      \field{year}{2005}
+      \true{nocite}
+      \keyw{05}
+    \endentry
+    \entry{izcovich2007}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=134206b342a23d6d42c16d73cf8a68d5}{%
+           family={Izcovich},
+           familyi={I\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Aique}%
+      }
+      \strng{namehash}{134206b342a23d6d42c16d73cf8a68d5}
+      \strng{fullhash}{134206b342a23d6d42c16d73cf8a68d5}
+      \strng{bibnamehash}{134206b342a23d6d42c16d73cf8a68d5}
+      \strng{authorbibnamehash}{134206b342a23d6d42c16d73cf8a68d5}
+      \strng{authornamehash}{134206b342a23d6d42c16d73cf8a68d5}
+      \strng{authorfullhash}{134206b342a23d6d42c16d73cf8a68d5}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{La Matemática escolar - Las prácticas de enseñanza en el aula}
+      \field{year}{2007}
+      \true{nocite}
+      \keyw{05}
+    \endentry
+    \entry{chamorro2006}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d1365d5f24995e673a7914f61e361857}{%
+           family={Chamorro},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {México}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Pearson}%
+      }
+      \strng{namehash}{d1365d5f24995e673a7914f61e361857}
+      \strng{fullhash}{d1365d5f24995e673a7914f61e361857}
+      \strng{bibnamehash}{d1365d5f24995e673a7914f61e361857}
+      \strng{authorbibnamehash}{d1365d5f24995e673a7914f61e361857}
+      \strng{authornamehash}{d1365d5f24995e673a7914f61e361857}
+      \strng{authorfullhash}{d1365d5f24995e673a7914f61e361857}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Didáctica de las Matemáticas}
+      \field{year}{2006}
+      \true{nocite}
+      \keyw{05}
+    \endentry
+    \entry{centeno1997}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=75ceda28330f27a2013b6fa80cf01e72}{%
+           family={Centeno\bibnamedelima Pérez},
+           familyi={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Síntesis}%
+      }
+      \strng{namehash}{75ceda28330f27a2013b6fa80cf01e72}
+      \strng{fullhash}{75ceda28330f27a2013b6fa80cf01e72}
+      \strng{bibnamehash}{75ceda28330f27a2013b6fa80cf01e72}
+      \strng{authorbibnamehash}{75ceda28330f27a2013b6fa80cf01e72}
+      \strng{authornamehash}{75ceda28330f27a2013b6fa80cf01e72}
+      \strng{authorfullhash}{75ceda28330f27a2013b6fa80cf01e72}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Números decimales. ¿Por qué? ¿Para qué?}
+      \field{year}{1997}
+      \true{nocite}
+      \keyw{05}
     \endentry
   \enddatalist
 \endrefsection
