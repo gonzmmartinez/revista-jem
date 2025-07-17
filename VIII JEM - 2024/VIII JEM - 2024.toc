@@ -88,7 +88,7 @@
 \contentsline {subsubsection}{\numberline {5.7}Evaluación}{28}{subsubsection.5.5.7}%
 \contentsline {subsection}{\numberline {5.6}Bibliografía}{28}{subsection.5.6}%
 \contentsline {section}{\numberline {6}Redefiniendo el sentido de las fracciones: Aportes para su enseñanza desde la Teoría de Representaciones Semióticas y el Juego de Marcos}{29}{section.6}%
-\hspace *{3em}\vspace \medskipamount \textit {Villagra, C.; Carrasco, R.; Alvarez, D.; Miguez, I.}\unhbox \voidb@x \par \vspace \medskipamount 
+\hspace *{3em}\vspace \medskipamount \textit {Ansaldi, M. C.; Ponce, L. S.; Azar, F. J.}\unhbox \voidb@x \par \vspace \medskipamount 
 \contentsline {subsection}{\numberline {6.1}Introducción}{29}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Contenidos}{30}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Requisitos previos}{30}{subsection.6.3}%
@@ -102,5 +102,34 @@
 \contentsline {subsubsection}{\numberline {5.6}Terceras hora y media sincrónicas}{33}{subsubsection.6.5.6}%
 \contentsline {subsubsection}{\numberline {5.7}Evaluación final}{34}{subsubsection.6.5.7}%
 \contentsline {subsection}{\numberline {6.6}Bibliografía}{34}{subsection.6.6}%
-\contentsline {part}{II \hspace *{1em} Comunicaciones breves}{36}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Funciones generatrices: Aplicaciones en diferentes problemas matemáticos}{36}{section.7}%
+\hspace *{3em}\vspace \medskipamount \textit {Reyes, M.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {7.1}Introducción}{36}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Contenidos}{37}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Requisitos previos}{37}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Objetivos}{37}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Actividades}{37}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {5.1}Actividades previas}{37}{subsubsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {5.2}Primera hora y media sincrónica}{38}{subsubsection.7.5.2}%
+\contentsline {subsubsection}{\numberline {5.3}Primeras tres horas entre clases}{38}{subsubsection.7.5.3}%
+\contentsline {subsubsection}{\numberline {5.4}Segundas hora y media sincrónicas}{38}{subsubsection.7.5.4}%
+\contentsline {subsubsection}{\numberline {5.5}Segundas tres horas entre clases}{39}{subsubsection.7.5.5}%
+\contentsline {subsubsection}{\numberline {5.6}Terceras hora y media sincrónicas}{39}{subsubsection.7.5.6}%
+\contentsline {subsubsection}{\numberline {5.7}Evaluación final}{39}{subsubsection.7.5.7}%
+\contentsline {subsection}{\numberline {7.6}Bibliografía}{40}{subsection.7.6}%
+\contentsline {part}{II \hspace *{1em} Comunicaciones breves}{41}{subsection.7.6}%
+\contentsline {section}{\numberline {8}Estrategias para la resolución de conflictos en el nivel secundario a través de la Teoría de Juegos}{42}{section.8}%
+\hspace *{3em}\vspace \medskipamount \textit {Zalazar, F. B.; Gimenez, A.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {8.1}Introducción}{42}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Contenidos}{42}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Objetivos}{43}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Desarrollo de la comunicación}{43}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Bibliografía}{43}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Herramientas de la Teoría de Juegos para fomentar la cooperación en el nivel inicial y primario: Teoría de Juegos}{44}{section.9}%
+\hspace *{3em}\vspace \medskipamount \textit {Villagra, C.; Carrasco, R.; Alvarez, D.; Miguez, I.}\unhbox \voidb@x \par \vspace \medskipamount 
+\contentsline {subsection}{\numberline {9.1}Introducción}{44}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Contenidos}{44}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Objetivos}{45}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Desarrollo de la comunicación}{45}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Bibliografía}{45}{subsection.9.5}%
 \contentsfinish 

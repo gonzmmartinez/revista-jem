@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>"VIII JEM - 2024".bcf</file>
@@ -88,6 +88,9 @@
       <file>Trabajos/04/refs-04.bib</file>
       <file>Trabajos/05/refs-05.bib</file>
       <file>Trabajos/06/refs-06.bib</file>
+      <file>Trabajos/07/refs-07.bib</file>
+      <file>Trabajos/08/refs-08.bib</file>
+      <file>Trabajos/09/refs-09.bib</file>
     </requires>
   </external>
 </requests>

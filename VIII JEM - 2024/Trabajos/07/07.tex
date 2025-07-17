@@ -6,52 +6,18 @@
 \setcounter{actividad}{0}
 \setcounter{actividad_previa}{0}
 \setcounter{actividad_entre}{0}
-\renewcommand{\articulotipo}{Comunicación breve}
-\renewcommand{\articulotitulo}{Investigación sobre las estrategias de enseñanza implementadas en un profesorado de matemática durante la pandemia por COVID-19}
-\phantomsection
-\stepcounter{section}
-\addcontentsline{toc}{section}{\protect\numberline{\thesection} \articulotitulo}
-\desctotoc{Montenegro, F.; Cravero, M.; Fernández, C.; Salazar, M. G. R.}
-
-\begin{center}
-	\setstretch{1.5}
-	{\Huge \scshape 
-		\articulotitulo
-	}
-\end{center}
+\renewcommand{\articulotipo}{Taller}
+\renewcommand{\articulotitulo}{Funciones generatrices: Aplicaciones en diferentes problemas matemáticos}
+\renewcommand{\articulotitulocorto}{Funciones generatrices: Aplicaciones en diferentes problemas matemáticos}
+\section{\articulotitulo}
+\desctotoc{Reyes, M.}
 
 \noindent\rule{\linewidth}{2pt}
 
 \vspace{0.25cm}
 
 \begin{flushright}
-	{\Large \scshape
-		Fabiana Montenegro
-	}\\
-	{\large \itshape
-		Escuela Normal Superior N° 32 “General José de San Martín”
-	}\\
-	{\ttfamily \small
-		montenegrofg@gmail.com
-	}\\ \vspace{1em}
-	{\Large \scshape
-		Mariela Cravero
-	}\\
-	{\large \itshape
-		Escuela Normal Superior N° 32 “General José de San Martín”
-	}\\ \vspace{1em}
-	{\Large \scshape
-		Carlos Fernández
-	}\\
-	{\large \itshape
-		Escuela Normal Superior N° 32 “General José de San Martín”
-	}\\ \vspace{1em}
-	{\Large \scshape
-		María Gracia Raquel Salazar
-	}\\
-	{\large \itshape
-		Escuela Normal Superior N° 32 “General José de San Martín”
-	}\\
+	\addautor[reyesmiguelpk@gmail.com]{Miguel Reyes}{Universidad Nacional de Salta}
 \end{flushright}
 
 \vspace{0.5cm}
@@ -59,46 +25,189 @@
 \begin{center}
 	\begin{minipage}{0.75\linewidth} \small
 		\textsc{Resumen}. ~
-		Con el objeto de promover la función de investigación y suscitar la producción de conocimiento educativo y pedagógico en el nivel Superior y en los Institutos Superiores de Formación Docente (ISFD) el Instituto Nacional de Formación Docente (INFoD) en el año 2021 convocó a las y los docentes y estudiantes de carreras de Formación Docente de Institutos Superiores de gestión estatal a presentar proyectos de investigación. El eje priorizado, en dicha convocatoria, fue la educación en Argentina en el contexto de la emergencia sanitaria generada por el Coronavirus SARS-CoV-2. En el marco de dicha convocatoria los autores de esta ponencia presentamos un proyecto cuyo objetivo fue indagar y analizar, desde lo didáctico y lo curricular, las estrategias de enseñanza implementadas por las y los docentes de los espacios curriculares de la formación específica y de la formación en la práctica profesional del Profesorado de Educación Secundaria en Matemática del ISFD N°32 de Santa Fe, durante la pandemia por COVID-19. En este trabajo  presentamos los resultados de una encuesta que formó parte de la investigación desarrollada en el 2022.
+		Las funciones generatrices son herramientas matemáticas esenciales que encapsulan secuencias de números mediante series formales, simplificando cálculos y la resolución de problemas de recurrencia, además de facilitar la identificación de patrones. Su importancia radica en su capacidad para proporcionar una visión unificada y compacta de sucesiones completas, lo que resulta crucial en diversas áreas de las matemáticas, como la combinatoria, la estadística, la teoría de números y el análisis complejo.
+		
+		El desarrollo de la teoría de funciones generatrices ha avanzado significativamente en las últimas décadas, integrándose de manera más profunda en la matemática discreta y el análisis. Estos avances han permitido la resolución de problemas antes inabordables y la simplificación de teorías complejas. La investigación contemporánea continúa expandiendo sus aplicaciones, descubriendo nuevas conexiones y métodos de utilización.
+		
+		A través de este taller se espera que los participantes logren fortalecer el manejo y profundizar contenidos vinculados con las sucesiones, expresiones algebraicas y el razonamiento combinatorio, desarrollando habilidades analíticas y algebraicas avanzadas. Se pretende con las actividades propuestas, destacar el trascendental aporte que las funciones generatrices realizan con relación a la comprensión de complejas estructuras matemáticas, como así también la intervención que tiene en diferentes campos de investigación.
+	\end{minipage}\\
+	
+	\vspace{0.5em}
+	
+	\begin{minipage}{0.75\linewidth} \small
+	\textsc{Palabras clave} --- Combinatoria, Probabilidades discretas, Resolución de problemas, Análisis
 	\end{minipage}
 \end{center}
 %-------------------------------------------------------------------------
 
 \subsection{Introducción}
 
-Esta ponencia describe algunos resultados derivados de una investigación referida a las estrategias de enseñanza llevadas a cabo en un profesorado de matemática para la educación secundaria durante los años de la pandemia. Consideramos que esta comunicación en las JEM favorece el intercambio de análisis de experiencias de un hecho reciente que obligó a todos los niveles del sistema educativo de 190 países del mundo a desarrollar tareas educativas en entornos virtuales.
+Las funciones generatrices (FG) han sido una herramienta esencial en matemáticas desde el siglo XVIII, cuando Pierre-Simon Laplace introdujo las series generatrices como un medio para resolver problemas en teoría de probabilidades. A lo largo de los siglos XIX y XX, matemáticos como Leonhard Euler y George Pólya ampliaron su uso a la teoría de números y la combinatoria. Actualmente se las implementa en temas de ciencias de la computación y matemáticas discretas, desarrollos impulsados principalmente por Herbert S. Wilf. Hoy en día, las funciones generatrices son fundamentales en diversas áreas de la matemática y la ciencia, demostrando su versatilidad y potencia en la resolución de problemas complejos.
+
+Estas funciones (FG) son herramientas matemáticas potentes que encapsulan secuencias de números en términos de series formales, facilitando los cálculos y la resolución de problemas de recurrencia como así también la identificación de patrones. Por otro lado cabe destacar las conexiones interdisciplinarias presentes entre esta herramienta y múltiples campos como la combinatoria, la estadística, la teoría de números y el análisis complejo entre otros.
+
+En general, no nos interesa un termino particular $a_n \in \mathbb{R}$, sino toda la sucesión $(a_n)_n \in \mathbb{N}$. Si queremos aprender sobre la sucesión en sí, una posibilidad, en muchos casos la mejor posible, es aprehenderla mediante un único objeto, una función generatriz, \textcite{wilf1994}.
+
+Desarrollar un taller abarcando los principios sobre los cuales se pensó y se extrapoló la teoría de funciones generatrices, beneficia a la comunidad educativa, estudiantes, docentes e investigadores; más aún, mostrar los alcances e implementaciones de ésta, en diferentes áreas matemática despierta y motiva nuevas expectativas y desafíos para seguir explorando y profundizando.
+
+\subsection{Contenidos}
+
+Este taller esta diseñado para ser implementado en 4 módulos diferentes interrelacionados. Cada uno de ellos pretende involucrarse con áreas distintas de la matemática.
+
+\begin{itemize}
+	\item \underline{\textbf{Módulo 1: Combinatoria y Funciones Generatrices}}
+	
+	Introducción a las FG: polinomios generadores. Aplicaciones y orígenes en la combinatoria. Generación de fórmulas para problemas de partición.Tipos de funciones generatrices (FG): ordinarias y exponenciales.
+	
+	\item \underline{\textbf{Módulo 2: Ecuaciones de Recurrencia y Funciones Generatrices}}
+	
+	Manipulación algebraica de FG, linealidad, convolución. Solución de ecuaciones de recurrencia simples. Implementación en problemas de probabilidad y matemática discreta. \textcite{vilenkin2010}.
+	
+	\item \underline{\textbf{Módulo 3: Transformaciones de Funciones Generatrices}}
+	
+	Métodos de Inversión.Transformaciones y operaciones con FG. Derivación de FG. Translaciones y escalamiento. Método de fracciones simples. \textcite{wilf1994, kaufmann1968}.
+	
+	\item \underline{\textbf{Módulo 4: Funciones Generatrices y Probabilidad}}
+	
+	Distribuciones Discretas. Uso de FG para estudiar distribuciones de probabilidad binomial, Poisson, geométrica. Número de Stirling. Aplicaciones en la factorización y series de Dirichlet, \textcite{riordan1978}.
+\end{itemize}
 
 \subsection{Requisitos previos}
 
-Profesores y profesoras de Matemática y estudiantes de Profesorado de Matemática.
+Este taller esta destinado a estudiantes de profesorados, licenciaturas o carreras afines, como así también a docentes que tengan conocimiento de un curso básico de análisis matemático y combinatoria.
 
-\subsection{Desarrollo}
+\subsection{Objetivos}
 
-Como consecuencia del Aislamiento Social Preventivo y Obligatorio (ASPO) el cuerpo docente se vio en la necesidad de adaptarse y brindar respuestas a las necesidades educativas de los y las estudiantes. Tal como otros educadores, llamamos a este escenario Educación Remota de Emergencia (ERE).
+A través de este dispositivo pedagógico se pretende:
+\begin{itemize}
+	\item Desarrollar habilidades analíticas y algebraicas en el manejo e interpretación de series formales.
+	\item Lograr integrar esta teoría a temas del análisis, probabilidades, matemática discreta y análisis complejo.
+	\item Abordar resolución de problemas que evidencian la ventaja y eficiencia a través de la utilización de esta teoría.
+	\item Promover una comprensión interdisciplinaria con respecto al impacto e importancia en diferentes campos científicos.
+	\item Incentivar tanto a estudiantes como a docentes a explorar nuevas áreas de investigación y a aplicar estas técnicas en sus propios proyectos.
+	\item Brindar a los docentes conocimientos avanzados que podrán integrar en su práctica pedagógica, enriqueciendo su enseñanza y proporcionando a sus estudiantes una formación más completa y robusta.
+\end{itemize}
 
-En este contexto, para desarrollar las propuestas educativas gran parte del colectivo docente recurrió al uso de TIC. Según \textcite{coll2011}, las propuestas educativas que incorporan las TIC con un cierto nivel de elaboración deberían incluir tres tipos de ingredientes: los recursos y software que profesores y alumnos utilizan para enseñar y aprender; un diseño instruccional elaborado y explícito con objetivos, contenidos y actividades de enseñanza, aprendizaje y evaluación y un conjunto de normas y sugerencias sobre cómo utilizar dichas herramientas. En síntesis, las propuestas educativas apoyadas en las TIC incluyen dos aspectos interdependientes: tecnológicos como pedagógicos, que se integran en lo que \textcite{coll2011} denominó un diseño tecnopedagógico.
+\subsection{Actividades}
 
-Cabe aclarar que al hablar de TIC haremos referencia tanto a los dispositivos, aplicaciones, software informáticos como a las acciones que éstos habilitan para la enseñanza y el aprendizaje de la matemática. En cuanto a los usos que pueden darse a dichos recursos adoptamos la clasificación que se presenta en \textcite{bravo2016} diferenciando 2 dimensiones: los vinculados a la matemática (para producir matemática, para recibir información matemática, para comunicar información matemática) y los vinculados con la comunicación.
+\subsubsection{Actividades previas}
 
-En relación al concepto de estrategias de enseñanza (EE), recuperamos la conceptualización de \textcite{anijovich2010} que define las EE como el conjunto de decisiones que asume el docente para orientar la enseñanza de un contenido disciplinar teniendo en cuenta qué quiere que los estudiantes comprendan, por qué y para qué.
+Primeramente informaremos a los participantes los objetivos, los contenidos del taller y la metodología de trabajo de cada encuentro. Este detalle se encontrará en formato digital como en audiovisual adjuntado en el curso de la plataforma e-learning designada. Se adjuntará un listado con la bibliografía recomendada, como así también notas con problemas sugeridos referentes a los contenidos previos en combinatoria y análisis.
 
-Bajo este marco de referencia, consideramos indagar y analizar las EE implementadas por los y las docentes para desarrollar su propuesta educativa.
+Con el objeto de generar un espacio de integración, trabajo colaborativo y aprendizaje a través de resolución de problemas, se implementarán grupos de trabajos los cuales deberán resolver y enviar la solución para un problema propuesto para cada módulo. Por otro lado cada participante de manera individual deberá completar un cuestionario teórico.
 
-Considerando que la complejidad del objeto de estudio de esta investigación requería la utilización e integración de diferentes abordajes metodológicos, planteamos una investigación exploratoria y descriptiva y optamos por el enfoque metodológico conocido como método mixto, que complementa los métodos cualitativos y cuantitativos.
+Propondremos una lista de actividades sugeridas, no obligatorias que estarán directamente vinculadas con la temática planificada para cada encuentro. Esto estará disponible al comienzo del taller, de manera que cada participante disponga del tiempo suficiente para pensar y probablemente consultar alguna duda o inquietud con relación a los mismos.
 
-Para dar respuesta a nuestro problema de investigación, en primer lugar, se profundizó el marco teórico. En segundo lugar, se llevó a cabo una encuesta online a través de formulario de Google a las y los profesores de manera voluntaria y anónima. Seguidamente, se realizaron entrevistas en profundidad a algunos de las y los docentes encuestados. Culminamos analizando materiales didácticos que nos compartieron algunos docentes de manera voluntaria y que se desarrollaron durante el ASPO.
+Con relación a la temática abordada en esta primera instancia asincrónica, se desarrollará un repaso de los temas preliminares y se abordará los temas del módulo 1, los cuales están estrechamente vinculados con los contenidos previos. Se dispondrá de notas teóricas, material audiovisual como así también de las slice utilizadas.
 
-Por cuestiones de espacio a continuación presentaremos el análisis de una pregunta que formó parte de la encuesta. Decidimos presentar, en este trabajo, los resultados parciales de la encuesta puesto que constituyó nuestro primer instrumento de recolección de datos, porque nos permitió aprovechar conceptos y gráficos variados de la estadística descriptiva y porque de ella surgieron hipótesis que buscamos ratificar o rectificar en las entrevistas.
+\bigskip
+\begin{center}
+	\begin{minipage}{0.8\linewidth}
+		\begin{center}
+			\underline{\textbf{Propuesta de Problemas Previos}}
+		\end{center}
+		
+		\begin{enumerate}
+			\item ¿Cuántas soluciones tiene la ecuación $x + y + z + w = 20$ dadas por enteros positivos, es decir con $x, y, z, w \in \mathbb{Z}_{> 0}$? ¿Cuántas por enteros no negativos ($x, y, z, w \in \mathbb{Z}_{\ge 0}$)?
+			\item Probar que el número de soluciones en enteros no negativos es el mismo para las dos ecuaciones siguientes: $$x_1 + x + 2 + \cdots + x_6 = 8 \quad \text{y} \quad x_1 + x + 2 + \cdots + x_9 = 5$$
+			\item ¿De cuántas maneras se pueden alinear 10 letras A, 6 letras B, y 5 letras C en una fila de modo tal que no haya dos letras B contiguas? 
+			\item Hallar el número de soluciones a la ecuación $x_1 + x_2 + x_3 + x_4 + x_5 = 50$ en enteros positivos tales que $x_5 > 12$ y $x_4 > 7$.
+			\item Hallar el número de maneras de cambiar un billete de 10.000 pesos en billetes de menor denominación, esto es, billetes de 1.000, 2.000, 100, 200 y 500 pesos.
+		\end{enumerate}
+	\end{minipage}
+\end{center}
+\bigskip
 
-En una de las preguntas se pedía vincular diferentes recursos tecnológicos con los usos que se les dieron para la enseñanza de la matemática. Las y los docentes encuestados debieron elegir entre los siguientes recursos: aula virtual del INFoD, videoconferencias, mensajería interna, aplicativos, presentación, buscadores y redes sociales. Y los posibles usos dados: para debatir, compartir información, buscar información, emplear en la ejercitación, producir materiales, aprender definiciones, propiedades, procedimientos, comunicarse con las/os estudiantes.
+\subsubsection{Primera hora y media sincrónica}
 
-Luego de analizar los resultados de las encuestas y empleando gráficos estadísticos para su interpretación puede concluirse que, el debate se desarrolló durante la ERE en mayor medida a través del Aula virtual del INFoD (60\%) y de videoconferencias (70\%). Todos los recursos tecnológicos considerados fueron empleados en el debate con y entre los estudiantes. Los recursos mayormente empleados para compartir resolución de ejercicios fueron el Aula Virtual del INFoD (60\%), videoconferencias (55\%) y presentaciones (50\%). También fueron importantes los aplicativos (GeoGebra, Excel, etc.) (35\%). Para la búsqueda de información no se emplearon las redes sociales como se esperaba; sino que, fue mayormente a través de buscadores de la web (Google, Bing, etc.) (55\%) y del Aula Virtual del INFoD (50\%).
+Comenzaremos por presentar raudamente las actividades planteadas y el contenido propuesto en la instancia asincrónica previa. Resolveremos los ejercicios de mayor dificultad como ser el problema propuesto (2) o (4) (ecuaciones con condiciones restringidas y combinatoria). Posteriormente se trabajará sobre polinomios generadores y su origen en la combinatoria, para dar luego lugar a las funciones generatrices y al problema de partición de un entero, ver \textcite{niven1995}. Esto demandará 1 hs aproximadamente. El tiempo restante se abordará el contenido del módulo 2. Trabajaremos sobre las operaciones de linealidad y convolución de las FG y su utilización para resolver ecuaciones de recurrencia. Se resolverán ejercicios para facilitar su mecánica de utilización.
 
-Los aplicativos fueron el recurso más utilizado en el empleo de ejercitación (60\%). Las presentaciones (30\%) y el Aula Virtual del INFoD (35\%), suman aproximadamente el mismo porcentaje que las aplicaciones. Se puede asumir que la producción de materiales se canalizó por el Aula Virtual del INFoD (50\%) y por presentaciones (50\%).
+\subsubsection{Primeras tres horas entre clases}\label{07-primeras-tres-horas-entre-clases}
 
-El aprendizaje de definiciones, propiedades y procedimientos se desarrolló a través de tareas empleando mayoritariamente el Aula Virtual del INFoD como recurso (85\%). Además, se estimó que también se desarrolló a través de las videoconferencias (60\%). Resulta llamativo que aplicaciones --como GeoGebra-- no presenten mayor porcentaje debido a la posibilidad que ofrecen para visualizar, explorar y conjeturar. Las posibles comunicaciones docente-estudiante se establecieron principalmente a través del Aula Virtual del INFoD (65\%), en menor medida por videoconferencias (50\%) y en tercer lugar por el uso de mensajes a través del teléfono celular (30\%). Podemos distinguir que el primer y tercer grupo se refieren a comunicaciones asincrónicas mientras que las del segundo grupo son sincrónicas. De acuerdo a los resultados obtenidos, se puede aseverar que el uso de las comunicaciones asincrónicas es aproximadamente el doble que las sincrónicas, coincidiendo con las directrices establecidas por el INFoD.
+En esta instancia del taller, los participantes trabajarán de manera asincrónica, colaborativa y grupal sobre diferentes problemas propuestos pero de manera enfocada en los que deberán enviar por la plataforma. Aqui también deberán realizar una encuesta virtual sobre contenidos teóricos visto en clase.
 
-Es posible, entonces, concluir que en los espacios curriculares de las y los profesores que respondieron a la encuesta aparecen las cuatro dimensiones en cuanto a los uso de los recursos informáticos que se consideran en \textcite{bravo2016}. El hecho de que los recursos más empleados fueron el Aula Virtual del INFoD y las videoconferencias puede explicarse por diversos motivos. En cuanto a la primera muchos de las y los docentes ya tenían parte de sus cátedras virtualizadas ya que nuestro IFD tiene acceso al uso de la misma desde el año 2014 y por disposición institucional fue el único medio por el que las y los profesores debíamos comunicarnos con las y los estudiantes durante el 2020. Y en relación a las videoconferencias suponemos que fue el recurso que permitió mediar en el vínculo pedagógico y contener, no sólo académicamente, a las y los estudiantes.
+\bigskip
+\begin{center}
+	\begin{minipage}{0.8\linewidth}
+		\begin{center}
+			\underline{\textbf{Propuesta de Problemas - Primer Encuentro}}
+		\end{center}
+		
+		\begin{enumerate}
+			\item Calcular la función generatriz $f(x)$ proveniente de la sucesión $a_n = 2^n$
+			\item Encuentra el coeficiente de $x^{21}$ en la expresión $(x^2 + x^3 + x^4 + x^5 + x^6)^8$.
+			\item Encuentra el coeficiente de $x^2$ en la expresión $x (1 + x)^43 (2 - x)^5$.
+			\item Considere la sucesión de números de Fibonacci $(F_n)_{n \in \mathbb{N}}$, dada por $F_0 = 0$, $F_1 = 1$ y $F_n = F_{n-1} + F_{n-2}$ para cada $n \ge 2$. Demostrar que su función generatriz es $f(x) = \frac{x}{1 - x - x^2}$.
+			\item Resolver las siguientes recursiones usando funciones generatrices.
+			\begin{enumerate}[a)]
+				\item $a_0 = 0$, $a_1 = 1$ y $a_n = 5 a_{n-1} - 6 a_{n-2}$ para $n > 1$
+				\item $a_0 = 0$, $a_1 = a_2 = 1$ y $a_n = a_{n1} + a_{n2} + 2 a_{n3}$, para $n > 2$
+			\end{enumerate}
+		\end{enumerate}
+	\end{minipage}
+\end{center}
+\bigskip
+
+\subsubsection{Segundas hora y media sincrónicas}
+
+En este segundo encuentro se pretende profundizar sobre el manejo algebraico de las FG como así también de las transformaciones que ellas involucran. Retomaremos sobre las operaciones del módulo 2 (linealidad y convolución) para profundizar con los temas del módulo 3.
+
+La implementación de funciones generatrices en problemas matemáticos implica varios pasos metodológicos que son fundamentales para su correcta aplicación y comprensión, estos son:
+\begin{enumerate}
+	\item Definición y Formulación: Es necesario entender cómo definir una función generatriz para una secuencia dada y formularla correctamente.
+	\item Manipulación Algebraica: Aprender técnicas para manipular y simplificar las funciones generatrices, como operaciones con series formales.
+	\item Identificación de Patrones: Utilizar funciones generatrices para identificar patrones y relaciones en secuencias y series. Utilización de relaciones combinatorias.
+	\item Resolución de Problemas: Aplicar las funciones generatrices para resolver problemas específicos, como ecuaciones de recurrencia y problemas de enumeración.
+\end{enumerate}
+
+\subsubsection{Segundas tres horas entre clases}
+
+En esta instancia, de manera similar a la planteada en \ref{07-primeras-tres-horas-entre-clases}, los participantes trabajarán de manera asincrónica, colaborativa y grupal sobre diferentes problemas propuestos para el segundo encuentro.
+
+\bigskip
+\begin{center}
+	\begin{minipage}{0.8\linewidth}
+		\begin{center}
+			\underline{\textbf{Propuesta de Problemas - Segundo Encuentro}}
+		\end{center}
+		
+		\begin{enumerate}
+			\item Usar una función generatriz para encontrar el número de formas de escribir 15 como la suma de 5 números naturales.
+			\item Queremos encontrar las sucesiones $(a_n)_{n \in \mathbb{N}}$ y $(b_n)_{n \in \mathbb{N}}$ tal que verifican $$\begin{cases}
+				a_n = 3 a_{n - 1} + b_{n-1} & \text{para todo $n \ge 1$}\\
+				b_n = 2 a_{n-1} + b_{n-1} &\
+			\end{cases}$$
+			\item Utilizando transformaciones sobre funciones generatrices comprobar que $$\frac{x+ x^2}{(1 - x)^3} = \sum_{n = 0}^{\infty} n^2 x^n \quad \text{y que} \quad \frac{x + x^2}{(1 - x)^4} = \sum_{n = 0}^{\infty} \Biggl( \sum_{k = 0}^{n} k^2 \Biggr) x^n$$
+		\end{enumerate}
+	\end{minipage}
+\end{center}
+\bigskip
+
+\subsubsection{Terceras hora y media sincrónicas}
+
+En este último encuentro se profundizará sobre las aplicaciones de las funciones generatrices en diferentes problemas, como son probabilidades y combinatoria sobre grafos (particiones de conjuntos no vacíos). Se resolverán ejercicios de mayor dificultad como los propuestos a continuación donde se involucran propiedades relacionadas a los números de Stirling, distribución binomial, números de Bell, entre otros.
+
+\bigskip
+\begin{center}
+	\begin{minipage}{0.8\linewidth}
+		\begin{center}
+			\underline{\textbf{Propuesta de Problemas - Tercer Encuentro - Integradores}}
+		\end{center}
+		
+		\begin{enumerate}
+			\item Calcular cuántas formas hay de dividir 7 elementos en 4 subconjuntos no vacíos utilizando los números de Stirling de segunda especie.
+			\item Usar los números de Bell para encontrar el número de particiones de un conjunto de 6 elementos.
+			\item Si $a_n (x)$ está definida por $$a_n (x) = (1 - x)^{n+1} \sum_{k = 0}^{\infty} k^n x^k$$ usando la notación $D = \frac{d}{dx}$, mostrar que $$a_n (x) = n x a_{n-1} (x) + x (1 - x) D a_{n - 1} (x)$$ y verifica los valores \begin{alignat*}{2}
+				a_0 &= 1 &\qquad a_2 (x) &= x + x^2\\
+				a_1 &= x &\qquad a_3 (x) &= + 4x^2 + x^3
+			\end{alignat*}
+		\end{enumerate}
+	\end{minipage}
+\end{center}
+
+\subsubsection{Evaluación final}
+
+ara comprometer de manera activa a los participantes, la evaluación será de manera continua a lo largo del taller, para ello se implementarán cuestionarios virtuales individuales referentes a contenidos esenciales teóricos al finalizar cada encuentro. Por otro lado también se dejará un listado de problemas para abordar durante el trabajo asincrónico de manera grupal, que deberá ser cargado a la plataforma. El último encuentro evaluativo tendrá dos ejercicios que deberán realizar de manera grupal. También aquí tendrán la posibilidad de completar las actividades anteriores pendientes en la plataforma.
 
 \subsection{Bibliografía}
 
