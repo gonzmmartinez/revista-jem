@@ -3068,6 +3068,13 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/07/refs-07.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/08/refs-08.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/09/refs-09.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/10/refs-10.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/11/refs-11.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/12/refs-12.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/13/refs-13.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/14/refs-14.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/15/refs-15.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Trabajos/16/refs-16.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">margaris1968</bcf:citekey>
@@ -3125,6 +3132,87 @@
     <bcf:citekey order="43" intorder="7" nocite="1">*</bcf:citekey>
     <bcf:citekey order="44" intorder="8" nocite="1">*</bcf:citekey>
     <bcf:citekey order="45" intorder="9" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">gardner2006</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">gardner2006</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">smullyan1980</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">smullyan1980</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">russell1919</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">russell1919</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">guzman2000</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">guzman2000</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">luque2015</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">luque2015</bcf:citekey>
+    <bcf:citekey order="56" intorder="10" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">brousseau2007</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">brousseau2007</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">chevallard1999-11</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">chevallard1999-11</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">florensa2020</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">florensa2020</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">brito2011</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">brito2011</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">sanchez2017</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">sanchez2017</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">garcia2019</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">garcia2019</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">brousseau2007</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">brousseau2007</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">lesh1992</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">lesh1992</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">chevallard1999-11</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">chevallard1999-11</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">chevallard2007</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">chevallard2007</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">sanchez2017</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">sanchez2017</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">garcia2019</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">garcia2019</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">florensa2018</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">florensa2018</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">bartolome2019</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">bartolome2019</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">chevallard1999-11</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">chevallard1999-11</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">florensa2020</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">florensa2020</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">brito2011</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">brito2011</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">chevallard1999-11</bcf:citekey>
+    <bcf:citekey order="92" intorder="1">chevallard1999-11</bcf:citekey>
+    <bcf:citekey order="93" intorder="1">garcia2019</bcf:citekey>
+    <bcf:citekey order="94" intorder="1">garcia2019</bcf:citekey>
+    <bcf:citekey order="95" intorder="1">bartolome2019</bcf:citekey>
+    <bcf:citekey order="96" intorder="1">bartolome2019</bcf:citekey>
+    <bcf:citekey order="97" intorder="11" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="98" intorder="1">marti2010</bcf:citekey>
+    <bcf:citekey order="99" intorder="1">marti2010</bcf:citekey>
+    <bcf:citekey order="100" intorder="1">torres2019</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">torres2019</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">galvis2013</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">galvis2013</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">area2012</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">area2012</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">deguzman2004</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">deguzman2004</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">garcia2020</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">garcia2020</bcf:citekey>
+    <bcf:citekey order="110" intorder="12" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="111" intorder="13" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="112" intorder="14" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="113" intorder="1">batanero2001</bcf:citekey>
+    <bcf:citekey order="114" intorder="1">batanero2001</bcf:citekey>
+    <bcf:citekey order="115" intorder="1">fernandez2013</bcf:citekey>
+    <bcf:citekey order="116" intorder="1">fernandez2013</bcf:citekey>
+    <bcf:citekey order="117" intorder="1">vargas2020</bcf:citekey>
+    <bcf:citekey order="118" intorder="1">vargas2020</bcf:citekey>
+    <bcf:citekey order="119" intorder="1">vargas2020</bcf:citekey>
+    <bcf:citekey order="120" intorder="1">vargas2020</bcf:citekey>
+    <bcf:citekey order="121" intorder="1">gonzalezhernando2016</bcf:citekey>
+    <bcf:citekey order="121" intorder="2">paredescurin2016</bcf:citekey>
+    <bcf:citekey order="122" intorder="1">gonzalezhernando2016</bcf:citekey>
+    <bcf:citekey order="122" intorder="2">paredescurin2016</bcf:citekey>
+    <bcf:citekey order="123" intorder="15" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="124" intorder="16" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

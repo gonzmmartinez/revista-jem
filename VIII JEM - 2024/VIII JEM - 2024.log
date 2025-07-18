@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.8)  16 JUL 2025 22:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.8)  18 JUL 2025 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1664,86 +1664,86 @@ LaTeX Info: Redefining \% on input line 12.
 )
 \openout1 = `"VIII JEM - 2024.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 162.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 169.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1
-62.
+69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 169.
 LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
-62.
+69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    ... okay on input line 169.
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 162.
+(Font)              scaled to size 8.0pt on input line 169.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
-62.
+69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-162.
+169.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-162.
+169.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-162.
+169.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 162
+LaTeX Font Info:    Trying to load font information for U+msa on input line 169
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 162
+LaTeX Font Info:    Trying to load font information for U+msb on input line 169
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-162.
+169.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 162.
+(Font)              scaled to size 10.0pt on input line 169.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1783,8 +1783,8 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 162.
-LaTeX Info: Redefining \% on input line 162.
+LaTeX Info: Redefining \. on input line 169.
+LaTeX Info: Redefining \% on input line 169.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count479
@@ -1807,7 +1807,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 162.
+Package hyperref Info: Link coloring ON on input line 169.
 
 (./VIII JEM - 2024.out) (./VIII JEM - 2024.out)
 \@outlinefile=\write5
@@ -1869,16 +1869,16 @@ Package biblatex Warning: Biber reported the following issues
  'date' for entry 'garcia2005'.
 
 )
-Package biblatex Info: Reference section=0 on input line 162.
-Package biblatex Info: Reference segment=0 on input line 162.
+Package biblatex Info: Reference section=0 on input line 169.
+Package biblatex Info: Reference segment=0 on input line 169.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Portada.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<Trabajos/Portada.pdf, id=51, 597.50829pt x 845.0471pt>
+<Trabajos/Portada.pdf, id=79, 597.50829pt x 845.0471pt>
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf>
-Package pdftex.def Info: Trabajos/Portada.pdf  used on input line 165.
+Package pdftex.def Info: Trabajos/Portada.pdf  used on input line 172.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -1886,7 +1886,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Portada.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf>
-Package pdftex.def Info: Trabajos/Portada.pdf  used on input line 165.
+Package pdftex.def Info: Trabajos/Portada.pdf  used on input line 172.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -1896,26 +1896,26 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Portada.pdf): PDF inclusion:
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Portada.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<Trabajos/Portada.pdf, id=54, page=1, 597.50829pt x 845.0471pt>
+<Trabajos/Portada.pdf, id=82, page=1, 597.50829pt x 845.0471pt>
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf, page 1>
-Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 165.
+Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 172.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf, page 1>
-Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 165.
+Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 172.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf, page 1>
-Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 165.
+Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 172.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf, page 1>
-Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 165.
+Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 172.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Portada.pdf Graphic file (type pdf)
 <use Trabajos/Portada.pdf, page 1>
-Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 165.
+Package pdftex.def Info: Trabajos/Portada.pdf , page1 used on input line 172.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 [1
 
@@ -1950,11 +1950,11 @@ LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/n' will be
 (Font)              scaled to size 12.0pt on input line 80.
 )
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/sc' will be
-(Font)              scaled to size 7.0pt on input line 168.
+(Font)              scaled to size 7.0pt on input line 175.
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 168.
+(Font)              scaled to size 9.0pt on input line 175.
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/sc' will be
-(Font)              scaled to size 9.0pt on input line 168.
+(Font)              scaled to size 9.0pt on input line 175.
 
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
@@ -2038,11 +2038,7 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/bold/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
-)
-\tf@toc=\write6
-\openout6 = `"VIII JEM - 2024.toc"'.
 
-)
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -2053,7 +2049,20 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 [6
 
-] (./Trabajos/PortadaTalleres.tex
+])
+\tf@toc=\write6
+\openout6 = `"VIII JEM - 2024.toc"'.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[7] (./Trabajos/PortadaTalleres.tex
 LaTeX Font Info:    Font shape `T1/Inter-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 6.
 LaTeX Font Info:    Font shape `T1/Inter-TLF/b/n' will be
@@ -2067,7 +2076,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
 
-[7
+[8
 
 ] (./Trabajos/01/01.tex
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/it' will be
@@ -2091,7 +2100,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
 
-[8
+[9
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 
@@ -2102,7 +2111,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[9]
+[10]
 
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
@@ -2120,7 +2129,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[10])
+[11])
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 23.40002pt, for example:
@@ -2129,7 +2138,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[11] (./Trabajos/02/02.tex
+[12] (./Trabajos/02/02.tex
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -2138,18 +2147,9 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
 
-[12
+[13
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (8.0pt): 
-(fancyhdr)                Make it at least 23.40002pt, for example:
-(fancyhdr)                \setlength{\headheight}{23.40002pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
-
-[13]
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 23.40002pt, for example:
@@ -2160,6 +2160,15 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 [14]
 
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[15]
+
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
 (biblatex)                non-overlapping bibliographies benefit from
@@ -2177,7 +2186,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[15] (./Trabajos/03/03.tex
+[16] (./Trabajos/03/03.tex
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -2186,7 +2195,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
 
-[16
+[17
 
 ]
 
@@ -2197,7 +2206,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[17]
+[18]
 
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
@@ -2216,7 +2225,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[18] (./Trabajos/04/04.tex
+[19] (./Trabajos/04/04.tex
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -2225,7 +2234,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
 
-[19
+[20
 
 ]
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/it' will be
@@ -2239,7 +2248,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[20]
+[21]
 Underfull \hbox (badness 2384) in paragraph at lines 136--137
 []\T1/Domitian-TLF/regular/n/10 En el úl-ti-mo pa-so se ela-bo-ra una _________
 _ ten-ta-ti-va y __________ del
@@ -2253,12 +2262,12 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[21{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+[22{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/n' will be
 (Font)              scaled to size 7.6pt on input line 177.
 LaTeX Font Info:    Font shape `T1/Domitian-TLF/regular/n' will be
 (Font)              scaled to size 6.0pt on input line 177.
-<Trabajos/04/Anexos/grafico_01.png, id=394, 791.95876pt x 396.7322pt>
+<Trabajos/04/Anexos/grafico_01.png, id=443, 791.95876pt x 396.7322pt>
 File: Trabajos/04/Anexos/grafico_01.png Graphic file (type png)
 <use Trabajos/04/Anexos/grafico_01.png>
 Package pdftex.def Info: Trabajos/04/Anexos/grafico_01.png  used on input line 
@@ -2273,7 +2282,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[22 <./Trabajos/04/Anexos/grafico_01.png (PNG copy)>]
+[23 <./Trabajos/04/Anexos/grafico_01.png (PNG copy)>]
 
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
@@ -2292,7 +2301,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[23] (./Trabajos/05/05.tex
+[24] (./Trabajos/05/05.tex
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 32.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -2315,7 +2324,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
 
-[24
+[25
 
 ]
 Underfull \hbox (badness 5578) in paragraph at lines 92--93
@@ -2335,7 +2344,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[25]
+[26]
 pdfTeX warning (ext4): destination with the same identifier (name{actividad.1})
  has been already used, duplicate ignored
 <to be read again> 
@@ -2350,7 +2359,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[26]
+[27]
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 23.40002pt, for example:
@@ -2359,7 +2368,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[27]
+[28]
 
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
@@ -2378,7 +2387,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[28] (./Trabajos/06/06.tex
+[29] (./Trabajos/06/06.tex
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -2387,7 +2396,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
 
-[29
+[30
 
 ]
 
@@ -2398,8 +2407,8 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[30]
-<Trabajos/06/Anexos/grafico_01.png, id=541, 527.72156pt x 363.60844pt>
+[31]
+<Trabajos/06/Anexos/grafico_01.png, id=591, 527.72156pt x 363.60844pt>
 File: Trabajos/06/Anexos/grafico_01.png Graphic file (type png)
 <use Trabajos/06/Anexos/grafico_01.png>
 Package pdftex.def Info: Trabajos/06/Anexos/grafico_01.png  used on input line 
@@ -2414,7 +2423,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[31]
+[32]
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 23.40002pt, for example:
@@ -2423,7 +2432,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[32 <./Trabajos/06/Anexos/grafico_01.png (PNG copy)>]
+[33 <./Trabajos/06/Anexos/grafico_01.png (PNG copy)>]
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 23.40002pt, for example:
@@ -2432,7 +2441,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[33]
+[34]
 
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
@@ -2452,7 +2461,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[34])
+[35])
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 23.40002pt, for example:
@@ -2461,7 +2470,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[35] (./Trabajos/07/07.tex
+[36] (./Trabajos/07/07.tex
 Underfull \vbox (badness 1803) has occurred while \output is active []
 
 
@@ -2473,18 +2482,9 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
 
-[36
+[37
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (8.0pt): 
-(fancyhdr)                Make it at least 23.40002pt, for example:
-(fancyhdr)                \setlength{\headheight}{23.40002pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
-
-[37]
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 23.40002pt, for example:
@@ -2504,6 +2504,15 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 [39]
 
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[40]
+
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
 (biblatex)                non-overlapping bibliographies benefit from
@@ -2521,18 +2530,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[40] (./Trabajos/PortadaComunicaciones.tex)
-
-Package fancyhdr Warning: \headheight is too small (8.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
-
-[41
-
-] (./Trabajos/08/08.tex
+[41] (./Trabajos/PortadaComunicaciones.tex)
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -2543,26 +2541,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 [42
 
-]
-
-Package biblatex Warning: Split bibliography detected.
-(biblatex)                Many simple split bibliography setups with
-(biblatex)                non-overlapping bibliographies benefit from
-(biblatex)                setting 'defernumbers=true'.
-(biblatex)                See the documentation for details.
-(biblatex)                This warning can be suppressed with
-(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
-
-)
-
-Package fancyhdr Warning: \headheight is too small (8.0pt): 
-(fancyhdr)                Make it at least 23.40002pt, for example:
-(fancyhdr)                \setlength{\headheight}{23.40002pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
-
-[43] (./Trabajos/09/09.tex
+] (./Trabajos/08/08.tex
 
 Package fancyhdr Warning: \headheight is too small (8.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -2571,7 +2550,7 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
 
-[44
+[43
 
 ]
 
@@ -2592,14 +2571,356 @@ Package fancyhdr Warning: \headheight is too small (8.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
 
-[45]
+[44] (./Trabajos/09/09.tex
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[45
+
+]
+
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[46] (./Trabajos/10/10.tex
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[47
+
+]
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[48]
+
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+
+Overfull \hbox (11.14662pt too wide) in paragraph at lines 95--95
+\T1/Domitian-TLF/regular/n/10 ORT Uru-guay] (25 de ma-yo de 2019) [Vi-deo]]. []
+[]$https : / / www . youtube . com / watch ? v = PjfoPEurBFY &
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[49] (./Trabajos/11/11.tex
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[50
+
+]
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[51]
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[52]
+
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[53])
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[54] (./Trabajos/12/12.tex
+Underfull \vbox (badness 1360) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[55
+
+]
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[56]
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[57]
+
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[58] (./Trabajos/13/13.tex
+
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[59
+
+] (./Trabajos/14/14.tex
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[60
+
+]
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[61]
+
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+
+Overfull \hbox (30.7322pt too wide) in paragraph at lines 81--81
+[][]\T1/Domitian-TLF/regular/n/10 Marín-Ríos, A., Cano-Villa, J., & Mazo-Castañ
+eda, A. (2023). Apro-pia-ción de la edu-ca-ción STEM/STEAM
+ []
+
+
+Overfull \hbox (2.12968pt too wide) in paragraph at lines 81--81
+[][]\T1/Domitian-TLF/regular/n/10 Ministerio de Edu-ca-ción de la Na-ción. (s.f
+.). Co-lec-ción Nú-cleos de Apren-di-za-jes Prio-ri-ta-rios (NAP)
+ []
+
+
+Overfull \hbox (5.96758pt too wide) in paragraph at lines 81--81
+\T1/Domitian-TLF/regular/n/10 [educ.ar]. [][]$https : / / www . educ . ar / rec
+ursos / 150199 / coleccion -[] ncleos -[] de -[] aprendizajes -[] prioritarios 
+-[]
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[62] (./Trabajos/15/15.tex
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[63
+
+]
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[64]
+
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[65] (./Trabajos/16/16.tex
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[66
+
+]
+Underfull \vbox (badness 1348) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[67]
+
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (8.0pt): 
+(fancyhdr)                Make it at least 23.40002pt, for example:
+(fancyhdr)                \setlength{\headheight}{23.40002pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.40002pt}.
+
+[68]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Contraportada.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<Trabajos/Contraportada.pdf, id=733, 597.50829pt x 845.0471pt>
+<Trabajos/Contraportada.pdf, id=1068, 597.50829pt x 845.0471pt>
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf>
-Package pdftex.def Info: Trabajos/Contraportada.pdf  used on input line 199.
+Package pdftex.def Info: Trabajos/Contraportada.pdf  used on input line 220.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -2607,7 +2928,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Contraportada.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf>
-Package pdftex.def Info: Trabajos/Contraportada.pdf  used on input line 199.
+Package pdftex.def Info: Trabajos/Contraportada.pdf  used on input line 220.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -2617,33 +2938,33 @@ usion: found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Trabajos/Contraportada.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<Trabajos/Contraportada.pdf, id=736, page=1, 597.50829pt x 845.0471pt>
+<Trabajos/Contraportada.pdf, id=1071, page=1, 597.50829pt x 845.0471pt>
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf, page 1>
 Package pdftex.def Info: Trabajos/Contraportada.pdf , page1 used on input line 
-199.
+220.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf, page 1>
 Package pdftex.def Info: Trabajos/Contraportada.pdf , page1 used on input line 
-199.
+220.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf, page 1>
 Package pdftex.def Info: Trabajos/Contraportada.pdf , page1 used on input line 
-199.
+220.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf, page 1>
 Package pdftex.def Info: Trabajos/Contraportada.pdf , page1 used on input line 
-199.
+220.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Trabajos/Contraportada.pdf Graphic file (type pdf)
 <use Trabajos/Contraportada.pdf, page 1>
 Package pdftex.def Info: Trabajos/Contraportada.pdf , page1 used on input line 
-199.
+220.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[46
+[69
 
 
  <./Trabajos/Contraportada.pdf>] (./VIII JEM - 2024.aux
@@ -2660,19 +2981,19 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `"VIII JEM - 2024".out' has not changed.
-(rerunfilecheck)             Checksum: C68F2EA6417AB76AC0ED590DB536EF6E;6030.
+(rerunfilecheck)             Checksum: CA215B1DC6706691D03BBBD7B5612FB8;9818.
 Package logreq Info: Writing requests to '"VIII JEM - 2024".run.xml'.
 \openout1 = `"VIII JEM - 2024.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38940 strings out of 474222
- 748147 string characters out of 5748734
+ 39553 strings out of 474222
+ 765806 string characters out of 5748734
  1947975 words of memory out of 5000000
- 59941 multiletter control sequences out of 15000+600000
- 708158 words of font info for 199 fonts, out of 8000000 for 9000
+ 60363 multiletter control sequences out of 15000+600000
+ 710793 words of font info for 204 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 84i,17n,93p,2055b,2907s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,93p,2598b,2907s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/domitian/Domitian-Bold.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/domitian/Domitian-Italic.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/domitian/Domitian-Roman.pfb><
@@ -2686,10 +3007,10 @@ e1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /mathpazo/fplmr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "VIII JEM - 2024.pdf" (46 pages, 697235 bytes).
+Output written on "VIII JEM - 2024.pdf" (69 pages, 780621 bytes).
 PDF statistics:
- 943 PDF objects out of 1000 (max. 8388607)
- 806 compressed objects within 9 object streams
- 392 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1310 PDF objects out of 1440 (max. 8388607)
+ 1140 compressed objects within 12 object streams
+ 550 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
