@@ -144,6 +144,19 @@ maxbibnames=99
 %-------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------
+% VINCULOS
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=darkgray,
+	citecolor=black,
+	linkbordercolor=white, % Remove borders for index links
+	urlbordercolor=white,
+	pdfborderstyle={/S/U/W 1}
+}
+%-----------------------------------------------------------------
+
+%-------------------------------------------------------------------------
 % AUTORES
 \newcommand{\addautor}[3][]{%
 	{\Large \scshape #2}\\%
@@ -169,7 +182,7 @@ maxbibnames=99
 \begin{document}
 	
 	% Toda la primer parte
-	\includepdf{Trabajos/Portada.pdf}
+	\includepdf{Portada_2024.pdf}
 	\clearpage
 	\input{Trabajos/Informacion.tex}
 	\clearpage
@@ -217,6 +230,6 @@ maxbibnames=99
 	\clearpage
 	\input{Trabajos/16/16.tex}
 	\clearpage
-	\includepdf{Trabajos/Contraportada.pdf}
+	\includepdf{Contraportada_2024.pdf}
 
 \end{document}

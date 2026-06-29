@@ -1,64 +1,65 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'VIII JEM - 2024.blg'
-[84] biber:340> INFO - === Fri Jul 18, 2025, 19:36:21
-[100] Biber.pm:419> INFO - Reading 'VIII JEM - 2024.bcf'
-[203] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[226] Biber.pm:4419> INFO - Processing section 0
-[237] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/01/refs-01.bib' for section 0
-[238] bibtex.pm:1713> INFO - LaTeX decoding ...
-[246] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/01/refs-01.bib'
-[322] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/02/refs-02.bib' for section 0
-[323] bibtex.pm:1713> INFO - LaTeX decoding ...
-[332] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/02/refs-02.bib'
-[379] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/03/refs-03.bib' for section 0
-[380] bibtex.pm:1713> INFO - LaTeX decoding ...
-[383] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/03/refs-03.bib'
-[400] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/04/refs-04.bib' for section 0
-[401] bibtex.pm:1713> INFO - LaTeX decoding ...
-[407] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/04/refs-04.bib'
-[442] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/05/refs-05.bib' for section 0
-[443] bibtex.pm:1713> INFO - LaTeX decoding ...
-[451] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/05/refs-05.bib'
-[494] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/06/refs-06.bib' for section 0
-[495] bibtex.pm:1713> INFO - LaTeX decoding ...
-[505] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/06/refs-06.bib'
-[553] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/07/refs-07.bib' for section 0
-[554] bibtex.pm:1713> INFO - LaTeX decoding ...
-[561] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/07/refs-07.bib'
-[591] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/08/refs-08.bib' for section 0
-[592] bibtex.pm:1713> INFO - LaTeX decoding ...
-[598] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/08/refs-08.bib'
-[621] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/09/refs-09.bib' for section 0
-[622] bibtex.pm:1713> INFO - LaTeX decoding ...
-[630] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/09/refs-09.bib'
-[667] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/10/refs-10.bib' for section 0
-[668] bibtex.pm:1713> INFO - LaTeX decoding ...
-[674] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/10/refs-10.bib'
-[702] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/11/refs-11.bib' for section 0
-[703] bibtex.pm:1713> INFO - LaTeX decoding ...
-[720] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/11/refs-11.bib'
-[808] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/12/refs-12.bib' for section 0
-[809] bibtex.pm:1713> INFO - LaTeX decoding ...
-[813] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/12/refs-12.bib'
-[852] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/13/refs-13.bib' for section 0
-[853] bibtex.pm:1713> INFO - LaTeX decoding ...
-[856] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/13/refs-13.bib'
-[872] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/14/refs-14.bib' for section 0
-[873] bibtex.pm:1713> INFO - LaTeX decoding ...
-[886] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/14/refs-14.bib'
-[968] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/15/refs-15.bib' for section 0
-[969] bibtex.pm:1713> INFO - LaTeX decoding ...
-[974] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/15/refs-15.bib'
-[1006] Biber.pm:4610> INFO - Looking for bibtex file 'Trabajos/16/refs-16.bib' for section 0
-[1006] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1011] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/16/refs-16.bib'
-[1178] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1178] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1178] Biber.pm:4239> INFO - Sorting list 'none/apasortcite//global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[1310] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1310] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1310] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[1379] bbl.pm:660> INFO - Writing 'VIII JEM - 2024.bbl' with encoding 'UTF-8'
-[1464] bbl.pm:763> INFO - Output to VIII JEM - 2024.bbl
-[1464] Biber.pm:131> WARN - Overwriting field 'year' with year value from field 'date' for entry 'garcia2005'
-[1464] Biber.pm:133> INFO - WARNINGS: 1
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'VIII JEM - 2024.blg'
+[189] biber-MSWIN64:342> INFO - === 
+[240] Biber.pm:421> INFO - Reading 'VIII JEM - 2024.bcf'
+[469] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[506] Biber.pm:4487> INFO - Processing section 0
+[523] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/01/refs-01.bib' for section 0
+[600] bibtex.pm:1713> INFO - LaTeX decoding ...
+[618] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/01/refs-01.bib'
+[723] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/02/refs-02.bib' for section 0
+[783] bibtex.pm:1713> INFO - LaTeX decoding ...
+[810] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/02/refs-02.bib'
+[872] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/03/refs-03.bib' for section 0
+[937] bibtex.pm:1713> INFO - LaTeX decoding ...
+[948] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/03/refs-03.bib'
+[978] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/04/refs-04.bib' for section 0
+[1041] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1100] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/04/refs-04.bib'
+[1174] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/05/refs-05.bib' for section 0
+[1225] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1242] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/05/refs-05.bib'
+[1296] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/06/refs-06.bib' for section 0
+[1367] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1387] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/06/refs-06.bib'
+[1449] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/07/refs-07.bib' for section 0
+[1530] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1546] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/07/refs-07.bib'
+[1580] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/08/refs-08.bib' for section 0
+[1669] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1682] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/08/refs-08.bib'
+[1716] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/09/refs-09.bib' for section 0
+[1779] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1796] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/09/refs-09.bib'
+[1861] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/10/refs-10.bib' for section 0
+[1919] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1931] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/10/refs-10.bib'
+[1971] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/11/refs-11.bib' for section 0
+[2031] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2064] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/11/refs-11.bib'
+[2196] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/12/refs-12.bib' for section 0
+[2257] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2269] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/12/refs-12.bib'
+[2320] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/13/refs-13.bib' for section 0
+[2380] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2389] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/13/refs-13.bib'
+[2414] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/14/refs-14.bib' for section 0
+[2473] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2503] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/14/refs-14.bib'
+[2681] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/15/refs-15.bib' for section 0
+[2741] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2757] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/15/refs-15.bib'
+[2791] Biber.pm:4678> INFO - Looking for bibtex file 'Trabajos/16/refs-16.bib' for section 0
+[2844] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2855] bibtex.pm:1519> INFO - Found BibTeX data source 'Trabajos/16/refs-16.bib'
+[3139] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3139] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3139] Biber.pm:4307> INFO - Sorting list 'none/apasortcite//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[3389] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3389] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3389] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[3540] bbl.pm:676> INFO - Writing 'VIII JEM - 2024.bbl' with encoding 'UTF-8'
+[3778] bbl.pm:779> INFO - Output to VIII JEM - 2024.bbl
+[3780] Biber.pm:132> WARN - Overwriting field 'year' with year value from field 'date' for entry 'garcia2005'
+[3780] Biber.pm:134> INFO - WARNINGS: 1
+
